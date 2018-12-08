@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Chakra
+                    Chakra Template
                 </div>
 
                 <div class="links">
