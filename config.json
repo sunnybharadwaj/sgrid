@@ -1,0 +1,20 @@
+{
+	"notifications":{
+		"mail":{
+			"smtpHost":"smtp.gmail.com",
+			"port":587,
+			"username":"roronoa.dracula@gmail.com",
+			"password":"qwerty90",
+			"from":"example@gmail.com",
+			"to":"roronoa.dracula@gmail.com"
+		}
+	},
+	"requests":[
+		{
+			"url":"http://ec2-13-233-238-176.ap-south-1.compute.amazonaws.com/",
+			"requestType":"GET",
+			"checkEvery":30,	
+			"responseTime":800
+		}
+	]
+}

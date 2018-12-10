@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
         <!-- Styles -->
         <style>
@@ -83,6 +84,7 @@
                 <div class="title m-b-md">
                     Chakra Template
                 </div>
+                <h1>Hello There</h1>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
