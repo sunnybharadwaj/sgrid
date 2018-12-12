@@ -81,10 +81,9 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Chakra Template
+                <div id="test-head" class="title m-b-md">
+                    Sgrid
                 </div>
-                <h1>Hello There</h1>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
