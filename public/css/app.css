@@ -68,11 +68,23 @@ nav {
   transition: all 0.3s;
 }
 
+nav .logo-container {
+  display: none !important;
+}
+
 nav.shadow {
   -webkit-box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
           box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+nav.shadow .logo-container {
+  display: inline-block !important;
+}
+
+nav.shadow .nav-list.active {
+  padding: 10px 30px;
 }
 
 nav.shadow .nav-list {
@@ -188,7 +200,13 @@ header .service .text {
 }
 
 .project {
+  max-width: 300px;
+  margin: 0 auto !important;
   padding: 0 20px;
+}
+
+.project .ui.grid {
+  margin: 0 auto !important;
 }
 
 .project .head-bar {
@@ -226,11 +244,28 @@ header .service .text {
 #company {
   max-width: 1150px;
   margin: 120px auto;
+  padding: 0 40px;
+}
+
+#company .right-section {
+  padding: 20px 0;
+}
+
+#company h3 {
+  margin-top: 10px !important;
+}
+
+#company p.body-1 {
+  margin-bottom: 30px;
 }
 
 #company .metric {
   text-align: center;
   margin-bottom: 60px;
+}
+
+#company .metric:last-of-type {
+  margin: 0;
 }
 
 #company .metric .value {
@@ -255,6 +290,10 @@ header .service .text {
   margin: 0 auto;
 }
 
+#clients #mob-clients {
+  display: none;
+}
+
 #clients h5 {
   color: #3c3c3c;
   font-weight: bold;
@@ -266,6 +305,7 @@ header .service .text {
 #cta {
   max-width: 1150px;
   margin: 120px auto;
+  padding: 0 30px;
 }
 
 #cta .text {
@@ -299,6 +339,21 @@ footer {
   color: white;
 }
 
+@media (max-width: 500px) {
+  #non-mob-clients {
+    display: none !important;
+  }
+
+  #mob-clients {
+    display: block !important;
+  }
+
+  header .left-side {
+    padding: 0 40px !important;
+    margin-top: 0px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav-list {
     display: none !important;
@@ -320,6 +375,10 @@ footer {
     display: block;
     text-align: center;
     border-bottom: 1px solid grey;
+  }
+
+  .nav-list.active span:nth-of-type(4) {
+    border-bottom: none;
   }
 
   .nav-btn {

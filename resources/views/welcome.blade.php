@@ -23,16 +23,16 @@
     </div>
     <div class="nav-list">
         <span><a class="nav-elem" href="#projects">Projects</a></span>
-        <span><a class="nav-elem" href="#projects">Company</a></span>
-        <span><a class="nav-elem" href="#projects">Clients</a></span>
-        <span><a class="nav-elem" href="#projects">Contact Us</a></span>
+        <span><a class="nav-elem" href="#company">Company</a></span>
+        <span><a class="nav-elem" href="#clients">Clients</a></span>
+        <span><a class="nav-elem" href="#cta">Contact Us</a></span>
     </div>
 </nav>
 
 {{--Header--}}
 <header>
     <div class="ui grid">
-        <div class="left-side nine wide column">
+        <div class="left-side sixteen wide mobile sixteen wide tablet nine wide computer column">
             {{--logo--}}
             <div class="logo-container">
                 <img class="ui fluid image" src="{{url('/media/sgrid_logo.jpg')}}" alt="">
@@ -52,7 +52,7 @@
             </p>
             {{--services--}}
             <div class="services">
-                <div class="ui three column grid">
+                <div class="ui three column stackable grid">
                     <div class="column">
                         <div class="service">
                             <div class="icon"><img src="{{url('/media/icons/solar.svg')}}" alt=""
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="right-side seven wide column">
+        <div class="right-side sixteen wide mobile sixteen wide tablet seven wide computer column">
 
             <img class="ui fluid image" src="{{url('/media/sites/hero_img.jpg')}}" alt="">
         </div>
@@ -89,8 +89,8 @@
 
 
 <div id="projects">
-    <div class="ui four column grid">
-        <div class="project column">
+    <div class="ui four column stackable grid">
+        <div style="margin: 0 auto !important;" class="project sixteen wide mobile eight wide tablet four wide computer column">
             <div class="head-bar"></div>
             <div class="project-img">
                 <img src="{{url('/media/sites/project_1.jpg')}}" alt="" class="ui fluid image">
@@ -110,7 +110,7 @@
         </div>
 
 
-        <div class="project column">
+        <div style="margin: 0 auto !important;" class="project sixteen wide mobile eight wide tablet four wide computer column">
             <div class="head-bar"></div>
             <div class="project-img">
                 <img src="{{url('/media/sites/project_2.jpg')}}" alt="" class="ui fluid image">
@@ -129,7 +129,7 @@
             </div>
         </div>
 
-        <div class="project column">
+        <div style="margin: 0 auto !important;" class="project sixteen wide mobile eight wide tablet four wide computer column">
             <div class="head-bar"></div>
             <div class="project-img">
                 <img src="{{url('/media/sites/project_3.jpg')}}" alt="" class="ui fluid image">
@@ -149,7 +149,7 @@
         </div>
 
 
-        <div class="project column">
+        <div style="margin: 0 auto !important;" class="project sixteen wide mobile eight wide tablet four wide computer column">
             <div class="head-bar"></div>
             <div class="project-img">
                 <img src="{{url('/media/sites/project_4.jpg')}}" alt="" class="ui fluid image">
@@ -173,7 +173,7 @@
 
 {{--Company--}}
 <div id="company">
-    <div class="ui two column grid">
+    <div class="ui two column stackable grid">
         <div class="nine wide column">
             <div class="left-section">
                 <h3>We provide economically viable, technically superior and optimized solutions collaborating with
@@ -209,7 +209,8 @@
 {{--Clients--}}
 <div id="clients">
     <h5>OUR CLIENTS</h5>
-    <img src="{{url('/media/logos/client_logos.png')}}" alt="" class="ui fluid image">
+    <img id="non-mob-clients" src="{{url('/media/logos/client_logos.png')}}" alt="" class="ui fluid image">
+    <img id="mob-clients" src="{{url('/media/logos/mobile_client_logos.png')}}" alt="" class="ui fluid image">
 </div>
 
 {{--Contact Us--}}
