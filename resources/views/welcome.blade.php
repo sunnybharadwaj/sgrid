@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -8,6 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TDCL8PX');</script>
 <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css"
@@ -16,6 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
+
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDCL8PX"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -232,6 +235,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             to you as soon as we can.</p>
     </div>
 
+
     <form action="/form" method="POST" class="ui form">
         {{ csrf_field() }}
         <div class="field">
@@ -245,12 +249,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="field">
             <label for="Subject">Subject</label>
             <textarea rows="1" name="Subject"></textarea>
+
         </div>
 
 
         <div class="field">
+
             <label for="Message">Message</label>
             <textarea rows="3" name="Message"></textarea>
+
         </div>
 
         <div class="btn">
