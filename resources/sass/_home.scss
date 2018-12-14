@@ -11,8 +11,6 @@ body {
   }
 }
 
-
-
 h1 {
 }
 
@@ -45,11 +43,12 @@ h5 {
 }
 
 .highlight {
-  color: #F27123 !important;
+  color: $sgrid-color !important;
 }
 
 p.body-1 {
   font-size: 16px;
+  line-height: 26px;
 }
 
 p.body-2 {
@@ -57,9 +56,283 @@ p.body-2 {
 }
 
 .nav-elem {
-
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
 }
 
 .caption {
 
 }
+
+//Components
+
+//navigation
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  transition: all 0.3s;
+
+  &.shadow {
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
+    transition: all 0.3s;
+
+    .nav-list {
+      padding: 30px;
+    }
+
+    .logo-container {
+      padding: 10px;
+      margin-left: 10px;
+    }
+
+    .nav-btn {
+      padding: 25px;
+      max-width: 75px;
+    }
+  }
+
+  .logo-container {
+    width: 100px;
+    padding: 20px 0;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .nav-list {
+    padding: 40px 40px;
+    display: inline-block;
+    float: right;
+  }
+
+  a {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    color: $nav-grey;
+    transition: all 0.3s;
+    &:hover {
+      font-weight: bold;
+      color: $sgrid-color;
+    }
+
+    &.nav-elem {
+      .active {
+        color: $sgrid-color;
+      }
+    }
+  }
+
+  .nav-btn {
+    display: none;
+    max-width: 105px;
+    float: right;
+    padding: 40px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+header {
+  max-width: 1150px;
+  margin: 125px auto 0;
+
+  .logo-container {
+    max-width: 200px;
+  }
+
+  .left-side {
+    padding: 0 40px !important;
+    margin-top: 80px;
+  }
+
+  .about-us {
+    max-width: 500px;
+  }
+
+  .services {
+    margin: 60px 0;
+    .column:nth-of-type(3) .icon {
+      width: 29px;
+      height: 42px;
+    }
+
+    .column:nth-of-type(2) .icon {
+      height: 39px;
+      width: 44px;
+    }
+  }
+
+  .service {
+    .icon {
+      margin: 0 auto 30px;
+      max-width: 44px;
+      max-height: 44px;
+
+    }
+
+    .text {
+      text-align: center;
+    }
+  }
+}
+
+//Projects
+
+#projects {
+  max-width: 1150px;
+  margin: 120px auto;
+
+  h1, h2, h3, h4, h5 {
+    margin: 0;
+  }
+}
+
+.project {
+  padding: 0 20px;
+
+  .head-bar {
+    background: linear-gradient(to right, #FAAA49, #F27123);
+    height: 6px;
+  }
+
+  .project-content {
+    padding: 40px 30px;
+    background: #F0F0F0;
+
+    .title {
+      margin-bottom: 10px !important;
+      line-height: 1.3;
+    }
+
+    .category {
+      margin-bottom: 10px !important;
+    }
+
+    .date {
+      margin-bottom: 20px !important;
+    }
+
+    .metric .heading {
+
+    }
+
+    .value .number {
+      display: inline;
+    }
+
+    .value .units {
+      display: inline;
+    }
+  }
+}
+
+//Company
+
+#company {
+  max-width: 1150px;
+  margin: 120px auto;
+
+  .metric {
+    text-align: center;
+    margin-bottom: 60px;
+    .value {
+      margin-bottom: 20px;
+      .number {
+        font-size: 42px;
+        font-weight: bold;
+      }
+      .units {
+        font-size: 26px;
+      }
+    }
+    .metric-title {
+      font-size: 16px;
+    }
+  }
+}
+
+//Clients
+
+#clients {
+  h5 {
+    color: #3c3c3c;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 4.6px;
+  }
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+//cta
+#cta {
+  max-width: 1150px;
+  margin: 120px auto;
+  .text {
+    text-align: center;
+    margin-bottom: 30px;
+
+    p {
+      color: $nav-grey;
+    }
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    .field {
+      margin: 20px 0;
+    }
+    .btn {
+      text-align: center;
+      margin: 40px 0;
+    }
+  }
+}
+
+//Footer
+footer {
+  background: #313131;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 12px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none !important;
+
+    &.active {
+      display: block !important;
+      width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+      span a.nav-elem {
+        padding: 20px;
+        width: 100%;
+      }
+
+      span {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid grey;
+      }
+    }
+  }
+  .nav-btn {
+    display: block !important;
+  }
+}
+
