@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,400,700);body {
+  font-family: 'Oxygen', sans-serif !important;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  font-family: 'Oxygen', sans-serif !important;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 700;
+  letter-spacing: -1.6px;
+  color: #2B2B2B;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+h5 {
+  color: #808080;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #F27123 !important;
+}
+
+p.body-1 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.nav-elem {
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1.6px;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav .logo-container {
+  display: none !important;
+}
+
+nav.shadow {
+  -webkit-box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
+          box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav.shadow .logo-container {
+  display: inline-block !important;
+}
+
+nav.shadow .nav-list.active {
+  padding: 10px 30px;
+}
+
+nav.shadow .nav-list {
+  padding: 30px;
+}
+
+nav.shadow .logo-container {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+nav.shadow .nav-btn {
+  padding: 25px;
+  max-width: 75px;
+}
+
+nav .logo-container {
+  width: 100px;
+  padding: 20px 0;
+  margin-left: 40px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav .nav-list {
+  padding: 40px 40px;
+  display: inline-block;
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  color: #606f7b;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #F27123;
+}
+
+nav a.nav-elem .active {
+  color: #F27123;
+}
+
+nav .nav-btn {
+  display: none;
+  max-width: 105px;
+  float: right;
+  padding: 40px;
+}
+
+nav .nav-btn:hover {
+  cursor: pointer;
+}
+
+header {
+  max-width: 1150px;
+  margin: 125px auto 0;
+}
+
+header .logo-container {
+  max-width: 200px;
+}
+
+header .left-side {
+  padding: 0 40px !important;
+  margin-top: 80px;
+}
+
+header .about-us {
+  max-width: 500px;
+}
+
+header .services {
+  margin: 60px 0;
+}
+
+header .services .column:nth-of-type(3) .icon {
+  width: 29px;
+  height: 42px;
+}
+
+header .services .column:nth-of-type(2) .icon {
+  height: 39px;
+  width: 44px;
+}
+
+header .service .icon {
+  margin: 0 auto 30px;
+  max-width: 44px;
+  max-height: 44px;
+}
+
+header .service .text {
+  text-align: center;
+}
+
+#projects {
+  max-width: 1150px;
+  margin: 120px auto;
+}
+
+#projects h1,
+#projects h2,
+#projects h3,
+#projects h4,
+#projects h5 {
+  margin: 0;
+}
+
+.project {
+  max-width: 300px;
+  margin: 0 auto !important;
+  padding: 0 20px;
+}
+
+.project .ui.grid {
+  margin: 0 auto !important;
+}
+
+.project .head-bar {
+  background: -webkit-gradient(linear, left top, right top, from(#FAAA49), to(#F27123));
+  background: linear-gradient(to right, #FAAA49, #F27123);
+  height: 6px;
+}
+
+.project .project-content {
+  padding: 40px 30px;
+  background: #F0F0F0;
+}
+
+.project .project-content .title {
+  margin-bottom: 10px !important;
+  line-height: 1.3;
+}
+
+.project .project-content .category {
+  margin-bottom: 10px !important;
+}
+
+.project .project-content .date {
+  margin-bottom: 20px !important;
+}
+
+.project .project-content .value .number {
+  display: inline;
+}
+
+.project .project-content .value .units {
+  display: inline;
+}
+
+#company {
+  max-width: 1150px;
+  margin: 120px auto;
+  padding: 0 40px;
+}
+
+#company .right-section {
+  padding: 20px 0;
+}
+
+#company h3 {
+  margin-top: 10px !important;
+}
+
+#company p.body-1 {
+  margin-bottom: 30px;
+}
+
+#company .metric {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#company .metric:last-of-type {
+  margin: 0;
+}
+
+#company .metric .value {
+  margin-bottom: 20px;
+}
+
+#company .metric .value .number {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#company .metric .value .units {
+  font-size: 26px;
+}
+
+#company .metric .metric-title {
+  font-size: 16px;
+}
+
+#clients {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#clients #mob-clients {
+  display: none;
+}
+
+#clients h5 {
+  color: #3c3c3c;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 4.6px;
+}
+
+#cta {
+  max-width: 1150px;
+  margin: 120px auto;
+  padding: 0 30px;
+}
+
+#cta .text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#cta .text p {
+  color: #606f7b;
+}
+
+#cta form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#cta form .field {
+  margin: 20px 0;
+}
+
+#cta form .btn {
+  text-align: center;
+  margin: 40px 0;
+}
+
+footer {
+  background: #313131;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 12px;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  #non-mob-clients {
+    display: none !important;
+  }
+
+  #mob-clients {
+    display: block !important;
+  }
+
+  header .left-side {
+    padding: 0 40px !important;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    display: none !important;
+  }
+
+  .nav-list.active {
+    display: block !important;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-list.active span a.nav-elem {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .nav-list.active span {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid grey;
+  }
+
+  .nav-list.active span:nth-of-type(4) {
+    border-bottom: none;
+  }
+
+  .nav-btn {
+    display: block !important;
+  }
+}
+
