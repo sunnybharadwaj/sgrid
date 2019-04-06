@@ -1,0 +1,35 @@
+//Navigation
+
+nav {
+  padding: 10px 0;
+  .container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+}
+
+.nav-menu {
+  position: absolute;
+  right: 5px;
+  top: 30px;
+}
+
+.nav-elem {
+  color: #030303;
+  display: inline-block;
+  padding-left: 35px;
+  letter-spacing: .06em;
+  font-size: 16px;
+  font-weight: 700;
+
+  &:hover {
+
+  }
+}
+
+
+.logo-container {
+  width: 130px;
+  padding: 10px 0;
+}

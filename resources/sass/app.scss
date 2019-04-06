@@ -1,10 +1,21 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,700');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
 
 // Variables
 @import 'variables';
 
-// Pages
-@import 'home';
+//Mixins
+@import 'mixins';
 
+//Components
+@import 'components/components';
+
+// Pages
+@import 'common';
+@import 'pages/home';
+@import 'responsive';

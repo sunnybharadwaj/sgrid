@@ -29,7 +29,7 @@ function offsetAnchor() {
 
 // Captures click events of all <a> elements with href starting with #
 $(document).on('click', 'a[href^="#"]', function(event) {
-    // Click events are captured before hashchanges. Timeout
+    // Click events are captured before hash-changes. Timeout
     // causes offsetAnchor to be called after the page jump.
     window.setTimeout(function() {
         offsetAnchor();

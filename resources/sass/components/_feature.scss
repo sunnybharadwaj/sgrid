@@ -1,0 +1,13 @@
+#bg-feature {
+  min-height: 500px;
+  background: black;
+  .content-box {
+    padding: 180px 20px;
+    text-align: center;
+    color: #F0F0F0;
+    h3 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+}
