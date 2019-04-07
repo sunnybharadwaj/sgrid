@@ -42,10 +42,10 @@
             <img class="img-fluid" src="{{url('/media/sgrid_logo.jpg')}}" alt="">
         </div>
         <div class="nav-menu">
-            <a href="/" class="nav-elem">About</a>
-            <a href="/" class="nav-elem">Services</a>
-            <a href="/" class="nav-elem">Projects</a>
-            <a href="/" class="nav-elem">Contact</a>
+            <a href="/about" class="nav-elem">About</a>
+            <a href="/services" class="nav-elem">Services</a>
+            <a href="/projects" class="nav-elem">Projects</a>
+            <a href="/contact" class="nav-elem">Contact</a>
             <a href="/" class="nav-elem">X</a>
         </div>
     </div>
