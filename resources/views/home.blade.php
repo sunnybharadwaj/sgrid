@@ -21,6 +21,7 @@
         <section id="bg-feature">
             <div class="container">
                 <div class="content-box">
+                    <div class="h-box"></div>
                     <h3>
                         Vivamus vitae mauris accumsan, Turnkey blandit massa in, gravida orci.
                     </h3>
@@ -32,7 +33,7 @@
         </section>
 
         <section id="services">
-            <div class="container">
+            <div class="container text-block">
                 <div class="row">
                     <div class="col-5">
                         <h2>We Design Solutions</h2>
@@ -51,7 +52,10 @@
                                 <div class="col-10">
                                     <div class="elem-text">
                                         <h4 class="service-head">Solar</h4>
-                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean
+                                            sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +69,10 @@
                                 <div class="col-10">
                                     <div class="elem-text">
                                         <h4 class="service-head">Railway Overhead Electrification</h4>
-                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean
+                                            sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -79,21 +86,81 @@
                                 <div class="col-10">
                                     <div class="elem-text">
                                         <h4 class="service-head">Transmission & Distribution</h4>
-                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                        <div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean
+                                            sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor
+                                            sit amet, consectetur adipiscing elit.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+            </div>
 
+            {{--Carousel--}}
+            <div class="feature-img">
+                <img class="img-fluid" src="{{url('/media/images/skoda_feat@2x.jpg')}}" alt="">
             </div>
         </section>
 
         <section id="usp">
 
+            <div class="container">
+
+
+
+                <div class="text-content">
+                    <h2>What makes us best for the job?</h2>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="usp-elem">
+                                <div class="usp-icon"></div>
+                                <h3>Effective Complex Solutions</h3>
+                                <p>In tincidunt tempus nunc, nec cursus enim ornare ut. Vestibulum aliquet eleifend nisl, eget vulputate
+                                    ipsum iaculis vel. Etiam scelerisque orci luctus, hendrerit purus in, tempor elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="usp-elem">
+                                <div class="usp-icon"></div>
+                                <h3>Effective Complex Solutions</h3>
+                                <p>In tincidunt tempus nunc, nec cursus enim ornare ut. Vestibulum aliquet eleifend nisl, eget vulputate
+                                    ipsum iaculis vel. Etiam scelerisque orci luctus, hendrerit purus in, tempor elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="usp-elem">
+                                <div class="usp-icon"></div>
+                                <h3>Effective Complex Solutions</h3>
+                                <p>In tincidunt tempus nunc, nec cursus enim ornare ut. Vestibulum aliquet eleifend nisl, eget vulputate
+                                    ipsum iaculis vel. Etiam scelerisque orci luctus, hendrerit purus in, tempor elit.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="usp-elem">
+                                <div class="usp-icon"></div>
+                                <h3>Effective Complex Solutions</h3>
+                                <p>In tincidunt tempus nunc, nec cursus enim ornare ut. Vestibulum aliquet eleifend nisl, eget vulputate
+                                    ipsum iaculis vel. Etiam scelerisque orci luctus, hendrerit purus in, tempor elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section id="next-gen">
+            <div class="iln-next-gen"></div>
+            <h2>Building the next generation of power infrastructure.</h2>
+
+            <a href="/" class="text-btn-sm">Learn about our Company ></a>
+
+        </section>
+
 
 
     </div>

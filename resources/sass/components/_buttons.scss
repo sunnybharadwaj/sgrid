@@ -20,8 +20,15 @@
 
 .text-btn {
   text-transform: uppercase;
-  color: #747474;
+  color: $text-btn-color;
   font-size: 1.618rem;
   font-weight: 700;
   letter-spacing: -0.025rem;
+}
+
+.text-btn-sm {
+  color: $text-btn-color;
+  font-size: 1.618rem;
+  font-weight: 700;
+  text-decoration: underline;
 }

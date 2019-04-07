@@ -10523,6 +10523,13 @@ nav .container {
   letter-spacing: -0.025rem;
 }
 
+.text-btn-sm {
+  color: #747474;
+  font-size: 1.618rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 #bg-feature {
   min-height: 500px;
   background: black;
@@ -10537,6 +10544,67 @@ nav .container {
 #bg-feature .content-box h3 {
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.h-box {
+  width: 100px;
+  height: 8px;
+  background: #F27123;
+  margin: 0 auto 40px;
+}
+
+.h-bar {
+  height: 8px;
+  background: #F27123;
+}
+
+footer .contact-cta {
+  padding: 200px 0;
+  background: #000419;
+  color: white;
+  text-align: center;
+}
+
+footer .contact-cta .text-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+footer .contact-cta h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer .contact-cta .btn-container {
+  padding: 50px;
+}
+
+footer .contact-cta .text-btn-sm {
+  display: block;
+  margin: 20px 0;
+  color: white;
+  opacity: 0.8;
+}
+
+footer .foot-bar {
+  text-align: center;
+}
+
+footer .foot-bar .foot-links {
+  padding: 30px;
+}
+
+footer .foot-bar .foot-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+footer .foot-bar p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #4E4E4E;
 }
 
 html {
@@ -10579,6 +10647,10 @@ h5 {
   color: #F27123 !important;
 }
 
+section {
+  margin: 200px 0;
+}
+
 .intro-text {
   margin-top: 100px;
   margin-bottom: 200px;
@@ -10594,14 +10666,15 @@ h5 {
 }
 
 #services {
-  padding: 200px 0;
+  margin: 200px 0;
 }
 
 #services .service-elem {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 #services .service-elem h4.service-head {
+  margin-bottom: 5px;
   font-weight: 700;
 }
 
@@ -10609,5 +10682,67 @@ h5 {
   height: 50px;
   width: 50px;
   background: grey;
+}
+
+#services .feature-img {
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 30px;
+  text-align: center;
+}
+
+#usp {
+  margin: 200px 0;
+}
+
+#usp .text-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#usp h2 {
+  text-align: center;
+  font-size: 2.618rem;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+#usp h3 {
+  font-size: 1.618rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#usp .usp-elem {
+  max-width: 400px;
+  margin: 0 auto 50px;
+}
+
+#usp .usp-elem .usp-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 30px;
+  background: #F27123;
+}
+
+#usp .usp-elem p {
+  color: #4E4E4E;
+}
+
+#next-gen {
+  text-align: center;
+}
+
+#next-gen .iln-next-gen {
+  height: 250px;
+  width: 500px;
+  margin: 0 auto 100px;
+  background: #F27123;
+}
+
+#next-gen h2 {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
