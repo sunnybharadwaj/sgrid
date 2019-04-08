@@ -10491,6 +10491,16 @@ nav .container {
   font-weight: 700;
 }
 
+.nav-elem:hover {
+  color: #F27123;
+  text-decoration: none;
+}
+
+.nav-elem.active {
+  color: #F27123;
+  font-weight: bold;
+}
+
 .logo-container {
   width: 130px;
   padding: 10px 0;
@@ -10556,6 +10566,41 @@ nav .container {
 .h-bar {
   height: 8px;
   background: #F27123;
+}
+
+#feat-img-center {
+  margin: 100px 0;
+}
+
+#feat-img-center .feature-img {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 400px;
+  padding: 0 40px;
+  background: gray;
+}
+
+#partner-cta {
+  background: #727272;
+  margin: 0;
+}
+
+#partner-cta h3 {
+  color: #393939;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#partner-cta a {
+  font-size: 2.618rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+#partner-cta .text-content {
+  padding: 150px 20px;
+  max-width: 1090px;
+  margin: 0 auto;
 }
 
 footer .contact-cta {
@@ -10651,6 +10696,44 @@ section {
   margin: 200px 0;
 }
 
+#usp {
+  margin: 200px 0;
+}
+
+#usp .text-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#usp h2 {
+  text-align: center;
+  font-size: 2.618rem;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+#usp h3 {
+  font-size: 1.618rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#usp .usp-elem {
+  max-width: 400px;
+  margin: 0 auto 50px;
+}
+
+#usp .usp-elem .usp-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 30px;
+  background: #F27123;
+}
+
+#usp .usp-elem p {
+  color: #4E4E4E;
+}
+
 .intro-text {
   margin-top: 100px;
   margin-bottom: 200px;
@@ -10691,44 +10774,6 @@ section {
   text-align: center;
 }
 
-#usp {
-  margin: 200px 0;
-}
-
-#usp .text-content {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-#usp h2 {
-  text-align: center;
-  font-size: 2.618rem;
-  font-weight: 700;
-  margin-bottom: 100px;
-}
-
-#usp h3 {
-  font-size: 1.618rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-#usp .usp-elem {
-  max-width: 400px;
-  margin: 0 auto 50px;
-}
-
-#usp .usp-elem .usp-icon {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 30px;
-  background: #F27123;
-}
-
-#usp .usp-elem p {
-  color: #4E4E4E;
-}
-
 #next-gen {
   text-align: center;
 }
@@ -10744,5 +10789,137 @@ section {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 50px;
+}
+
+#page-header {
+  margin: 100px 0;
+}
+
+#page-header .page-iln {
+  width: 400px;
+  height: 200px;
+  background: #F27123;
+  margin: 0 auto 80px;
+}
+
+#page-header h2 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#about-intro .text-content {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+#about-intro h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#about-intro h4 {
+  color: #4E4E4E;
+  letter-spacing: -0.04rem;
+  line-height: 1.4;
+}
+
+#ceo-word .content-box {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 0 160px;
+  border-bottom: 1px solid gray;
+}
+
+#ceo-word h3 {
+  font-weight: 700;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+#ceo-word .quote-sign {
+  color: #4E4E4E;
+  font-size: 1.618rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#ceo-word .metric-box {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+#ceo-word .metric-box .number {
+  font-size: 2.618rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#ceo-word .metric-box .number .units {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#ceo-word .metric-box .title {
+  font-weight: bold;
+  max-width: 130px;
+  line-height: 1.3;
+}
+
+#ceo-word .metric-box.box-1 {
+  background: darkgray;
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+}
+
+#ceo-word .metric-box.box-2 {
+  background: lightslategray;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#usp {
+  padding: 100px 0;
+}
+
+#team .row {
+  position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+#team h2 {
+  font-size: 2.618rem;
+  font-weight: 700;
+  position: absolute;
+  top: 110px;
+  left: 35px;
+}
+
+#team .spacer {
+  height: 150px;
+}
+
+#team .team-member {
+  background: #EAEAEA;
+  margin: 40px 20px;
+  height: 380px;
+  width: 270px;
+}
+
+#team .careers-cta {
+  width: 215px;
+  position: absolute;
+  right: 0px;
+  bottom: 60px;
+}
+
+#team .careers-cta h3 {
+  font-size: 1.618rem;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 

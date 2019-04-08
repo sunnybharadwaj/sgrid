@@ -24,6 +24,17 @@ nav {
   font-weight: 700;
 
   &:hover {
+    color: $sgrid-color;
+    text-decoration: none;
+  }
+
+  &.active {
+    color: $sgrid-color;
+    font-weight: bold;
+  }
+
+
+  &:hover {
 
   }
 }

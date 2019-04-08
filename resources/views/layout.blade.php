@@ -39,14 +39,15 @@
 
     <div class="container">
         <div class="logo-container">
-            <img class="img-fluid" src="{{url('/media/sgrid_logo.jpg')}}" alt="">
+            <a href="/"><img class="img-fluid" src="{{url('/media/sgrid_logo.jpg')}}" alt=""></a>
+
         </div>
         <div class="nav-menu">
-            <a href="/about" class="nav-elem">About</a>
-            <a href="/services" class="nav-elem">Services</a>
-            <a href="/projects" class="nav-elem">Projects</a>
-            <a href="/contact" class="nav-elem">Contact</a>
-            <a href="/" class="nav-elem">X</a>
+            <a href="/about" class="nav-elem {{request()->is('about') ? 'active' : ''}}">About</a>
+            <a href="/services" class="nav-elem {{request()->is('services') ? 'active' : ''}}">Services</a>
+            <a href="/projects" class="nav-elem {{request()->is('projects') ? 'active' : ''}}">Projects</a>
+            <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
+            <a href="/" class="nav-elem ">X</a>
         </div>
     </div>
 </nav>

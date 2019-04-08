@@ -41,3 +41,43 @@ h5 {
 section {
   margin: 200px 0;
 }
+
+#usp {
+  margin: 200px 0;
+  .text-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.618rem;
+    font-weight: 700;
+    margin-bottom: 100px;
+  }
+
+  h3 {
+    font-size: 1.618rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .usp-elem {
+    max-width: 400px;
+    margin: 0 auto 50px;
+
+
+
+    .usp-icon {
+      width: 35px;
+      height: 35px;
+      margin-bottom: 30px;
+      background: $sgrid-color;
+    }
+
+    p {
+      color: $sub-text-color;
+    }
+  }
+
+}
