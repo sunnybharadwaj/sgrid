@@ -177,7 +177,6 @@
                          class="ui fluid image">
                 </div>
             </div>
-
         </section>
 
         @include('partials.partner')

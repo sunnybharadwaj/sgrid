@@ -1,0 +1,27 @@
+#map {
+  .map-container {
+    min-height: 600px;
+    width: 100%;
+    position: relative;
+    background: #E8E8E8;
+
+    .contact-details {
+      min-width: 900px;
+      .ct-column:nth-of-type(1) {
+        padding: 40px 0;
+      }
+      .ct-column:nth-of-type(2) {
+        padding: 40px 0;
+      }
+
+      h3 {
+        font-weight: 700;
+      }
+      background: white;
+      padding: 40px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

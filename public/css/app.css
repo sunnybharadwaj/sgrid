@@ -11112,3 +11112,52 @@ section {
   margin: 0 auto;
 }
 
+#map .map-container {
+  min-height: 600px;
+  width: 100%;
+  position: relative;
+  background: #E8E8E8;
+}
+
+#map .map-container .contact-details {
+  min-width: 900px;
+  background: white;
+  padding: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#map .map-container .contact-details .ct-column:nth-of-type(1) {
+  padding: 40px 0;
+}
+
+#map .map-container .contact-details .ct-column:nth-of-type(2) {
+  padding: 40px 0;
+}
+
+#map .map-container .contact-details h3 {
+  font-weight: 700;
+}
+
+#job-cta .intro-text {
+  margin-bottom: 50px;
+}
+
+#job-cta .intro-text p {
+  font-size: 1.618rem;
+}
+
+#job-cta .job-feature {
+  margin-bottom: 40px;
+}
+
+#job-cta .job-feature h3 {
+  font-size: 1.618rem;
+  font-weight: 700;
+}
+
+#job-cta .job-feature p {
+  max-width: 440px;
+}
+
