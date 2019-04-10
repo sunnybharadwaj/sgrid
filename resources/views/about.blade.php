@@ -55,8 +55,9 @@
                     </div>
                 </div>
             </div>
-
         </section>
+
+        {{--Turnkey feature--}}
 
         @include('partials.usp')
 

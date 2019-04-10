@@ -1,19 +1,7 @@
-#page-header {
-  margin: 100px 0;
-  .page-iln {
-    width: 400px;
-    height: 200px;
-    background: $sgrid-color;
-    margin: 0 auto 80px;
-  }
 
-  h2 {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-}
 
 #about-intro {
+  margin-bottom: 100px;
   .text-content {
     max-width: 620px;
     margin: 0 auto;
@@ -31,6 +19,7 @@
 }
 
 #ceo-word {
+  margin-top: 100px;
   .content-box {
     position: relative;
     max-width: 900px;

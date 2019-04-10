@@ -10540,18 +10540,18 @@ nav .container {
   text-decoration: underline;
 }
 
-#bg-feature {
+.bg-feature {
   min-height: 500px;
   background: black;
 }
 
-#bg-feature .content-box {
+.bg-feature .content-box {
   padding: 180px 20px;
   text-align: center;
   color: #F0F0F0;
 }
 
-#bg-feature .content-box h3 {
+.bg-feature .content-box h3 {
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -10696,6 +10696,22 @@ section {
   margin: 200px 0;
 }
 
+#page-header {
+  margin: 100px 0;
+}
+
+#page-header .page-iln {
+  width: 400px;
+  height: 200px;
+  background: #F27123;
+  margin: 0 auto 80px;
+}
+
+#page-header h2 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 #usp {
   margin: 200px 0;
 }
@@ -10791,20 +10807,8 @@ section {
   margin-bottom: 50px;
 }
 
-#page-header {
-  margin: 100px 0;
-}
-
-#page-header .page-iln {
-  width: 400px;
-  height: 200px;
-  background: #F27123;
-  margin: 0 auto 80px;
-}
-
-#page-header h2 {
-  max-width: 700px;
-  margin: 0 auto;
+#about-intro {
+  margin-bottom: 100px;
 }
 
 #about-intro .text-content {
@@ -10821,6 +10825,10 @@ section {
   color: #4E4E4E;
   letter-spacing: -0.04rem;
   line-height: 1.4;
+}
+
+#ceo-word {
+  margin-top: 100px;
 }
 
 #ceo-word .content-box {
@@ -10921,5 +10929,114 @@ section {
   font-size: 1.618rem;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+#philosophy .metric-container {
+  padding: 0;
+  position: relative;
+}
+
+#philosophy .metric-boxes {
+  height: 100%;
+}
+
+#philosophy .metric-boxes .row {
+  height: 50%;
+}
+
+#philosophy .metric-box {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+#philosophy .metric-box .number {
+  font-size: 2.618rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#philosophy .metric-box .number .units {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#philosophy .metric-box .title {
+  font-weight: bold;
+  max-width: 130px;
+  line-height: 1.3;
+}
+
+#philosophy .metric-box.box-1 {
+  background: darkgray;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#philosophy .metric-box.box-2 {
+  background: lightslategray;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#philosophy .text-content h2 {
+  font-size: 2.618rem;
+}
+
+.service-segment .text-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-segment h2 {
+  font-size: 2.618rem;
+}
+
+.service-segment .pointers-list {
+  margin: 30px 0;
+}
+
+.service-segment .pointers-list .pointer {
+  margin: 20px 0;
+}
+
+.service-segment .pointers-list .pointer .row {
+  padding: 0 20px;
+}
+
+.service-segment .feature-section {
+  background: #F8F8F8;
+  min-height: 420px;
+}
+
+#solar .feature-section .container {
+  padding: 100px 20px;
+}
+
+#solar .feature-section h3 {
+  font-size: 1.618rem;
+  font-weight: bold;
+}
+
+#solar .feature-section .text-btn-sm {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#innovation .head-text {
+  margin-bottom: 40px;
+}
+
+#innovation .head-text p {
+  font-size: 1.618rem;
+  max-width: 800px;
+}
+
+#innovation .product h3 {
+  font-size: 1.618rem;
+  font-weight: 700;
 }
 

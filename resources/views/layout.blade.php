@@ -47,6 +47,7 @@
             <a href="/services" class="nav-elem {{request()->is('services') ? 'active' : ''}}">Services</a>
             <a href="/projects" class="nav-elem {{request()->is('projects') ? 'active' : ''}}">Projects</a>
             <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
+            <a href="/careers" class="nav-elem {{request()->is('careers') ? 'active' : ''}}">Careers</a>
             <a href="/" class="nav-elem ">X</a>
         </div>
     </div>

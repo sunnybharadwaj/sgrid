@@ -18,7 +18,7 @@
             </div>
         </section>
 
-        <section id="bg-feature">
+        <section class="bg-feature">
             <div class="container">
                 <div class="content-box">
                     <div class="h-box"></div>
@@ -27,9 +27,7 @@
                     </h3>
                     <a href="/" class="text-btn">Watch Video</a>
                 </div>
-
             </div>
-
         </section>
 
         <section id="services">
