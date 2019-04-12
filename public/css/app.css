@@ -10946,6 +10946,7 @@ section {
 }
 
 .intro-text {
+  margin-top: 50px;
   margin-bottom: 200px;
   max-width: 700px;
 }
@@ -10957,9 +10958,21 @@ section {
 }
 
 .intro-text h4 {
-  font-size: 1.218rem;
+  font-size: 1rem;
   margin-bottom: 40px;
   max-width: 700px;
+}
+
+#home-page .bg-feature .content-box {
+  padding: 150px 20px;
+}
+
+#home-page .bg-feature h3 {
+  font-size: 2rem;
+}
+
+#home-header-iln {
+  margin-top: 100px;
 }
 
 #home-header-iln img {
@@ -10971,7 +10984,6 @@ section {
 }
 
 #intro {
-  padding: 100px 0 0;
   position: relative;
 }
 
@@ -11045,15 +11057,20 @@ section {
   margin-bottom: 50px;
 }
 
-#about-page #usp {
+#usp {
   padding: 100px 0;
 }
 
-#about-page #usp .usp-elem .h-box {
+#usp .usp-elem .h-box {
   width: 50px;
   height: 8px;
   background: #F27123;
   margin: 0 0 20px;
+}
+
+#about-page .bg-feature.video-block {
+  background: none;
+  min-height: 650px;
 }
 
 #page-header .page-iln {

@@ -14,12 +14,20 @@
             <h2>A unique set of experts committed to delivering only the best.</h2>
         </section>
 
+        <section class="bg-feature video-block">
+            <div class="background-image ">
+                {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
+                <video loop autoplay class="embed-responsive-item">
+                    <source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">
+                </video>
+            </div>
+        </section>
 
-        <div class="video-frame embed-responsive">
-            <video loop autoplay class="embed-responsive-item">
-                <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
-            </video>
-        </div>
+        {{--<div class="video-frame embed-responsive">--}}
+            {{--<video loop autoplay class="embed-responsive-item">--}}
+                {{--<source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">--}}
+            {{--</video>--}}
+        {{--</div>--}}
 
 
         <section id="about-intro">
@@ -35,7 +43,7 @@
                     </h4>
                 </div>
 
-                <section id="page-img" class="text-center">
+                <section id="page-img" class="text-center rellax">
                     <div class="img-container">
                         <div class="img-block rellax">
                             <img src="{{url('/media/images/about_header.jpg')}}" class="img-fluid" alt="">

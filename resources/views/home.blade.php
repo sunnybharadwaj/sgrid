@@ -12,9 +12,8 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-7">
                         <div class="intro-text">
-                            <h2 class="animated fadeDown">In a fermentum odio, hendrerit semper purus.</h2>
-                            <h4 class="animated fadeIn">Duis in imperdiet metus. Donec at enim vulputate
-                                diam suscipit bibendum cursus eu neque.</h4>
+                            <h2 class="animated fadeDown">We don’t just build EPC solutions, we <span class="highlight">design</span>.</h2>
+                            <h4 class="animated fadeIn">A fast-growing company, firm in our vision to nurture the future of power infrastructure. Backed by an enthusiastic, committed and a capable team of experts, we stay a step ahead in meeting all your EPC (Engineering, Procurement & Construction) needs in Solar, Railway Overhead Electrification, Transmission & Distribution.</h4>
 
                             <div class="services-header animated fadeIn">
                                 <div class=".container-fluid">
@@ -56,15 +55,18 @@
         </section>
 
         <section class="bg-feature">
-            <div class="background-image rellax">
-                <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+            <div class="background-image ">
+                {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
+                <video loop autoplay class="embed-responsive-item">
+                    <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
+                </video>
             </div>
 
             <div class="container">
                 <div class="content-box">
                     <div class="h-box"></div>
                     <h3>
-                        Vivamus vitae mauris accumsan, Turnkey blandit massa in, gravida orci.
+                        Our integrated, people-centric and systematic approach to handling large scale projects (end to end or part of the project) ensures seamless support to our clients and gives us a firm edge over our competitors.
                     </h3>
                     {{--<a href="/" class="text-btn">Watch Video</a>--}}
                 </div>
@@ -169,11 +171,9 @@
                         </div>
                     </div>
                     <div class="services-desc col-sm-12 col-md-12 col-lg-6">
-                        <h2>We Design Solutions</h2>
-                        <h4>Ut sit amet pharetra quam, ut feugiat velit.
-                            Aenean sapien ante, vehicula vel ex eu, rutrum
-                            posuere lectus. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.</h4>
+                        <h2>We Design Solutions.</h2>
+                        <h4>We collaborate with high profile partners to build smart solutions that are economically viable, technically superior and optimised for the requirement.
+                        </h4>
                         <a href="/" class="text-btn-sm">Learn about our Services></a>
                     </div>
                 </div>
