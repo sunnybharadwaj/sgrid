@@ -1,5 +1,6 @@
 #philosophy {
   padding-top: 100px;
+
   .metric-container {
     padding: 0;
     position: relative;
@@ -15,6 +16,7 @@
   }
 
   .metric-box {
+
     height: 200px;
     width: 200px;
     padding: 20px;
@@ -34,13 +36,13 @@
     }
 
     &.box-1 {
-      background: darkgray;
+      background: $primary-gradient;
       position: absolute;
       right: 0;
       bottom: 0;
     }
     &.box-2 {
-      background: lightslategray;
+      background: $reverse-gradient;
       position: absolute;
       left: 0;
       top: 0;

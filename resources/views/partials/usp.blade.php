@@ -1,5 +1,5 @@
-<section id="usp">
-    <div class="container">
+<section id="usp" >
+    <div class="container rellax" data-rellax-speed="-3">
         <div class="text-content">
             <h2>What makes us best for the job?</h2>
             <div class="row">

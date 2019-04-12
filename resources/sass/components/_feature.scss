@@ -1,14 +1,28 @@
 .bg-feature {
+  position: relative;
   min-height: 500px;
-  background: black;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.25);
   .content-box {
+    position: relative;
     padding: 180px 20px;
     text-align: center;
     color: #F0F0F0;
+    z-index: 800;
     h3 {
       font-weight: 700;
       margin-bottom: 30px;
     }
+  }
+  .background-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+    img {
+      min-width: 100%;
+    }
+
   }
 }
 

@@ -1,3 +1,8 @@
+var rellax = new Rellax('.rellax', {
+    center: true
+});
+
+
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
