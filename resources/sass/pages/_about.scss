@@ -1,13 +1,65 @@
 #about-page {
   #usp {
     padding: 100px 0;
+
+    .usp-elem .h-box{
+      width: 50px;
+      height: 8px;
+      background: #F27123;
+      margin: 0 0 20px;
+    }
+  }
+}
+
+#page-header {
+  .page-iln {
+    background: none;
+    max-width: 600px;
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+    margin-top: 110px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    max-width: 800px;
+    margin-bottom: 200px;
+  }
+}
+
+.video-frame {
+  height: 700px;
+  overflow: hidden;
+}
+
+#about-page .feature-img {
+  padding: 0;
+}
+
+#page-img {
+  position: relative;
+  overflow: hidden;
+  margin: 200px auto;
+
+  .img-container {
+    height: 600px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .img-block {
+    position: absolute;
+  }
+  img {
+    margin: 0 auto;
   }
 }
 
 #about-intro {
   margin-bottom: 100px;
   .text-content {
-    max-width: 620px;
+    max-width: 750px;
     margin: 0 auto;
   }
 
@@ -18,12 +70,14 @@
   h4 {
     color: $sub-text-color;
     letter-spacing: -0.04rem;
-    line-height: 1.4;
+    line-height: 1.3;
+    margin-bottom: 20px;
   }
 }
 
 #ceo-word {
   margin-top: 100px;
+  margin-bottom: 300px;
   .content-box {
     position: relative;
     max-width: 900px;
@@ -33,7 +87,7 @@
   }
   h3 {
     font-weight: 700;
-    max-width: 600px;
+    max-width: 800px;
     margin-bottom: 40px;
   }
 

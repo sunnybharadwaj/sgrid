@@ -177,8 +177,6 @@
                         <a href="/" class="text-btn-sm">Learn about our Services></a>
                     </div>
                 </div>
-
-
             </div>
         </section>
         {{--usp--}}
@@ -192,8 +190,8 @@
             <h2>Building the next generation of power infrastructure.</h2>
 
             <a href="/" class="text-btn-sm">Learn about our Company ></a>
-
         </section>
+
 
 
     </div>

@@ -73,7 +73,7 @@
 
 
 <footer>
-    <div class="h-bar"></div>
+    {{--<div class="h-bar"></div>--}}
     <div class="contact-cta">
 
         <div class="text-content">

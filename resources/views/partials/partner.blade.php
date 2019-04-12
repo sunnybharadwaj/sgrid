@@ -1,12 +1,19 @@
 <section id="partner-cta">
-    <div class="container">
-        <div class="text-content">
-            <h3>Phasellus porttitor neque a felis lobortis
-                dignissim. Aliquam fermentum nulla nibh, at
-                blandit purus laoreet vel.</h3>
 
-            <a href="/">Become a Partner</a>
-        </div>
 
-    </div>
+
+        <section class="bg-feature">
+            <div class="background-image rellax">
+                <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+            </div>
+
+            <div class="container">
+                <div class="text-content">
+                    <h3>Join hands with a committed group of leaders, subject experts who're here to drive change in the power infrastructure and energy arena, taking the country forward on a path towards a glorious future.</h3>
+
+                    <a href="/" class="std-btn">Become a partner</a>
+                </div>
+            </div>
+        </section>
+
 </section>

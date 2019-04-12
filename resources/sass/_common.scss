@@ -104,3 +104,36 @@ section {
   }
 
 }
+
+.image-frame {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+
+
+  .image-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    img {
+      min-width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
