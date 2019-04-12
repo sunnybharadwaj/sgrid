@@ -10466,8 +10466,65 @@ a.text-dark:focus {
   }
 }
 
+.full-page-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 100vw;
+  background: #000419;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.full-page-menu.active {
+  display: block;
+}
+
+.full-page-menu a {
+  color: white;
+  opacity: 0.9;
+  font-size: 2.618rem;
+  display: block;
+  padding: 30px 0;
+}
+
+.full-page-menu a:hover {
+  color: #F27123;
+}
+
+.full-page-menu a.close-btn {
+  padding: 20px;
+  position: fixed;
+  right: 60px;
+  top: 30px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  z-index: 1001;
+}
+
+.menu-btn {
+  margin: 0;
+  padding: 10px 50px;
+  font-size: 1.618px;
+  text-transform: uppercase;
+}
+
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 900;
   padding: 10px 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 nav .container {
@@ -10476,10 +10533,26 @@ nav .container {
   position: relative;
 }
 
+nav.scrolled {
+  -webkit-box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
+          box-shadow: 0 3px 6px rgba(255, 255, 255, 0.07), 0 3px 6px rgba(156, 156, 156, 0.11);
+  padding: 0;
+}
+
+nav.scrolled .logo-container {
+  width: 100px;
+}
+
+nav.scrolled .nav-menu {
+  top: 25px;
+}
+
 .nav-menu {
   position: absolute;
   right: 5px;
   top: 30px;
+  -webkit-transition: all 0.3ms ease;
+  transition: all 0.3ms ease;
 }
 
 .nav-elem {
@@ -10502,6 +10575,8 @@ nav .container {
 }
 
 .logo-container {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   width: 130px;
   padding: 10px 0;
 }
@@ -10652,6 +10727,71 @@ footer .foot-bar p {
   color: #4E4E4E;
 }
 
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -15%, 0);
+            transform: translate3d(0, -15%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -15%, 0);
+            transform: translate3d(0, -15%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeDown {
+  -webkit-animation-name: fadeDown;
+  animation-name: fadeDown;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
 html {
   font-size: 18px;
 }
@@ -10662,6 +10802,11 @@ body {
   text-rendering: optimizeLegibility;
   color: #030303;
   font-size: 1rem;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 h2 {
@@ -10686,6 +10831,10 @@ h4 {
 h5 {
   font-size: 1rem;
   color: #7B7B7B;
+}
+
+.mobile-only {
+  display: none;
 }
 
 .highlight {
@@ -10751,17 +10900,42 @@ section {
 }
 
 .intro-text {
-  margin-top: 100px;
   margin-bottom: 200px;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .intro-text h2 {
-  margin: 0 20px 30px 0;
+  font-size: 3rem;
+  margin: 0 20px 20px 0;
+  max-width: 700px;
 }
 
 .intro-text h4 {
+  font-size: 1.218rem;
   margin-bottom: 40px;
+  max-width: 700px;
+}
+
+#home-header-iln img {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#intro {
+  padding: 100px 0 0;
+  position: relative;
+}
+
+#intro .service .icon {
+  min-height: 60px;
+}
+
+.services-header .text {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 #services {
@@ -10929,6 +11103,10 @@ section {
   font-size: 1.618rem;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+#philosophy {
+  padding-top: 100px;
 }
 
 #philosophy .metric-container {
@@ -11159,5 +11337,39 @@ section {
 
 #job-cta .job-feature p {
   max-width: 440px;
+}
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  nav.scrolled .nav-menu {
+    top: 20px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    font-size: 16px;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .lg-only {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #intro .intro-text {
+    margin-top: 0;
+  }
 }
 

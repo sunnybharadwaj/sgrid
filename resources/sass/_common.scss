@@ -10,6 +10,10 @@ body {
   font-size: 1rem;
 }
 
+html,body {
+  overflow-x: hidden;
+}
+
 h2 {
   font-size: 4.236rem;
   font-weight: 700;
@@ -32,6 +36,10 @@ h4 {
 h5 {
   font-size: 1rem;
   color: #7B7B7B;
+}
+
+.mobile-only {
+  display: none;
 }
 
 .highlight {

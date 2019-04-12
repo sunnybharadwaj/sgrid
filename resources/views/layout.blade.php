@@ -23,6 +23,7 @@
 
     <title>@yield('title','Saffrongrid')</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">--}}
 </head>
 <body>
 
@@ -40,15 +41,30 @@
     <div class="container">
         <div class="logo-container">
             <a href="/"><img class="img-fluid" src="{{url('/media/sgrid_logo.jpg')}}" alt=""></a>
-
         </div>
-        <div class="nav-menu">
+
+        <div class="full-page-menu">
+            <a href="#" class="close-btn">
+                <img src="{{url('/media/icons/icon_close.svg')}}" alt=""
+                     class="image-fluid">
+            </a>
+            <a href="/" class="nav-elem {{request()->is('/') ? 'active' : ''}}">Home</a>
             <a href="/about" class="nav-elem {{request()->is('about') ? 'active' : ''}}">About</a>
             <a href="/services" class="nav-elem {{request()->is('services') ? 'active' : ''}}">Services</a>
             <a href="/projects" class="nav-elem {{request()->is('projects') ? 'active' : ''}}">Projects</a>
             <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
             <a href="/careers" class="nav-elem {{request()->is('careers') ? 'active' : ''}}">Careers</a>
-            <a href="/" class="nav-elem ">X</a>
+        </div>
+        <div class="nav-menu">
+            <span class="lg-only">
+                <a href="/about" class="nav-elem {{request()->is('about') ? 'active' : ''}}">About</a>
+                <a href="/services" class="nav-elem {{request()->is('services') ? 'active' : ''}}">Services</a>
+                <a href="/projects" class="nav-elem {{request()->is('projects') ? 'active' : ''}}">Projects</a>
+                <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
+                <a href="/careers" class="nav-elem {{request()->is('careers') ? 'active' : ''}}">Careers</a>
+            </span>
+
+            <a href="#" class="mobile-only nav-elem menu-btn">Menu</a>
         </div>
     </div>
 </nav>
@@ -85,10 +101,10 @@
 
 </footer>
 
-{{--<script--}}
-{{--src="https://code.jquery.com/jquery-3.3.1.min.js"--}}
-{{--integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="--}}
-{{--crossorigin="anonymous"></script>--}}
+<script
+        src="https://code.jquery.com/jquery-3.4.0.slim.min.js"
+        integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI="
+        crossorigin="anonymous"></script>
 {{--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>--}}
 <script src="{{asset('js/scripts.js')}}"></script>
 
