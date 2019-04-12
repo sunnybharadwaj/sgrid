@@ -1,4 +1,7 @@
 #projects {
+  h2 {
+    margin-bottom: 60px;
+  }
   .project-block {
     margin-bottom: 100px;
   }
@@ -21,7 +24,13 @@
   }
 
   .project-img {
-    background: #606f7b;
+    .bg-feature {
+      background: none;
+      min-height: 360px;
+      img {
+        min-height: 100%
+      }
+    }
   }
 }
 
@@ -47,7 +56,12 @@
     .quote-block {
       padding: 50px 0;
     }
+    h3 {
+      font-size: 1.618rem;
+      line-height: 1.4;
+    }
     .sign {
+      //color: $sgrid-color;
       font-weight: 700;
       margin-top: 40px;
       font-size: 1.618rem;

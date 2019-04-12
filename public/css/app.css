@@ -11252,6 +11252,10 @@ section {
   min-height: 500px;
 }
 
+#services-page .bg-feature.cta h3 {
+  font-size: 2.618rem;
+}
+
 #philosophy {
   padding-top: 200px;
 }
@@ -11381,6 +11385,10 @@ section {
   font-weight: 700;
 }
 
+#projects h2 {
+  margin-bottom: 60px;
+}
+
 #projects .project-block {
   margin-bottom: 100px;
 }
@@ -11406,8 +11414,13 @@ section {
   color: #9a9a9a;
 }
 
-#projects .project-img {
-  background: #606f7b;
+#projects .project-img .bg-feature {
+  background: none;
+  min-height: 360px;
+}
+
+#projects .project-img .bg-feature img {
+  min-height: 100%;
 }
 
 #clients {
@@ -11433,6 +11446,11 @@ section {
 
 #clients .quote-list .quote-block {
   padding: 50px 0;
+}
+
+#clients .quote-list h3 {
+  font-size: 1.618rem;
+  line-height: 1.4;
 }
 
 #clients .quote-list .sign {
@@ -11479,6 +11497,20 @@ section {
 
 #map .map-container .contact-details h3 {
   font-weight: 700;
+}
+
+#page-head h2 {
+  margin-bottom: 10px;
+}
+
+#page-head p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+#services-page .bg-feature h3 {
+  font-size: 1.618rem;
 }
 
 #job-cta .intro-text {

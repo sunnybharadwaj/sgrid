@@ -268,7 +268,7 @@
             </div>
         </section>
         {{--turnkey feature--}}
-        <section class="bg-feature">
+        <section class="bg-feature cta">
             <div class="background-image rellax">
                 <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
             </div>
