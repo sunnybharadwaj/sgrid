@@ -10670,17 +10670,20 @@ nav.scrolled .nav-menu {
   background: gray;
 }
 
-#partner-cta {
+#partner-cta,
+.bg-feature {
   margin: 0;
 }
 
-#partner-cta h3 {
+#partner-cta h3,
+.bg-feature h3 {
   color: #f0eff0;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-#partner-cta .text-content {
+#partner-cta .text-content,
+.bg-feature .text-content {
   padding: 150px 20px;
   max-width: 1090px;
   margin: 0 auto;
@@ -11239,8 +11242,18 @@ section {
   margin-bottom: 30px;
 }
 
+#services-page #feat-img-center .feature-img {
+  max-width: 100%;
+  padding: 0;
+  background: none;
+}
+
+#services-page #feat-img-center .feature-img .image-frame {
+  min-height: 500px;
+}
+
 #philosophy {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #philosophy .metric-container {
@@ -11297,6 +11310,16 @@ section {
   font-size: 2.618rem;
 }
 
+.service-segment .icon {
+  height: 100px;
+  margin: 0px auto 40px;
+  width: 100px;
+}
+
+.service-segment .icon img {
+  height: 100px;
+}
+
 .service-segment .text-content {
   max-width: 800px;
   margin: 0 auto;
@@ -11308,11 +11331,17 @@ section {
 }
 
 .service-segment .pointers-list {
-  margin: 30px 0;
+  margin: 30px 0 100px;
 }
 
 .service-segment .pointers-list .pointer {
   margin: 20px 0;
+}
+
+.service-segment .pointers-list .pointer .bullet {
+  position: relative;
+  left: 20px;
+  border-left: 5px solid #F27123;
 }
 
 .service-segment .pointers-list .pointer .row {

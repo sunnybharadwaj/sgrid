@@ -145,7 +145,7 @@
         {{--</div>--}}
         {{--</section>--}}
 
-        <section id="philosophy" class="rellax" data-rellax-speed="4">
+        <section id="philosophy" class="rellax" data-rellax-speed="2">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-6">

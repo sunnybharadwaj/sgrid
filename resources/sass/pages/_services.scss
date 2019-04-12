@@ -1,6 +1,18 @@
-#philosophy {
-  padding-top: 100px;
+#services-page {
+  #feat-img-center .feature-img{
+    max-width: 100%;
+    padding: 0;
+    background: none;
 
+    .image-frame {
+      min-height: 500px;
+    }
+  }
+}
+
+
+#philosophy {
+  padding-top: 200px;
   .metric-container {
     padding: 0;
     position: relative;
@@ -57,6 +69,15 @@
 }
 
 .service-segment {
+  .icon {
+    height: 100px;
+    margin: 0px auto 40px;
+    width: 100px;
+
+    img {
+      height: 100px;
+    }
+  }
   .text-content {
     max-width: 800px;
     margin: 0 auto;
@@ -67,8 +88,14 @@
   }
 
   .pointers-list {
-    margin: 30px 0;
+    margin: 30px 0 100px;
     .pointer {
+      .bullet {
+        position: relative;
+        left: 20px;
+        border-left: 5px solid $sgrid-color;
+      }
+
       margin: 20px 0;
       .row {
         padding: 0 20px;
