@@ -17,7 +17,7 @@
                                 <h3>Contact Us</h3>
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">
-                                <span class="email">info@sgrid.co.in</span> <br/>
+                                <span class="email">info@sgrid.in</span> <br/>
                                 +91 9876578745
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">

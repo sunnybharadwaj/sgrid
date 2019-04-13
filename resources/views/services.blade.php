@@ -262,7 +262,7 @@
                         </p>
                     </div>
                     <div class="product col-sm-12 col-md-6">
-                        <h3>Power Banks</h3>
+                        <h3>Energy Storage Systems</h3>
                         <p>An aspect as significant as harnessing solar power is also the ability to store the energy. Power banks are bound to change the way we look at solar energy and its optimum utilisation in the future. And our team is up to its task of staying ahead of the game!
                         </p>
                     </div>

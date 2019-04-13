@@ -50,7 +50,7 @@
   .header {
     margin-bottom: 100px;
     .header-text {
-      
+
 
       p {
         max-width: 880px;
@@ -60,7 +60,12 @@
 
 
   }
+
+
   .quote-list {
+    .h-box {
+      margin-left: 0;
+    }
     .quote-block {
       padding: 50px 0;
     }
@@ -81,6 +86,7 @@
 }
 
 #clients-logos {
+  margin: 100px 0;
   h3 {
     font-size: 1.618rem;
     font-weight: 700;

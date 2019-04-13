@@ -11530,6 +11530,10 @@ section {
   font-size: 1.618rem;
 }
 
+#clients .quote-list .h-box {
+  margin-left: 0;
+}
+
 #clients .quote-list .quote-block {
   padding: 50px 0;
 }
@@ -11547,6 +11551,10 @@ section {
 
 #clients .quote-list .sign p {
   margin-bottom: 5px;
+}
+
+#clients-logos {
+  margin: 100px 0;
 }
 
 #clients-logos h3 {
