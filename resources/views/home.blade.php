@@ -174,7 +174,9 @@
                         <h2>We Design Solutions.</h2>
                         <h4>We collaborate with high profile partners to build smart solutions that are economically viable, technically superior and optimised for the requirement.
                         </h4>
-                        <a href="/" class="text-btn-sm">Learn about our Services></a>
+                        <a href="/services" class="text-btn-sm">Learn about our Services <span class="next-icon"><img src="{{url('/media/icons/icon_next.svg')}}"
+                                                                                                              alt=""
+                                                                                                              class="img-fluid"></span></a>
                     </div>
                 </div>
             </div>
@@ -189,7 +191,9 @@
             </div>
             <h2>Building the next generation of power infrastructure.</h2>
 
-            <a href="/" class="text-btn-sm">Learn about our Company ></a>
+            <a href="/about" class="text-btn-sm">Learn about our Company <span class="next-icon"><img src="{{url('/media/icons/icon_next.svg')}}"
+                                                                                                 alt=""
+                                                                                                 class="img-fluid"></span></a>
         </section>
 
 

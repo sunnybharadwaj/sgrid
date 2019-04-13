@@ -9,7 +9,7 @@
 
         <section id="page-header" class="text-center">
             <div class="page-iln">
-                <img src="{{url('/media/illustrations/about_iln.png')}}" alt="" class="img-fluid">
+                <img src="{{url('/media/illustrations/services_iln.png')}}" alt="" class="img-fluid">
             </div>
             <h2>Complex problems, Smart Solutions.</h2>
         </section>
@@ -123,9 +123,9 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature">
+            <section class="bg-feature service-list-img">
                 <div class="background-image rellax">
-                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{url('/media/images/services_solar.jpg')}}" alt="">
                 </div>
             </section>
             <div class="feature-section">
@@ -183,9 +183,9 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature">
+            <section class="bg-feature service-list-img">
                 <div class="background-image rellax">
-                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{url('/media/images/services_ohe.jpg')}}" alt="">
                 </div>
             </section>
         </section>
@@ -237,9 +237,9 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature">
+            <section class="bg-feature service-list-img">
                 <div class="background-image rellax">
-                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{url('/media/images/services_tnd.jpg')}}" alt="">
                 </div>
             </section>
         </section>
@@ -250,9 +250,12 @@
                     <h2>Innovation at Sgrid</h2>
                     <p>We're not only a team that's entrenched in the current day scenario of power infrastructure but have our eyes firmly set on the future of the arena, thanks to our group of hard-working and committed research experts.
                     </p>
+                    <div class="illustration rellax">
+                        <img class="img-fluid" src="{{url('/media/illustrations/innovation_iln.png')}}" alt="">
+                    </div>
                 </div>
 
-                <div class="row">
+                <div class="row product-list">
                     <div class="product col-sm-12 col-md-6">
                         <h3>Floating Solar</h3>
                         <p>Based on the concept of a solar array floating on a waterbody, floating solar panels are a unique dimension to renewable energy, with immense potential to create a far-widening impact in the future. Our team is currently working on its feasibility pertaining to our country's waterbodies, understanding its harnessing potential and the scope to ensure a healthier environment.

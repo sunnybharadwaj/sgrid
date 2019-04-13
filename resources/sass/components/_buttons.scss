@@ -2,7 +2,6 @@
   display: inline-block;
   background-color: $sgrid-color;
   color: $std-black;
-
   padding: 20px 25px;
   font-weight: 700;
   font-size: 18px;
@@ -30,5 +29,26 @@
   color: $text-btn-color;
   font-size: 1.618rem;
   font-weight: 700;
-  text-decoration: underline;
+  border-bottom: 2px solid $sub-text-color;
+  letter-spacing: -0.025rem;
+  opacity: 0.6;
+
+
+  &:hover {
+    opacity: 1;
+    color: $sgrid-color;
+    text-decoration: none;
+    border-bottom: 2px solid $sgrid-color;
+
+  }
+}
+
+.next-icon {
+  img {
+    width: 14px;
+    position: relative;
+    bottom: 1px;
+    margin-left: 10px;
+    opacity: 0.6;
+  }
 }

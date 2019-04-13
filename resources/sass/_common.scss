@@ -6,7 +6,7 @@ body {
   font-family: Heebo, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #030303;
+  color: $main-black;
   font-size: 1rem;
 }
 
@@ -31,6 +31,7 @@ h4 {
   font-size: 1.618rem;
   line-height: 1.5;
   letter-spacing: -0.025em;
+  color: $sub-text-color;
 }
 
 h5 {
@@ -100,6 +101,7 @@ section {
 
     p {
       color: $sub-text-color;
+
     }
   }
 

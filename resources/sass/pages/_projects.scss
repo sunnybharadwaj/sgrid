@@ -1,3 +1,12 @@
+#projects-page {
+  #page-header {
+    .page-iln {
+      transform: scale(0.8);
+      //margin: 123px auto 50px;
+    }
+  }
+}
+
 #projects {
   h2 {
     margin-bottom: 60px;
@@ -41,16 +50,15 @@
   .header {
     margin-bottom: 100px;
     .header-text {
-      max-width: 450px;
+      
 
       p {
-        max-width: 380px;
+        max-width: 880px;
+        font-size: 1.618rem;
       }
     }
 
-    .video-block {
-      background: darkgray;
-    }
+
   }
   .quote-list {
     .quote-block {

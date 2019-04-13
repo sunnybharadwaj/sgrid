@@ -8,7 +8,7 @@
     <div id="projects-page">
         <section id="page-header" class="text-center">
             <div class="page-iln">
-                <img src="{{url('/media/illustrations/about_iln.png')}}" alt="" class="img-fluid">
+                <img src="{{url('/media/illustrations/projects_iln.png')}}" alt="" class="img-fluid">
             </div>
             <h2>Our clients know we’re up for a challenge.</h2>
         </section>
@@ -47,7 +47,7 @@
                         <div class="project-img col-sm-12 col-md-6">
                             <section class="bg-feature">
                                 <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{url('/media/images/project_1.jpg')}}" alt="">
                                 </div>
                             </section>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="project-img col-sm-12 col-md-6">
                             <section class="bg-feature">
                                 <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{url('/media/images/project_2.jpg')}}" alt="">
                                 </div>
                             </section>
                         </div>
@@ -119,7 +119,7 @@
                         <div class="project-img col-sm-12 col-md-6">
                             <section class="bg-feature">
                                 <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{url('/media/images/project_3.jpg')}}" alt="">
                                 </div>
                             </section>
                         </div>
@@ -145,7 +145,7 @@
                             </div>
 
                             <div class="buttons">
-                                <a href="/">View Gallery</a>
+                                {{--<a href="/">View Gallery</a>--}}
                                 {{--<a href="/">Read Case Study</a>--}}
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                         <div class="project-img col-sm-12 col-md-6">
                             <section class="bg-feature">
                                 <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
+                                    <img class="img-fluid" src="{{url('/media/images/project_4.jpg')}}" alt="">
                                 </div>
                             </section>
                         </div>
@@ -166,7 +166,7 @@
         <section id="clients">
             <div class="container">
                 <div class="header row">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-12">
                         <div class="header-text">
                             <h2>What our Clients say</h2>
                             <p>Our zeal has always been to empower the people whom we work with and we're keen listeners. Our clients get minimal escalations and intrusions, given we're hands-on with the project and provide seamless support to the clients through its execution. </p>
@@ -174,9 +174,9 @@
 
                     </div>
 
-                    <div class="video-block col-sm-12 col-md-6">
+                    {{--<div class="video-block col-sm-12 col-md-6">--}}
 
-                    </div>
+                    {{--</div>--}}
 
 
                 </div>

@@ -17,7 +17,7 @@ footer {
 
 
     .btn-container {
-      padding: 50px;
+      padding: 50px 0 0 0;
     }
 
     .text-btn-sm {
@@ -30,20 +30,32 @@ footer {
   }
 
   .foot-bar {
+    padding: 10px 0;
+    background: #2d2d2d;
     text-align: center;
     .foot-links {
       padding: 30px;
     }
     .foot-link {
+      color: $sub-text-color;
+      font-size: 0.8rem;
       text-transform: uppercase;
       font-weight: 700;
       text-decoration: none;
       padding: 5px 20px;
+      transform: scale(0.8);
+
+      &:hover {
+        color: $sgrid-color;
+        text-decoration: none;
+        border-bottom: 2px solid $sgrid-color;
+      }
     }
 
     p {
       font-size: 14px;
-      margin-bottom: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 0;
       color: $sub-text-color;
     }
   }

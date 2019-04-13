@@ -3,9 +3,10 @@
     min-height: 600px;
     width: 100%;
     position: relative;
-    background: #E8E8E8;
+    background: white;
 
     .contact-details {
+      border: 10px solid $sgrid-color;
       min-width: 900px;
       .ct-column:nth-of-type(1) {
         padding: 40px 0;
@@ -14,14 +15,20 @@
         padding: 40px 0;
       }
 
+      .email {
+        font-weight: 700;
+      }
+
       h3 {
         font-weight: 700;
       }
       background: white;
       padding: 40px;
       position: absolute;
-      right: 0;
-      bottom: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
     }
   }
 }

@@ -67,7 +67,7 @@
         <section id="ceo-word">
             <div class="container">
                 <div class="content-box">
-                    <h3 class="quote">“Change is the only constant of life. We at SGrid believe about the need to
+                    <h3 class="quote">“Change is the only constant of life. We at Saffrongrid believe about the need to
                         constantly adapt to change. Within the energy sector, we not only stay relevant with the times
                         we live in but also place a foot ahead in the future and stay open to consistent
                         evolution.”</h3>

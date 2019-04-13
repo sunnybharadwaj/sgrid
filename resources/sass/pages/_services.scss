@@ -1,11 +1,24 @@
 #services-page {
-  #feat-img-center .feature-img{
+  #page-header {
+
+    h2 {
+      margin-bottom: 200px;
+    }
+
+    .page-iln {
+      transform: scale(0.8);
+      //margin: 123px auto 50px;
+    }
+  }
+
+  #feat-img-center .feature-img {
     max-width: 100%;
     padding: 0;
     background: none;
+    height: 600px;
 
     .image-frame {
-      min-height: 500px;
+      min-height: 700px;
     }
   }
 
@@ -13,7 +26,6 @@
     font-size: 2.618rem;
   }
 }
-
 
 #philosophy {
   padding-top: 200px;
@@ -52,13 +64,13 @@
     }
 
     &.box-1 {
-      background: $primary-gradient;
+      background: $tertiary-color;
       position: absolute;
       right: 0;
       bottom: 0;
     }
     &.box-2 {
-      background: $reverse-gradient;
+      background: $secondary-color;
       position: absolute;
       left: 0;
       top: 0;
@@ -113,6 +125,10 @@
   }
 }
 
+.service-list-img.bg-feature {
+  background: none;
+}
+
 #solar {
   .feature-section {
     .container {
@@ -130,14 +146,28 @@
 }
 
 #innovation {
-.head-text {
-  margin-bottom: 40px;
+  position: relative;
 
-  p {
-    font-size: 1.618rem;
-    max-width: 800px;
+  .illustration {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    height: 200px;
+    width: 300px;
   }
-}
+  .head-text {
+    margin-bottom: 40px;
+
+    p {
+      font-size: 1.618rem;
+      max-width: 800px;
+    }
+  }
+
+  .product-list {
+    margin-bottom: 40px;
+  }
+
   .product {
     h3 {
       font-size: 1.618rem;

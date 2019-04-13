@@ -85,8 +85,8 @@
             <div class="std-btn">Get in touch</div>
         </div>
 
-        <a href="/" class="text-btn-sm">Read about our <span>Services</span> ></a>
-        <a href="/" class="text-btn-sm">Browse through our <span>Projects</span> ></a>
+        {{--<a href="/" class="text-btn-sm">Read about our <span>Services</span> ></a>--}}
+        {{--<a href="/" class="text-btn-sm">Browse through our <span>Projects</span> ></a>--}}
     </div>
     <div class="foot-bar">
         <div class="foot-links">
