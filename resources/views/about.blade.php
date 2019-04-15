@@ -24,9 +24,9 @@
         </section>
 
         {{--<div class="video-frame embed-responsive">--}}
-            {{--<video loop autoplay class="embed-responsive-item">--}}
-                {{--<source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">--}}
-            {{--</video>--}}
+        {{--<video loop autoplay class="embed-responsive-item">--}}
+        {{--<source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">--}}
+        {{--</video>--}}
         {{--</div>--}}
 
 
@@ -93,24 +93,85 @@
         {{--Team--}}
         <section id="team" class="rellax">
             <div class="container">
+
+                <h2 class="text-center">Our Team</h2>
                 <div class="row">
-                    <h2>Our Team</h2>
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Mohan Reddy Dasari</h4>
+                                    <p>CEO</p>
+                                </div>
 
-                    <div class="col-4">
-                        <div class="spacer"></div>
-                        <div class="team-member"></div>
-                        <div class="team-member"></div>
+                                {{--linkedin link--}}
+                            </div>
 
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="team-member"></div>
-                        <div class="team-member"></div>
-                        <div class="team-member"></div>
+
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Prasoon Chaudhary</h4>
+                                    <p>Head - BD &amp; Procurement</p>
+                                </div>
+
+                                {{--linkedin link--}}
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="spacer"></div>
-                        <div class="team-member"></div>
-                        <div class="team-member"></div>
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Krishnaiah Indla</h4>
+                                    <p>Head - Railways, T&amp;D</p>
+                                </div>
+
+                                {{--linkedin link--}}
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Harish Makke</h4>
+                                    <p>Head - New business Initiatives</p>
+                                </div>
+
+                                {{--linkedin link--}}
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Narendra Pulivarthi</h4>
+                                    <p>Head - Operations</p>
+                                </div>
+
+                                {{--linkedin link--}}
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                        <div class="team-member">
+                            <div class="teamcard-overlay">
+                                <div class="text">
+                                    <h4>Manoj Cherukuri</h4>
+                                </div>
+                                {{--linkedin link--}}
+                            </div>
+
+                        </div>
                     </div>
                     <div class="careers-cta">
                         <h3>Looking for career opportunities?</h3>
@@ -122,41 +183,40 @@
         </section>
 
         {{--<section id="team" class="rellax">--}}
-            {{--<div class="container">--}}
-                {{--<div class="row">--}}
-                    {{--<h2>Our Team</h2>--}}
+        {{--<div class="container">--}}
+        {{--<div class="row">--}}
+        {{--<h2>Our Team</h2>--}}
 
 
 
 
 
-                    {{--<div class="col-4">--}}
-                        {{--<div class="spacer"></div>--}}
-                        {{--<div class="team-member">Prasoon Chaudhary -Head,BD&Procurement</div>--}}
-                        {{--<div class="team-member">Harish Makke-Head,New business Initiatives</div>--}}
+        {{--<div class="col-4">--}}
+        {{--<div class="spacer"></div>--}}
+        {{--<div class="team-member">Prasoon Chaudhary -Head,BD&Procurement</div>--}}
+        {{--<div class="team-member">Harish Makke-Head,New business Initiatives</div>--}}
 
-                    {{--</div>--}}
-                    {{--<div class="col-4">--}}
-                        {{--<div class="team-member">Mohan Reddy Dasari -CEO</div>--}}
-                        {{--<div class="team-member">Manoj Cherukuri</div>--}}
-                        {{--\--}}
+        {{--</div>--}}
+        {{--<div class="col-4">--}}
 
-                    {{--</div>--}}
-                    {{--<div class="col-4">--}}
-                        {{--<div class="spacer"></div>--}}
-                        {{--<div class="team-member">Krishnaiah Indla -Head, Railways & T&D</div>--}}
-                        {{--<div class="team-member">Narendra Pulivarthi -Head,Operations</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="careers-cta">--}}
-                        {{--<h3>Looking for career opportunities?</h3>--}}
-                        {{--<a class="text-btn-sm" href="/careers">Careers ></a>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+        {{--<div class="team-member">Manoj Cherukuri</div>--}}
+        {{--\--}}
 
-            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="col-4">--}}
+        {{--<div class="spacer"></div>--}}
+        {{--<div class="team-member">Krishnaiah Indla -Head, Railways & T&D</div>--}}
+        {{--<div class="team-member">Narendra Pulivarthi -Head,Operations</div>--}}
+        {{--</div>--}}
+        {{--<div class="careers-cta">--}}
+        {{--<h3>Looking for career opportunities?</h3>--}}
+        {{--<a class="text-btn-sm" href="/careers">Careers ></a>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+
+        {{--</div>--}}
         {{--</section>--}}
 
-        @include('partials.partner')
 
     </div>
 @endsection

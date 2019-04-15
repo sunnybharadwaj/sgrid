@@ -10694,13 +10694,26 @@ nav.scrolled .nav-menu {
 #partner-cta,
 .bg-feature {
   margin: 0;
+  background: none;
+}
+
+#partner-cta .text-content h3,
+#partner-cta .text-content h4,
+.bg-feature .text-content h3,
+.bg-feature .text-content h4 {
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 20px;
 }
 
 #partner-cta h3,
 .bg-feature h3 {
-  color: #f0eff0;
   font-weight: 700;
-  margin-bottom: 50px;
+}
+
+#partner-cta h4,
+.bg-feature h4 {
+  margin-bottom: 40px !important;
 }
 
 #partner-cta .text-content,
@@ -11262,42 +11275,90 @@ section {
   bottom: 0;
 }
 
-#team .row {
-  position: relative;
-  max-width: 920px;
+#team .careers-cta {
+  padding: 100px 0;
+  text-align: center;
   margin: 0 auto;
 }
 
-#team h2 {
-  font-size: 2.618rem;
+#team .careers-cta h3 {
   font-weight: 700;
-  position: absolute;
-  top: 110px;
-  left: 35px;
+}
+
+#team h2 {
+  margin-bottom: 60px;
+}
+
+#team .row {
+  position: relative;
+  margin: 0 auto;
 }
 
 #team .spacer {
   height: 150px;
 }
 
+#team .column {
+  padding: 0 5px;
+}
+
 #team .team-member {
-  background: #EAEAEA;
-  margin: 40px 20px;
-  height: 380px;
-  width: 270px;
+  position: relative;
+  background: #ababab;
+  margin-bottom: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-#team .careers-cta {
-  width: 215px;
+#team .team-member:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#team .team-member:hover .teamcard-overlay {
+  background: rgba(0, 0, 0, 0.28);
+}
+
+#team .team-member:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+#team .teamcard-overlay {
   position: absolute;
-  right: 0px;
-  bottom: 60px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 20px;
 }
 
-#team .careers-cta h3 {
+#team .teamcard-overlay .text {
+  position: absolute;
+  bottom: 20px;
+}
+
+#team .teamcard-overlay h4 {
   font-size: 1.618rem;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: -4px;
+  color: rgba(255, 255, 255, 0.91);
+}
+
+#team .teamcard-overlay p {
+  font-sise: 1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.91);
+  margin-bottom: 0;
 }
 
 #services-page #page-header h2 {

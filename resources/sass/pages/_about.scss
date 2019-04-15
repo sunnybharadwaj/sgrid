@@ -146,38 +146,82 @@
 
 
 #team {
+  .careers-cta {
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+    h3 {
+      font-weight: 700;
+    }
+  }
+
+  h2 {
+    margin-bottom: 60px;
+  }
 
   .row {
     position: relative;
-    max-width: 920px;
+
     margin: 0 auto;
   }
-  h2 {
-    font-size: 2.618rem;
-    font-weight: 700;
-    position: absolute;
-    top: 110px;
-    left: 35px;
-  }
+
   .spacer {
     height: 150px;
   }
+  .column {
+    padding: 0 5px;
+  }
   .team-member {
-    background: #EAEAEA;
-    margin: 40px 20px;
-    height: 380px;
-    width: 270px;
+    position: relative;
+    background: #ababab;
+    margin-bottom: 10px;
+    width: 100%;
+    //background-image: url("/media/images/team/temp.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    filter: grayscale(100%);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      filter:grayscale(0);
+      .teamcard-overlay {
+        background: rgba(0, 0, 0, 0.28);
+      }
+    }
+
+  }
+  .team-member:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
   }
 
-  .careers-cta {
-    width: 215px;
+  .teamcard-overlay {
     position: absolute;
-    right: 0px;
-    bottom: 60px;
-    h3 {
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    padding: 20px;
+    .text {
+      position: absolute;
+      bottom: 20px;
+    }
+
+    h4 {
       font-size: 1.618rem;
       font-weight: 700;
-      margin-bottom: 30px;
+      margin-bottom: -4px;
+      color: rgba(255, 255, 255, 0.91);
     }
+    p {
+      font-sise: 1rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.91);
+      margin-bottom: 0;
+    }
+
   }
+
 }

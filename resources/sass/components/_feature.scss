@@ -56,12 +56,28 @@
 
 #partner-cta, .bg-feature {
   margin: 0;
+  background: none;
+
+  .text-content {
+    h3,h4 {
+      color: white;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+
+
+  }
 
   h3 {
-    color: #f0eff0;
     font-weight: 700;
-    margin-bottom: 50px;
   }
+
+  h4 {
+    margin-bottom: 40px !important;
+  }
+
+
+
 
 
   .text-content {

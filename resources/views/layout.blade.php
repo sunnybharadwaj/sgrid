@@ -73,6 +73,7 @@
 
 
 <footer>
+    @include ('partials.partner')
     {{--<div class="h-bar"></div>--}}
     <div class="contact-cta">
 

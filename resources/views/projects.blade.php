@@ -234,7 +234,6 @@
             </div>
         </section>
 
-        @include('partials.partner')
 
     </div>
 @endsection
