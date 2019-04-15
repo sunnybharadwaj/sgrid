@@ -1,6 +1,20 @@
 footer {
+
+  .footer-nav {
+    .nav-elem {
+      color: white;
+      padding: 10px 20px;
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+  }
+
   .contact-cta {
-    padding: 200px 0;
+    padding: 50px 0 20px;
     background: $dark-bg-color;
     color: white;
     text-align: center;
@@ -31,10 +45,9 @@ footer {
 
   .foot-bar {
     padding: 10px 0;
-    background: #2d2d2d;
     text-align: center;
     .foot-links {
-      padding: 30px;
+      padding: 10px 0;
     }
     .foot-link {
       color: $sub-text-color;

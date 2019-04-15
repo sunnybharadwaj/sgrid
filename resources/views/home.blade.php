@@ -6,14 +6,17 @@
 
 @section('content')
     <div id="home-page">
-
         <section id="intro">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-7">
                         <div class="intro-text">
-                            <h2 class="animated fadeDown">We don’t just build EPC solutions, we <span class="highlight">design</span>.</h2>
-                            <h4 class="animated fadeIn">A fast-growing company, firm in our vision to nurture the future of power infrastructure. Backed by an enthusiastic, committed and a capable team of experts, we stay a step ahead in meeting all your EPC (Engineering, Procurement & Construction) needs in Solar, Railway Overhead Electrification, Transmission & Distribution.</h4>
+                            <h2 class="animated fadeDown">We don’t just build EPC solutions, we <span class="highlight">design</span>.
+                            </h2>
+                            <h4 class="animated fadeIn">A fast-growing company, firm in our vision to nurture the future
+                                of power infrastructure. Backed by an enthusiastic, committed and a capable team of
+                                experts, we stay a step ahead in meeting all your EPC (Engineering, Procurement &
+                                Construction) needs in the following:</h4>
 
                             <div class="services-header animated fadeIn">
                                 <div class=".container-fluid">
@@ -66,7 +69,9 @@
                 <div class="content-box">
                     <div class="h-box"></div>
                     <h3>
-                        Our integrated, people-centric and systematic approach to handling large scale projects (end to end or part of the project) ensures seamless support to our clients and gives us a firm edge over our competitors.
+                        Our integrated, people-centric and systematic approach to handling large scale projects (end to
+                        end or part of the project) ensures seamless support to our clients and gives us a firm edge
+                        over our competitors.
                     </h3>
                     {{--<a href="/" class="text-btn">Watch Video</a>--}}
                 </div>
@@ -172,11 +177,13 @@
                     </div>
                     <div class="services-desc col-sm-12 col-md-12 col-lg-6">
                         <h2>We Design Solutions.</h2>
-                        <h4>We collaborate with high profile partners to build smart solutions that are economically viable, technically superior and optimised for the requirement.
+                        <h4>We collaborate with high profile partners to build smart solutions that are economically
+                            viable, technically superior and optimised for the requirement.
                         </h4>
-                        <a href="/services" class="text-btn-sm">Learn about our Services <span class="next-icon"><img src="{{url('/media/icons/icon_next.svg')}}"
-                                                                                                              alt=""
-                                                                                                              class="img-fluid"></span></a>
+                        <a href="/services" class="text-btn-sm">Learn about our Services <span class="next-icon"><img
+                                        src="{{url('/media/icons/icon_next.svg')}}"
+                                        alt=""
+                                        class="img-fluid"></span></a>
                     </div>
                 </div>
             </div>
@@ -191,11 +198,11 @@
             </div>
             <h2>Building the next generation of power infrastructure.</h2>
 
-            <a href="/about" class="text-btn-sm">Learn about our Company <span class="next-icon"><img src="{{url('/media/icons/icon_next.svg')}}"
-                                                                                                 alt=""
-                                                                                                 class="img-fluid"></span></a>
+            <a href="/about" class="text-btn-sm">Learn about our Company <span class="next-icon"><img
+                            src="{{url('/media/icons/icon_next.svg')}}"
+                            alt=""
+                            class="img-fluid"></span></a>
         </section>
-
 
 
     </div>

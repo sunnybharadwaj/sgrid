@@ -12,8 +12,8 @@
                     <h3>Join hands with us.</h3>
                     <h4>With a committed group of leaders and subject-matter experts, we're here and ready to help you reach your goals in the most efficient way possible.
                         </h4>
-                    <a href="/" class="std-btn">Become a partner</a>
-                    <a href="/" class="std-btn">Work with us</a>
+                    <div href="#" class="std-btn cta-btn">Become a partner</div>
+                    <div href="#" class="std-btn cta-btn">Work with us</div>
                 </div>
             </div>
         </section>

@@ -36,6 +36,5 @@
         </div>
 
         {{--Careers CTA--}}
-        @include('partials.partner')
     </div>
 @endsection

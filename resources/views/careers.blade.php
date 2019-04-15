@@ -8,38 +8,37 @@
     <div id="services-page">
         <div class="container">
             <section id="page-head">
-                <h2>Careers at Sgrid</h2>
-                <p>Starting a company is lonely, and founders have to make difficult decisions every day with imperfect
-                    information.</p>
-                <a href="/" class="std-btn">Apply Now</a>
+                <h2 class="">Careers at Sgrid</h2>
+                <p></p>
+                {{--<a href="/" class="std-btn">Apply Now</a>--}}
             </section>
         </div>
 
-        <section class="bg-feature">
-            <div class="background-image ">
+        {{--<section class="bg-feature">--}}
+            {{--<div class="background-image ">--}}
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay class="embed-responsive-item">
-                    <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
-                </video>
-            </div>
+                {{--<video loop autoplay class="embed-responsive-item">--}}
+                    {{--<source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">--}}
+                {{--</video>--}}
+            {{--</div>--}}
 
-            <div class="container">
-                <div class="content-box">
-                    <div class="h-box"></div>
-                    <h3>
-                        Our integrated, people-centric and systematic approach to handling large scale projects (end to end or part of the project) ensures seamless support to our clients and gives us a firm edge over our competitors.
-                    </h3>
+            {{--<div class="container">--}}
+                {{--<div class="content-box">--}}
+                    {{--<div class="h-box"></div>--}}
+                    {{--<h3>--}}
+                        {{--Our integrated, people-centric and systematic approach to handling large scale projects (end to end or part of the project) ensures seamless support to our clients and gives us a firm edge over our competitors.--}}
+                    {{--</h3>--}}
                     {{--<a href="/" class="text-btn">Watch Video</a>--}}
-                </div>
-            </div>
-        </section>
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</section>--}}
 
         <section id="job-cta">
             <div class="container">
                 <div class="intro-text">
                     <h2>Why work with us?</h2>
-                    <p>Starting a company is lonely, and founders have to make difficult decisions every day with imperfect
-                        information.</p>
+                    {{--<p>Starting a company is lonely, and founders have to make difficult decisions every day with imperfect--}}
+                        {{--information.</p>--}}
                 </div>
 
 

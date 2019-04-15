@@ -69,6 +69,46 @@
     </div>
 </nav>
 
+<div id="contact-form-modal" class="custom-modal">
+    <div class="form-container">
+        <div class="close-icon modal-close-btn"><img src="{{url('/media/icons/icon_close_black.svg')}}" alt="" class="img-fluid"></div>
+        <div class="container">
+            <h3>Contact Us</h3>
+            <p>Please be as specific as possible in your entry below so that we could best help you. For urgent matters, please contact us directly with the details on our <a href="/contact">Contact Page</a></p>
+            <form action="">
+                <div class="form-group">
+                    <label for="contact-name">Name</label>
+                    <input id="contact-name" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="contact-email">E-mail</label>
+                    <input id="contact-email" class="form-control" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="contact-reason">Please select what applies to your case:</label>
+                    <select class="form-control">
+                        <option>Click here to select</option>
+                        <option>I have a project that I want Sgrid to work on</option>
+                        <option>I am an exisiting customer and I need help with an ongoing project</option>
+                        <option>I want to partner with Saffrongrid</option>
+                        <option>I'm looking for a job</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                </div>
+
+                <button class="std-btn" type="submit">Submit</button>
+                <a class="std-btn blue modal-close-btn" onclick="getFalse()">Close</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 @yield('content')
 
 
@@ -77,28 +117,39 @@
     {{--<div class="h-bar"></div>--}}
     <div class="contact-cta">
 
-        <div class="text-content">
-            <h3>How can we help?</h3>
-            <p>Feel free to get in touch with us by giving your requirement details and contact information. We will get
-                back to you as soon as we can.</p>
-        </div>
-        <div class="btn-container">
-            <div class="std-btn">Get in touch</div>
-        </div>
+
+        {{--<div class="text-content">--}}
+            {{--<h3>How can we help?</h3>--}}
+            {{--<p>Feel free to get in touch with us by giving your requirement details and contact information. We will get--}}
+                {{--back to you as soon as we can.</p>--}}
+        {{--</div>--}}
+        {{--<div class="btn-container">--}}
+            {{--<a class="std-btn cta-btn">Get in touch</a>--}}
+        {{--</div>--}}
 
         {{--<a href="/" class="text-btn-sm">Read about our <span>Services</span> ></a>--}}
         {{--<a href="/" class="text-btn-sm">Browse through our <span>Projects</span> ></a>--}}
-    </div>
-    <div class="foot-bar">
-        <div class="foot-links">
-            <a href="/" class="foot-link">Terms & Conditions</a>
-            <a href="/" class="foot-link">Copyright</a>
-            <a href="/" class="foot-link">Cookie Policy</a>
+
+        <div class="footer-nav">
+            <a href="/" class="nav-elem {{request()->is('/') ? 'active' : ''}}">Home</a>
+            <a href="/about" class="nav-elem {{request()->is('about') ? 'active' : ''}}">About</a>
+            <a href="/services" class="nav-elem {{request()->is('services') ? 'active' : ''}}">Services</a>
+            <a href="/projects" class="nav-elem {{request()->is('projects') ? 'active' : ''}}">Projects</a>
+            <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
+            <a href="/careers" class="nav-elem {{request()->is('careers') ? 'active' : ''}}">Careers</a>
         </div>
+        <div class="foot-bar">
+            <div class="foot-links">
+                <a href="/" class="foot-link">Terms & Conditions</a>
+                <a href="/" class="foot-link">Copyright</a>
+                <a href="/" class="foot-link">Cookie Policy</a>
+            </div>
 
 
-        <p>Copyright 2019 Saffrongrid Limited. All rights reserved</p>
+            <p>Copyright 2019 Saffrongrid Limited. All rights reserved</p>
+        </div>
     </div>
+
 
 </footer>
 
