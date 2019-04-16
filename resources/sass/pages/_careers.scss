@@ -1,4 +1,5 @@
 #page-head {
+  margin-bottom: 50px;
   h2 {
     margin-bottom: 10px;
   }
@@ -16,6 +17,7 @@
 }
 
 #job-cta {
+  margin-top: 50px;
   .intro-text {
     margin-bottom: 50px;
     p {
@@ -32,6 +34,15 @@
 
     p {
       max-width: 440px;
+    }
+  }
+
+  .cta-text {
+    margin: 100px 0;
+    h4 {
+      max-width: 600px;
+      margin: 0 auto 20px;
+
     }
   }
 }

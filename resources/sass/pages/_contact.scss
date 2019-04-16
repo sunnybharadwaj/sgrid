@@ -1,12 +1,13 @@
 #map {
+  margin-top: 100px;
   .map-container {
-    min-height: 600px;
+    min-height: 400px;
     width: 100%;
     position: relative;
     background: white;
 
     .contact-details {
-      border: 10px solid $sgrid-color;
+      //border: 10px solid $sgrid-color;
       min-width: 900px;
       .ct-column:nth-of-type(1) {
         padding: 40px 0;

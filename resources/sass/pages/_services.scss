@@ -2,7 +2,9 @@
   #page-header {
 
     h2 {
-      margin-bottom: 200px;
+      margin-bottom: 250px;
+      margin-top: 20px;
+      max-width: 500px;
     }
 
     .page-iln {
@@ -15,11 +17,8 @@
     max-width: 100%;
     padding: 0;
     background: none;
-    height: 600px;
 
-    .image-frame {
-      min-height: 700px;
-    }
+
   }
 
   .bg-feature.cta h3 {
@@ -27,7 +26,7 @@
   }
 }
 
-#philosophy {
+#philosophy,#services-projects {
   padding-top: 200px;
   .metric-container {
     padding: 0;

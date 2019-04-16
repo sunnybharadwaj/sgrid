@@ -60,8 +60,13 @@
                         <p>We are open to hearing suggestions, responses, and opinions that people around us have to say or share. Our targets remain our focus and we consider every input that comes our way in ensuring effective results.</p>
                     </div>
                 </div>
-                <a href="/" class="std-btn">Apply Now</a>
-                <a href="/" class="std-btn">Get updates</a>
+                {{--<a href="/" class="std-btn">Apply Now</a>--}}
+                {{--<a href="/" class="std-btn">Get updates</a>--}}
+
+                <div class="cta-text text-center">
+                    <h4>If you are interested in working with us, please email your resume and supporting documents to </h4>
+                    <h3>careers@sgrid.in</h3>
+                </div>
             </div>
 
 

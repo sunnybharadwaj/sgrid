@@ -163,65 +163,7 @@
             </div>
         </section>
 
-        <section id="clients">
-            <div class="container">
-                <div class="header row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="header-text">
-                            <h2>What our Clients say</h2>
-                            <p>Our zeal has always been to empower the people whom we work with and we're keen
-                                listeners. Our clients get minimal escalations and intrusions, given we're hands-on with
-                                the project and provide seamless support to the clients through its execution. </p>
-                        </div>
 
-                    </div>
-
-                    {{--<div class="video-block col-sm-12 col-md-6">--}}
-
-                    {{--</div>--}}
-
-
-                </div>
-
-
-                <div class="quote-list">
-                    <div class="quote-block">
-                        <div class="h-box"></div>
-                        <h3 class="quote">“We have found SGrid to be extremely innovative in terms of its projective
-                            execution besides ensuring timeliness in terms of their delivery. Be it the timely
-                            procurement of material, the quality of their projects or their adherence to deadlines, we
-                            are immensely happy to have collaborated with them.”</h3>
-                        <div class="sign">
-                            {{--<p>Morbi ut urna</p>--}}
-                            <p>Cleantech Solar Energy</p>
-                        </div>
-                    </div>
-
-                    <div class="quote-block">
-                        <div class="h-box"></div>
-                        <h3 class="quote">“We truly value our association with SGrid, which has been extremely proactive
-                            and responsive to our needs for the project. Their systematic and organised approach to work
-                            has benefited us.”</h3>
-                        <div class="sign">
-                            {{--<p>Morbi ut urna</p>--}}
-                            <p>Azure Power India Pvt. Ltd.</p>
-                        </div>
-                    </div>
-
-                    <div class="quote-block">
-                        <div class="h-box"></div>
-                        <h3 class="quote">“The SGrid team has been meticulous with its eye for detailing in the project.
-                            They've been professional in their dealings and have kept us thoroughly informed about the
-                            progress of the project and the construction of the transmission line upto 66 Kv.”</h3>
-                        <div class="sign">
-                            {{--<p>Morbi ut urna</p>--}}
-                            <p>NTPC (National Thermal Power Corporation) Limited</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
 
         <section id="clients-logos">
             <div class="container">
