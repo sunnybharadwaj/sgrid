@@ -11259,7 +11259,7 @@ section {
 #services-projects .special-feature .spl-iln {
   min-height: 200px;
   max-height: 400px;
-  width: 200px;
+  width: 260px;
   margin-bottom: 40px;
 }
 
@@ -11946,7 +11946,7 @@ section {
 }
 
 @media (min-width: 1199.98px) {
-  #intro {
+  #home-page #intro {
     margin-bottom: 100px;
   }
 }
@@ -11974,6 +11974,10 @@ section {
 }
 
 @media (min-width: 0) and (max-width: 991.98px) {
+  #home-page #services-projects .special-feature .spl-iln {
+    width: 260px;
+  }
+
   #home-page #services-projects .text-content {
     margin-bottom: 50px;
   }
@@ -11992,7 +11996,7 @@ section {
 
   #home-page #services-projects a.text-btn-sm.mobile-only {
     display: block;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     font-size: 2.618rem;
     border: none;
@@ -12024,6 +12028,10 @@ section {
 
   #home-page #intro {
     margin-bottom: 100px;
+  }
+
+  #client-list img#lg-clients {
+    display: block !important;
   }
 }
 

@@ -3,9 +3,16 @@
 
 // Extra large devices (large desktops)
 @media (min-width: 1199.98px) {
-  #intro {
-    margin-bottom: 100px;
+
+  //Home
+  #home-page {
+    #intro {
+      margin-bottom: 100px;
+    }
+
+
   }
+
 }
 
 
@@ -30,12 +37,16 @@
     #intro {
       margin-bottom: 0px;
     }
+
   }
 }
 
 @media (min-width: 0) and (max-width: 991.98px) {
   #home-page {
     #services-projects {
+      .special-feature .spl-iln {
+        width: 260px;
+      }
 
       .text-content {
         margin-bottom: 50px;
@@ -51,7 +62,7 @@
       }
       a.text-btn-sm.mobile-only {
         display: block;
-        padding: 40px;
+        padding: 20px;
         text-align: center;
         font-size: 2.618rem;
         border: none;
@@ -94,6 +105,14 @@
     }
   }
 
+  #client-list {
+    img#lg-clients {
+      display: block !important;
+    }
+  }
+
+
+
 }
 
 
@@ -129,6 +148,15 @@
         width: 60%;
       }
     }
+
+    #next-gen {
+    h2 {
+      font-size: 2.618rem;
+      margin-bottom: 50px;
+      max-width: 400px;
+      padding: 0 20px;
+    }
+  }
     #services-projects {
       .text-content {
         margin-bottom: 50px;
@@ -139,6 +167,18 @@
       .metric-boxes {
         margin-top: 100px;
       }
+
+      .special-feature .content-box {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center !important;
+
+        .spl-iln {
+          background: none;
+          height: auto;
+          width: 400px;
+          margin: 0 auto !important;
+        }
     }
 
   }
@@ -205,7 +245,6 @@
         text-align: center !important;
 
         .spl-iln {
-          margin: 0 0;
           background: none;
           height: auto;
           width: 400px;
@@ -225,5 +264,8 @@
       padding: 0 20px;
     }
   }
+
+//  Partner CTA
+
 }
 
