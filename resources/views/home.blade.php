@@ -108,7 +108,7 @@
                                     SKODA factory in Aurangabad with a capacity of 1250KWp</p>
                             </div>
                         </div>
-                        <div class="btn-container">
+                        <div class="btn-container lg-only">
                             <a href="/projects" class="text-btn-sm section-btn">Read about our services <span
                                         class="next-icon"><img
                                             src="{{url('/media/icons/icon_next.svg')}}"
@@ -158,20 +158,36 @@
                     </div>
                 </div>
 
-                <a href="/projects" class="text-btn-sm mobile-only">Browse all projects</a>
+                <div href="" class="mobile-btns">
+                    <a href="/projects" class="text-btn-sm mobile-only">Browse all projects</a>
+                    <a href="/projects" class="text-btn-sm mobile-only">Read about our services</a>
+                </div>
+
             </div>
             <div class="special-feature">
                 <div class="container">
                     <div class="row">
                         <div class="spl-feat-block col-sm-12 col-md-6 col-lg-6">
-                            <div class="spl-iln"></div>
-                            <h3>We are <span>for</span> nature.</h3>
-                            <p>Sgrid is committed to play a significant role in the solar power arena and spear heading the green revolution by combating global warming and climate change.</p>
+                            <div class="content-box">
+                                <div class="spl-iln eco">
+                                    <img src="{{url('/media/illustrations/eco_iln.png')}}" alt=""
+                                         class="img-fluid">
+                                </div>
+                                <h3>We are <span>for</span> nature.</h3>
+                                <p>Sgrid is committed to play a significant role in the solar power arena and spear
+                                    heading the green revolution by combating global warming and climate change.</p>
+                            </div>
                         </div>
                         <div class="spl-feat-block col-sm-12 col-md-6 col-lg-6">
-                            <div class="spl-iln"></div>
-                            <h3>We Innovate</h3>
-                            <p>We have our eyes firmly set on the future of the arena, thanks to our group of hard-working and committed research experts, we keep up to speed.</p>
+                            <div class="content-box">
+                                <div class="spl-iln innovation">
+                                    <img src="{{url('/media/illustrations/innovation_iln.png')}}" alt=""
+                                         class="img-fluid">
+                                </div>
+                                <h3>We Innovate</h3>
+                                <p>We have our eyes firmly set on the future of the arena, thanks to our group of
+                                    hard-working and committed research experts, we keep up to speed.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

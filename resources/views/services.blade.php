@@ -29,69 +29,22 @@
         </div>
 
 
-        <div id="key-points">
-            Highest Engineering Standards with experienced in-house
-            design team
+        {{--<div id="key-points">--}}
+            {{--Highest Engineering Standards with experienced in-house--}}
+            {{--design team--}}
 
-            Continuous Innovation in Floating & Battery Energy Storage
-            system
+            {{--Continuous Innovation in Floating & Battery Energy Storage--}}
+            {{--system--}}
 
-            Quality and certified products
+            {{--Quality and certified products--}}
 
-            Partnership with Tier 1 equipment suppliers
+            {{--Partnership with Tier 1 equipment suppliers--}}
 
-            Timely project completion within the estimated budget
+            {{--Timely project completion within the estimated budget--}}
 
-            Quality Execution plans with Safety Management
-        </div>
+            {{--Quality Execution plans with Safety Management--}}
+        {{--</div>--}}
 
-        {{--Philosophy--}}
-        {{--<section id="philosophy" class>--}}
-            {{--<div class="container">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-sm-12 col-md-12 col-lg-6">--}}
-                        {{--<div class="metric-boxes">--}}
-                            {{--<div class="row">--}}
-                                {{--<div class="metric-container col-6">--}}
-                                    {{--<div class="metric-box box-1">--}}
-                                        {{--<div class="number">275+ <span class="units">MW</span></div>--}}
-                                        {{--<div class="title">Projects commissioned successfully</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                                {{--<div class="col-6"></div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row">--}}
-                                {{--<div class="col-6"></div>--}}
-                                {{--<div class="metric-container col-6">--}}
-                                    {{--<div class="metric-box box-2">--}}
-                                        {{--<div class="number">150+ <span class="units">MW</span></div>--}}
-                                        {{--<div class="title">Projects currently in pipeline</div>--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-sm-12 col-md-12 col-lg-6">--}}
-                        {{--<div class="text-content">--}}
-                            {{--<h2>Our Philosophy</h2>--}}
-                            {{--<p>The energy sector is one of the foremost indicators of a country's economic growth. India--}}
-                                {{--taps into its energy from a gamut of sources, including gas, water, oil, coal besides--}}
-                                {{--solar power. And the demand for electricity in the country is more imminent than ever--}}
-                                {{--before.</p>--}}
-                            {{--<p>This is enough proof for us to showcase the importance that renewable energy holds, with--}}
-                                {{--regard to our country's future. This also welcomes an opportunity to explore several--}}
-                                {{--projects in the energy sector, which the Government and private sectors are unleashing--}}
-                                {{--to good potential. Our services are in absolute coherence with the aims of the country--}}
-                                {{--and the globe and the hope for a sustainable future.</p>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-
-
-            {{--</div>--}}
-        {{--</section>--}}
-
-        {{--Solar--}}
         <section class="service-segment" id="solar">
             <div class="container">
                 <div class="icon">
@@ -143,6 +96,22 @@
 
                         </div>
 
+                        <div class="pointer col-sm-12 col-md-6">
+
+                            <div class="row">
+                                <div class="col-1 bullet"></div>
+                                <div class="col-11">
+                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at HINDUSTAN AERONAUTICS LIMITED
+                                        in Koruput Odisa. This project was tough due to its geographical location and the
+                                        developers had their doubts on the timelines. We took it as an challenge and
+                                        commissioned the 7 MW Project in a record time of 45 Days.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -155,6 +124,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="product col-sm-12 col-md-6">
+                            <div class="h-box"></div>
                             <h3>Rooftop Installations</h3>
                             <p>Our services with solar rooftop installation include its conceptualisation, seamless
                                 execution in addition to the handling of operations and maintenance of the systems. This
@@ -162,6 +132,7 @@
                                 as a globally competent solar superpower.</p>
                         </div>
                         <div class="product col-sm-12 col-md-6">
+                            <div class="h-box"></div>
                             <h3>Utility-Scale Installations</h3>
                             <p>We enable utility-scale solar installation, thereby creating devices that generate
                                 optimum, clean energy with long-term efficiency. This affirms our commitment to
@@ -182,37 +153,47 @@
                 <div class="text-content">
                     <h2>Railway Overhead Electrification</h2>
                     <p>Staying true to the aim of complete electrification of Indian Railways by the next decade, we
-                        design and provide overhead electrification in the railways sector. As part of our services, our
-                        highly qualified team also undertakes traction sub-station and electrical works including
-                        building and station yard lighting utilising the latest technologies in the market.
+                        design and provide overhead electrification in the railways sector. As part of our services, our scope includes
+                        Survey &amp; Design,
+                        Location marking &amp;foundations,
+                        Mast Erections
+                        Bracket Erection
+                        Wiring &amp; Termination
+                        Testing &amp; Commissioning
                     </p>
                 </div>
 
                 <div class="pointers-list">
                     <div class="row">
-                        <div class="pointer col-sm-12 col-md-6">
 
+
+                        <div class="pointer col-sm-12 col-md-6">
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Recently awarded 83 TKM of Railway OHE projects based out
-                                        of two locations in Madhya Pradesh by Western Railways.
+                                    <div class="pointer-text">
+                                        We were recently awarded a project involving Design, Supply, Erection, Testing & Commissioning of 25KV OHE
+                                        between Mhow – Khandwa, another 20KV between Ujjain - Indore, both sections of 40 TKM in Ratlam division of
+                                        Western Railways.
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="pointer col-sm-12 col-md-6">
 
+                        <div class="pointer col-sm-12 col-md-6">
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Turnkey(end to end) solutions are offered in this space
+                                    <div class="pointer-text">
+                                        Turnkey(end to end) solutions are offered in this space
                                         and undertake traction substation and general electrical works.
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
@@ -244,8 +225,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Experience in constructing transmission lines and
-                                        switchyards upto 132 Kv
+                                    <div class="pointer-text">Experience in constructing of transmission lines and
+                                        switchyards of capacity up to 132 Kv
                                     </div>
                                 </div>
                             </div>
@@ -266,8 +247,9 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">A dedicated research team working on the understanding of
-                                        battery storage system.
+                                    <div class="pointer-text">Targeted to Bag 220 KV Transmission line &
+                                        Substation at least for a value of 100 Crore tenders
+                                        during this financial year.
                                     </div>
                                 </div>
                             </div>
@@ -313,24 +295,24 @@
                         </p>
                     </div>
                 </div>
-                <a href="/" class="text-btn-sm">Get updates from Sgrid ></a>
+                {{--<a href="/" class="text-btn-sm">Get updates from Sgrid ></a>--}}
             </div>
         </section>
         {{--turnkey feature--}}
-        <section class="bg-feature cta">
-            <div class="background-image rellax">
-                <img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">
-            </div>
+        {{--<section class="bg-feature cta">--}}
+            {{--<div class="background-image rellax">--}}
+                {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
+            {{--</div>--}}
 
-            <div class="container">
-                <div class="text-content">
-                    <h3>What matters to us is the satisfaction of the people we work with and the tasks we commit to, be
-                        it the entire project, end-to-end fulfillment or being a small part in the project
-                        execution.</h3>
-                    <a href="/" class="std-btn">Work with us</a>
-                </div>
-            </div>
-        </section>
+            {{--<div class="container">--}}
+                {{--<div class="text-content">--}}
+                    {{--<h3>What matters to us is the satisfaction of the people we work with and the tasks we commit to, be--}}
+                        {{--it the entire project, end-to-end fulfillment or being a small part in the project--}}
+                        {{--execution.</h3>--}}
+                    {{--<a href="/" class="std-btn">Work with us</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</section>--}}
 
     </div>
 
