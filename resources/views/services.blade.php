@@ -122,8 +122,13 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature service-list-img">
+            <section class="bg-feature service-list-img lg-only">
                 <div class="background-image rellax">
+                    <img class="img-fluid" src="{{url('/media/images/services_solar.jpg')}}" alt="">
+                </div>
+            </section>
+            <section class="bg-feature service-list-img mobile-only">
+                <div class="background-image">
                     <img class="img-fluid" src="{{url('/media/images/services_solar.jpg')}}" alt="">
                 </div>
             </section>
@@ -206,8 +211,13 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature service-list-img">
+            <section class="bg-feature service-list-img lg-only">
                 <div class="background-image rellax">
+                    <img class="img-fluid" src="{{url('/media/images/services_ohe.jpg')}}" alt="">
+                </div>
+            </section>
+            <section class="bg-feature service-list-img mobile-only">
+                <div class="background-image">
                     <img class="img-fluid" src="{{url('/media/images/services_ohe.jpg')}}" alt="">
                 </div>
             </section>
@@ -266,26 +276,34 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-feature service-list-img">
+            <section class="bg-feature service-list-img lg-only">
                 <div class="background-image rellax">
+                    <img class="img-fluid" src="{{url('/media/images/services_tnd.jpg')}}" alt="">
+                </div>
+            </section>
+            <section class="bg-feature service-list-img mobile-only">
+                <div class="background-image ">
                     <img class="img-fluid" src="{{url('/media/images/services_tnd.jpg')}}" alt="">
                 </div>
             </section>
         </section>
         {{--innovation--}}
         <section id="innovation">
+
             <div class="container">
+                <h2>Innovation at Sgrid</h2>
                 <div class="head-text">
                     <div class="row">
-                        <h2>Innovation at Sgrid</h2>
+
                         <div class="col-sm-12 col-md-8">
                             <p>We're not only a team that's entrenched in the current day scenario of power infrastructure but
                                 have our eyes firmly set on the future of the arena, thanks to our group of hard-working and
                                 committed research experts.
                             </p>
                         </div>
+
                         <div class="col-sm-12 col-md-4">
-                            <div class="illustration rellax" data-rellax-speed="-4">
+                            <div class="illustration" >
                                 <img class="img-fluid" src="{{url('/media/illustrations/innovation_iln.png')}}" alt="">
                             </div>
                         </div>
@@ -335,76 +353,3 @@
 
 
 @endsection
-
-
-{{--<section id="services">--}}
-{{--<div class="container text-block">--}}
-{{--<div class="row">--}}
-{{--<div class="col-5">--}}
-{{--<h2>We Design Solutions</h2>--}}
-{{--<h4>Ut sit amet pharetra quam, ut feugiat velit.--}}
-{{--Aenean sapien ante, vehicula vel ex eu, rutrum--}}
-{{--posuere lectus. Lorem ipsum dolor sit amet,--}}
-{{--consectetur adipiscing elit.</h4>--}}
-{{--</div>--}}
-{{--<div class="col-1"></div>--}}
-{{--<div class="col-6">--}}
-{{--<div class="service-elem">--}}
-{{--<div class="row">--}}
-{{--<div class="col-2">--}}
-{{--<div class="elem-icon"></div>--}}
-{{--</div>--}}
-{{--<div class="col-10">--}}
-{{--<div class="elem-text">--}}
-{{--<h4 class="service-head">Solar</h4>--}}
-{{--<div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean--}}
-{{--sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor--}}
-{{--sit amet, consectetur adipiscing elit.--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-
-{{--<div class="service-elem">--}}
-{{--<div class="row">--}}
-{{--<div class="col-2">--}}
-{{--<div class="elem-icon"></div>--}}
-{{--</div>--}}
-{{--<div class="col-10">--}}
-{{--<div class="elem-text">--}}
-{{--<h4 class="service-head">Railway Overhead Electrification</h4>--}}
-{{--<div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean--}}
-{{--sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor--}}
-{{--sit amet, consectetur adipiscing elit.--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-
-{{--<div class="service-elem">--}}
-{{--<div class="row">--}}
-{{--<div class="col-2">--}}
-{{--<div class="elem-icon"></div>--}}
-{{--</div>--}}
-{{--<div class="col-10">--}}
-{{--<div class="elem-text">--}}
-{{--<h4 class="service-head">Transmission & Distribution</h4>--}}
-{{--<div class="service-desc">Ut sit amet pharetra quam, ut feugiat velit. Aenean--}}
-{{--sapien ante, vehicula vel ex eu, rutrum posuere lectus. Lorem ipsum dolor--}}
-{{--sit amet, consectetur adipiscing elit.--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-
-{{--Carousel--}}
-{{--<div class="feature-img">--}}
-{{--<img class="img-fluid" src="{{url('/media/images/skoda_feat@2x.jpg')}}" alt="">--}}
-{{--</div>--}}
-{{--</section>--}}

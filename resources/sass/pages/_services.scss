@@ -124,9 +124,17 @@
   }
 }
 
-.service-list-img.bg-feature {
-  background: none;
+.service-list-img {
+  &.mobile-only {
+    min-height: 250px;
+  }
+
+  .bg-feature {
+    background: none;
+  }
 }
+
+
 
 #solar {
   .feature-section {
@@ -145,10 +153,10 @@
 }
 
 #innovation {
-  position: relative;
   .illustration {
     height: 200px;
     width: 300px;
+    position: relative;;
     bottom: 100px;
   }
   .head-text {
@@ -161,10 +169,11 @@
   }
 
   .product-list {
-    margin-bottom: 40px;
+    margin-top: 30px;
   }
 
   .product {
+    margin-bottom: 40px;
     h3 {
       font-size: 1.618rem;
       font-weight: 700;

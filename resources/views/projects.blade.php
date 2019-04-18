@@ -39,7 +39,7 @@
                             </div>
 
                             <div class="buttons">
-                                <a href="/">View Gallery</a>
+                                {{--<a href="/">View Gallery</a>--}}
                                 {{--<a href="/">Read Case Study</a>--}}
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="buttons">
-                                <a href="/">View Gallery</a>
+                                {{--<a href="/">View Gallery</a>--}}
                                 {{--<a href="/">Read Case Study</a>--}}
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                             </div>
 
                             <div class="buttons">
-                                <a href="/">View Gallery</a>
+                                {{--<a href="/">View Gallery</a>--}}
                                 {{--<a href="/">Read Case Study</a>--}}
                             </div>
                         </div>
