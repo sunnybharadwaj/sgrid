@@ -3,6 +3,7 @@
         <div class="text-content">
             <h2>What makes us best for the job?</h2>
             <div class="row">
+
                 <div class="col-sm-12 col-md-6">
                     <div class="usp-elem">
                         {{--<div class="usp-icon"></div>--}}

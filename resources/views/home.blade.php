@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <section class="bg-feature">
+        <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
                 <video loop autoplay class="embed-responsive-item ">

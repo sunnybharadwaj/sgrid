@@ -146,13 +146,10 @@
 
 #innovation {
   position: relative;
-
   .illustration {
-    position: absolute;
-    right: 100px;
-    top: 0;
     height: 200px;
     width: 300px;
+    bottom: 100px;
   }
   .head-text {
     margin-bottom: 40px;

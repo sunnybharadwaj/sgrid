@@ -43,7 +43,7 @@
                     </h4>
                 </div>
 
-                <section id="page-img" class="text-center rellax">
+                <section id="page-img" class="text-center rellax lg-only">
                     <div class="img-container">
                         <div class="img-block rellax">
                             <img src="{{url('/media/images/about_header.jpg')}}" class="img-fluid" alt="">
@@ -76,14 +76,17 @@
                     <p class="quote-sign">Mohan Reddy</p>
                     <p class="quote-sign">CEO</p>
 
-                    <div class="metric-box box-1">
-                        <div class="number">275+ <span class="units">MW</span></div>
-                        <div class="title">Projects commissioned successfully</div>
+                    <div class="lg-only">
+                        <div class="metric-box box-1">
+                            <div class="number">275+ <span class="units">MW</span></div>
+                            <div class="title">Projects commissioned successfully</div>
+                        </div>
+                        <div class="metric-box box-2">
+                            <div class="number">150+ <span class="units">MW</span></div>
+                            <div class="title">Projects currently in pipeline</div>
+                        </div>
                     </div>
-                    <div class="metric-box box-2">
-                        <div class="number">150+ <span class="units">MW</span></div>
-                        <div class="title">Projects currently in pipeline</div>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -189,14 +192,20 @@
         <section id="clients">
             <div class="container">
                 <div class="header row">
-                    <div class="col-sm-12 col-md-12">
+                    <div class="col-sm-12 col-md-12 col-lg-7">
                         <div class="header-text">
-                            <h2>Our Clients Speak</h2>
+                            <h2>Our Clients Speak: </h2>
                             <p>Our zeal has always been to empower the people whom we work with and we're keen
                                 listeners. Our clients get minimal escalations and intrusions, given we're hands-on with
                                 the project and provide seamless support to the clients through its execution. </p>
                         </div>
 
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div class="illustration ">
+                            <img class="img-fluid" src="{{url('/media/illustrations/clients_iln.png')}}" alt="">
+                        </div>
                     </div>
 
                     {{--<div class="video-block col-sm-12 col-md-6">--}}

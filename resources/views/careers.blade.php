@@ -5,14 +5,21 @@
 @endsection
 
 @section('content')
-    <div id="services-page">
-        <div class="container">
-            <section id="page-head">
-                <h2 class="">Careers at Sgrid</h2>
-                <p></p>
+    <div id="careers-page">
+        <section id="page-header" class="text-center animated fadeIn rellax">
+            <div class="page-iln">
+                <img src="{{url('/media/illustrations/careers_iln.png')}}" alt="" class="img-fluid">
+            </div>
+            <h2>Careers at Sgrid</h2>
+        </section>
+        {{--<div class="container">--}}
+            {{--<section id="page-head">--}}
+                {{--<h2 class="">Careers at Sgrid</h2>--}}
+                {{--<p></p>--}}
                 {{--<a href="/" class="std-btn">Apply Now</a>--}}
-            </section>
-        </div>
+            {{--</section>--}}
+        {{--</div>--}}
+
 
         {{--<section class="bg-feature">--}}
             {{--<div class="background-image ">--}}

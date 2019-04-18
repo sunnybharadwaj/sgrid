@@ -47,8 +47,17 @@ h5 {
   color: $sgrid-color !important;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 section {
   margin: 150px 0;
+}
+
+.bg-feature video{
+  max-width: 100%;
+  min-width: 100%;
 }
 
 #page-header {
@@ -63,6 +72,7 @@ section {
   h2 {
     max-width: 700px;
     margin: 0 auto;
+    padding: 0 20px;
   }
 }
 

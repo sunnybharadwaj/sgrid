@@ -10478,7 +10478,7 @@ a.text-dark:focus {
   width: 100vw;
   background: #000419;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .full-page-menu.active {
@@ -10488,7 +10488,8 @@ a.text-dark:focus {
 .full-page-menu a {
   color: white;
   opacity: 0.9;
-  font-size: 2.618rem;
+  font-size: 2rem;
+  letter-spacing: -0.04rem;
   display: block;
   padding: 30px 0;
 }
@@ -10720,7 +10721,7 @@ nav.scrolled .nav-menu {
 
 #partner-cta .text-content,
 .bg-feature .text-content {
-  padding: 150px 20px;
+  padding: 150px 20px 130px;
   max-width: 1090px;
   margin: 0 auto;
 }
@@ -11032,8 +11033,17 @@ h5 {
   color: #F27123 !important;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 section {
   margin: 150px 0;
+}
+
+.bg-feature video {
+  max-width: 100%;
+  min-width: 100%;
 }
 
 #page-header {
@@ -11050,6 +11060,7 @@ section {
 #page-header h2 {
   max-width: 700px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 #usp {
@@ -11242,9 +11253,9 @@ section {
 }
 
 #next-gen h2 {
-  max-width: 800px;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  max-width: 600px;
+  font-size: 3.236rem;
+  margin: 0 auto 50px;
 }
 
 #services-projects {
@@ -11581,10 +11592,6 @@ section {
   background: #F8F8F8;
 }
 
-#clients .header {
-  margin-bottom: 100px;
-}
-
 #clients .header .header-text p {
   line-height: 1.4;
   max-width: 600px;
@@ -11782,11 +11789,9 @@ section {
 }
 
 #innovation .illustration {
-  position: absolute;
-  right: 100px;
-  top: 0;
   height: 200px;
   width: 300px;
+  bottom: 100px;
 }
 
 #innovation .head-text {
@@ -11893,6 +11898,10 @@ section {
   font-weight: 700;
 }
 
+#careers-page #page-header {
+  margin-bottom: 50px;
+}
+
 #page-head {
   margin-bottom: 50px;
 }
@@ -11907,7 +11916,7 @@ section {
   margin-bottom: 50px;
 }
 
-#services-page .bg-feature h3 {
+#careers-page .bg-feature h3 {
   font-size: 1.618rem;
 }
 
@@ -12002,6 +12011,21 @@ section {
     border: none;
     letter-spacing: -0.123rem;
   }
+
+  #about-page .bg-feature.video-block {
+    min-height: 300px;
+  }
+
+  #about-page #ceo-word .content-box {
+    padding: 40px 0;
+    border-bottom: none !important;
+  }
+
+  #about-page #usp h2 {
+    max-width: 500px;
+    margin: 0 auto 60px;
+    padding: 0 30px;
+  }
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -12028,6 +12052,10 @@ section {
 
   #home-page #intro {
     margin-bottom: 100px;
+  }
+
+  .bg-feature.video-block video {
+    min-width: 125%;
   }
 
   #client-list img#lg-clients {
@@ -12065,6 +12093,17 @@ section {
     width: 60%;
   }
 
+  #home-page .bg-feature.video-block video {
+    min-width: 175%;
+  }
+
+  #home-page #next-gen h2 {
+    font-size: 2.618rem;
+    margin-bottom: 50px;
+    max-width: 400px;
+    padding: 0 20px;
+  }
+
   #home-page #services-projects .text-content {
     margin-bottom: 50px;
   }
@@ -12075,6 +12114,23 @@ section {
 
   #home-page #services-projects .metric-boxes {
     margin-top: 100px;
+  }
+
+  #home-page #services-projects .special-feature .content-box {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+
+  #home-page #services-projects .special-feature .content-box .spl-iln {
+    background: none;
+    height: auto;
+    width: 400px;
+    margin: 0 auto !important;
+  }
+
+  #about-page .bg-feature.video-block {
+    min-height: 400px;
   }
 }
 
@@ -12113,8 +12169,32 @@ section {
     width: 75%;
   }
 
+  #home-page .bg-feature {
+    overflow: hidden;
+    min-height: auto;
+  }
+
+  #home-page .bg-feature .content-box {
+    padding: 100px 20px;
+  }
+
+  #home-page .bg-feature .background-image {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  #home-page .bg-feature .background-image video {
+    max-width: 220%;
+  }
+
+  #home-page .bg-feature h3 {
+    font-size: 2rem;
+  }
+
   #home-page #intro {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 
   #home-page #services-projects a.text-btn-sm {
@@ -12134,7 +12214,6 @@ section {
   }
 
   #home-page .special-feature .content-box .spl-iln {
-    margin: 0 0;
     background: none;
     height: auto;
     width: 400px;

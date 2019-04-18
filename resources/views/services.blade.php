@@ -30,19 +30,19 @@
 
 
         {{--<div id="key-points">--}}
-            {{--Highest Engineering Standards with experienced in-house--}}
-            {{--design team--}}
+        {{--Highest Engineering Standards with experienced in-house--}}
+        {{--design team--}}
 
-            {{--Continuous Innovation in Floating & Battery Energy Storage--}}
-            {{--system--}}
+        {{--Continuous Innovation in Floating & Battery Energy Storage--}}
+        {{--system--}}
 
-            {{--Quality and certified products--}}
+        {{--Quality and certified products--}}
 
-            {{--Partnership with Tier 1 equipment suppliers--}}
+        {{--Partnership with Tier 1 equipment suppliers--}}
 
-            {{--Timely project completion within the estimated budget--}}
+        {{--Timely project completion within the estimated budget--}}
 
-            {{--Quality Execution plans with Safety Management--}}
+        {{--Quality Execution plans with Safety Management--}}
         {{--</div>--}}
 
         <section class="service-segment" id="solar">
@@ -65,7 +65,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text"> We served <span class="font-weight bold">Airport Authority of India (AAI)</span> in setting up a 1000 KWp solar power plant for TIRUPATI Airport
+                                    <div class="pointer-text"> We served <span class="font-bold">Airport Authority of India (AAI)</span>
+                                        in setting up a 1000 KWp solar power plant for TIRUPATI Airport
                                     </div>
                                 </div>
                             </div>
@@ -76,8 +77,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid bid on behalf of PEBS PENNAR in collaboration with Raychem RPG Group
-                                        in NLC Tender for setting up a project of 20 MW.
+                                    <div class="pointer-text">SGrid bid on behalf of <span class="font-bold">PEBS PENNAR</span> in collaboration with
+                                        Raychem RPG Group in NLC Tender for setting up a project of <span class="font-bold">20 MW</span>.
                                     </div>
                                 </div>
                             </div>
@@ -88,8 +89,11 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at all the Jawahar Navodaya Vidyalaya schools of Andhra Pradesh with which SGrid reached to Nine (09) Districts
-                                        of Andhra Pradesh to remove Carbon Footprints. Cumulative Capacity of 1.0 MWp was installed here.
+                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at all
+                                        the <span class="font-bold">Jawahar Navodaya Vidyalaya</span> schools of Andhra Pradesh with which SGrid
+                                        reached to Nine (09) Districts
+                                        of Andhra Pradesh to remove Carbon Footprints. Cumulative Capacity of <span class="font-bold">1.0 MWp</span>
+                                        was installed here.
                                     </div>
                                 </div>
                             </div>
@@ -97,14 +101,17 @@
                         </div>
 
                         <div class="pointer col-sm-12 col-md-6">
-
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at HINDUSTAN AERONAUTICS LIMITED
-                                        in Koruput Odisa. This project was tough due to its geographical location and the
-                                        developers had their doubts on the timelines. We took it as an challenge and
-                                        commissioned the 7 MW Project in a record time of 45 Days.
+                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at
+                                        <span class="font-bold">
+                                            HINDUSTAN AERONAUTICS LIMITED
+                                        </span>
+                                        in Koruput, Odisa. This project was tough due to its geographical location and
+                                        the
+                                        developers had their doubts on the time-lines. We took it as an challenge and
+                                        commissioned the <span class="font-bold">7 MW</span> Project in a record time of 45 Days.
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +160,8 @@
                 <div class="text-content">
                     <h2>Railway Overhead Electrification</h2>
                     <p>Staying true to the aim of complete electrification of Indian Railways by the next decade, we
-                        design and provide overhead electrification in the railways sector. As part of our services, our scope includes
+                        design and provide overhead electrification in the railways sector. As part of our services, our
+                        scope includes
                         Survey &amp; Design,
                         Location marking &amp;foundations,
                         Mast Erections
@@ -172,8 +180,10 @@
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
                                     <div class="pointer-text">
-                                        We were recently awarded a project involving Design, Supply, Erection, Testing & Commissioning of 25KV OHE
-                                        between Mhow – Khandwa, another 20KV between Ujjain - Indore, both sections of 40 TKM in Ratlam division of
+                                        We were recently awarded a project involving Design, Supply, Erection, Testing &
+                                        Commissioning of <span class="font-bold">25KV</span> OHE
+                                        between <span class="font-bold">Mhow - Khandwa</span>, another <span class="font-bold">25KV</span> between <span class="font-bold">Ujjain - Indore</span>, both sections of
+                                        <span class="font-bold">40 TKM</span> in Ratlam division of
                                         Western Railways.
                                     </div>
                                 </div>
@@ -191,7 +201,6 @@
                                 </div>
                             </div>
                         </div>
-
 
 
                     </div>
@@ -213,7 +222,7 @@
                 <div class="text-content">
                     <h2>Transmission & Distribution</h2>
                     <p>We design and engineer an entire project considering all parameters that'll ensure a seamless
-                        system integration. We plan, design transmission lines and switchyards and provide distribution
+                        system integration. We plan, design transmission lines and switch-yards and provide distribution
                         services of primary voltage distribution lines for our clients.
                     </p>
                 </div>
@@ -226,7 +235,7 @@
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
                                     <div class="pointer-text">Experience in constructing of transmission lines and
-                                        switchyards of capacity up to 132 Kv
+                                        switch-yards of capacity up to <span class="font-bold">132 Kv</span>
                                     </div>
                                 </div>
                             </div>
@@ -236,24 +245,24 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Currently undertaking two projects on 220 Kv switchyards,
+                                    <div class="pointer-text">Currently undertaking two projects on <span class="font-bold">220 Kv</span> switch-yards,
                                         commissioned by NTPC Ltd
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                        <div class="pointer col-sm-12 col-md-6">
-                            <div class="row">
-                                <div class="col-1 bullet"></div>
-                                <div class="col-11">
-                                    <div class="pointer-text">Targeted to Bag 220 KV Transmission line &
-                                        Substation at least for a value of 100 Crore tenders
-                                        during this financial year.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {{--<div class="pointer col-sm-12 col-md-6">--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-1 bullet"></div>--}}
+                                {{--<div class="col-11">--}}
+                                    {{--<div class="pointer-text">Targeted to  220 KV Transmission line &--}}
+                                        {{--Substation at least for a value of 100 Crore tenders--}}
+                                        {{--during this financial year.--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>
@@ -267,14 +276,22 @@
         <section id="innovation">
             <div class="container">
                 <div class="head-text">
-                    <h2>Innovation at Sgrid</h2>
-                    <p>We're not only a team that's entrenched in the current day scenario of power infrastructure but
-                        have our eyes firmly set on the future of the arena, thanks to our group of hard-working and
-                        committed research experts.
-                    </p>
-                    <div class="illustration rellax">
-                        <img class="img-fluid" src="{{url('/media/illustrations/innovation_iln.png')}}" alt="">
+                    <div class="row">
+                        <h2>Innovation at Sgrid</h2>
+                        <div class="col-sm-12 col-md-8">
+                            <p>We're not only a team that's entrenched in the current day scenario of power infrastructure but
+                                have our eyes firmly set on the future of the arena, thanks to our group of hard-working and
+                                committed research experts.
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="illustration rellax" data-rellax-speed="-4">
+                                <img class="img-fluid" src="{{url('/media/illustrations/innovation_iln.png')}}" alt="">
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
 
                 <div class="row product-list">
@@ -300,18 +317,18 @@
         </section>
         {{--turnkey feature--}}
         {{--<section class="bg-feature cta">--}}
-            {{--<div class="background-image rellax">--}}
-                {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-            {{--</div>--}}
+        {{--<div class="background-image rellax">--}}
+        {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
+        {{--</div>--}}
 
-            {{--<div class="container">--}}
-                {{--<div class="text-content">--}}
-                    {{--<h3>What matters to us is the satisfaction of the people we work with and the tasks we commit to, be--}}
-                        {{--it the entire project, end-to-end fulfillment or being a small part in the project--}}
-                        {{--execution.</h3>--}}
-                    {{--<a href="/" class="std-btn">Work with us</a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
+        {{--<div class="container">--}}
+        {{--<div class="text-content">--}}
+        {{--<h3>What matters to us is the satisfaction of the people we work with and the tasks we commit to, be--}}
+        {{--it the entire project, end-to-end fulfillment or being a small part in the project--}}
+        {{--execution.</h3>--}}
+        {{--<a href="/" class="std-btn">Work with us</a>--}}
+        {{--</div>--}}
+        {{--</div>--}}
         {{--</section>--}}
 
     </div>

@@ -12,7 +12,7 @@
   width: 100vw;
   background: $dark-bg-color;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 
   &.active {
     display: block;
@@ -21,7 +21,8 @@
   a {
     color: white;
     opacity: 0.9;
-    font-size: 2.618rem;
+    font-size: 2rem;
+    letter-spacing: -0.04rem;
     display: block;
     padding: 30px 0;
 
