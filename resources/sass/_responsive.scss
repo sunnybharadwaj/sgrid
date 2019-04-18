@@ -252,6 +252,16 @@
     display: none;
   }
 
+  //cta
+  #partner-cta {
+    h4 {
+      font-size: 1rem;
+    }
+    .std-btn {
+      font-size: 1rem;
+    }
+  }
+
   //Contact
   #map .map-container .contact-details .ct-column:nth-of-type(1) {
     padding: 0;
@@ -325,6 +335,10 @@
         font-size: 1.618rem !important;
         letter-spacing: -0.08rem !important;
       }
+    }
+
+    .metric-boxes {
+      transform: scale(0.8);
     }
 
     .special-feature {

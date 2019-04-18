@@ -10478,7 +10478,7 @@ a.text-dark:focus {
   width: 100vw;
   background: #000419;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .full-page-menu.active {
@@ -10491,7 +10491,7 @@ a.text-dark:focus {
   font-size: 2rem;
   letter-spacing: -0.04rem;
   display: block;
-  padding: 30px 0;
+  padding: 30px 0 20px;
 }
 
 .full-page-menu a:hover {
@@ -10501,10 +10501,10 @@ a.text-dark:focus {
 .full-page-menu a.close-btn {
   padding: 20px;
   position: fixed;
-  right: 60px;
-  top: 30px;
+  right: 14px;
+  top: 5px;
   display: block;
-  width: 70px;
+  width: 60px;
   height: 70px;
   z-index: 1001;
 }
@@ -12176,6 +12176,14 @@ section {
     display: none;
   }
 
+  #partner-cta h4 {
+    font-size: 1rem;
+  }
+
+  #partner-cta .std-btn {
+    font-size: 1rem;
+  }
+
   #map .map-container .contact-details .ct-column:nth-of-type(1) {
     padding: 0;
   }
@@ -12240,6 +12248,11 @@ section {
     padding: 20px 0;
     font-size: 1.618rem !important;
     letter-spacing: -0.08rem !important;
+  }
+
+  #home-page .metric-boxes {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
 
   #home-page .special-feature .spl-feat-block {
