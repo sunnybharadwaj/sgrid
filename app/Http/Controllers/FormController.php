@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Customer;
+use Illuminate\Database\QueryException;
 use Illuminate\Http\Request;
 
-use APP\Customer;
 class FormController extends Controller
 {
     /**
@@ -14,7 +15,7 @@ class FormController extends Controller
      */
     public function index()
     {
-        return ('This is the index page in the formcontroller');
+        //
     }
 
     /**
@@ -35,21 +36,25 @@ class FormController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request,[
-            'Name' =>'required',
-            'Email' =>'required',
-            'Message' =>'required',
-        ]);
-        $customer = new Customer;
+        try {
+            $customer = new Customer();
 
-        $customer->Name = $request->input('Name');
-        $customer->Email = $request->input('Email');
-        $customer->Subject = $request->input('Subject');
-        $customer->Message = $request->input('Message');
-        
-        $customer->save();
+            $customer->name = $request->input('Name');
+            $customer->email = $request->input('Email');
+            $customer->case = $request->input('Case');
+            $customer->message = $request->input('Message');
 
-        return redirect("");
+            $customer->save();
+
+            session()->flash("message", "Thank you for submitting.");
+
+        } catch (QueryException $ex){
+            dd($ex);
+            session()->flash("message", "Something is wrong. Please try later.");
+        }
+
+        return redirect("/");
+
     }
 
     /**

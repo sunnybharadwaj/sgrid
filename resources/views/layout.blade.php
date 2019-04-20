@@ -75,18 +75,19 @@
         <div class="container">
             <h3>Contact Us</h3>
             <p>Please be as specific as possible in your entry below so that we could best help you. For urgent matters, please contact us directly with the details on our <a href="/contact">Contact Page</a></p>
-            <form action="">
+            <form action="{{ route('query.store') }}" method="POST">
+                @csrf
                 <div class="form-group">
                     <label for="contact-name">Name</label>
-                    <input id="contact-name" class="form-control" type="text">
+                    <input id="contact-name" class="form-control" type="text" name="name">
                 </div>
                 <div class="form-group">
                     <label for="contact-email">E-mail</label>
-                    <input id="contact-email" class="form-control" type="email">
+                    <input id="contact-email" class="form-control" type="email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="contact-reason">Please select what applies to your case:</label>
-                    <select class="form-control">
+                    <select class="form-control" name="case">
                         <option>Click here to select</option>
                         <option>I have a project that I want Sgrid to work on</option>
                         <option>I am an exisiting customer and I need help with an ongoing project</option>
@@ -98,10 +99,10 @@
 
                 <div class="form-group">
                     <label for="contact-message">Message</label>
-                    <textarea class="form-control" id="contact-message" rows="3"></textarea>
+                    <textarea class="form-control" id="contact-message" name="message" rows="3"></textarea>
                 </div>
 
-                <button class="std-btn" type="submit">Submit</button>
+                <button class="std-btn" type="submit" name="submit">Submit</button>
                 <a class="std-btn blue modal-close-btn" onclick="getFalse()">Close</a>
             </form>
         </div>

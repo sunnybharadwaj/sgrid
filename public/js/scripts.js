@@ -23,6 +23,10 @@ $('.close-btn').click(function() {
     $('.full-page-menu').toggleClass('active');
 });
 
+$('.form-success-close').click(function() {
+    $('#success-msg').toggleClass('hidden');
+});
+
 $('.cta-btn').click(function() {
     $('.custom-modal').addClass('active');
 });

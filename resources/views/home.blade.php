@@ -5,6 +5,22 @@
 @endsection
 
 @section('content')
+    @if (session()->has('message'))
+
+        <section id="success-msg">
+            <div class="h-bar"></div>
+
+            <div class="container">
+                <h3 class="text-center">{{ session()->get('message') }}</h3>
+            </div>
+
+            <a href="#" class="form-success-close">
+                <img src="{{url('/media/icons/icon_close.svg')}}" alt=""
+                     class="image-fluid">
+            </a>
+
+        </section>
+    @endif
     <div id="home-page">
         <section id="intro">
             <div class="container">

@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/about', function() {
     return view('about');
@@ -31,9 +31,13 @@ Route::get('/contact', function() {
     return view('contact');
 });
 
+Route::post('/query', 'QueryController@store')->name('query.store');
+Route::get('/querylist')->uses('QueryController@index');
+
 Route::get('/careers', function() {
     return view('careers');
 });
+
 
 
 Auth::routes();
