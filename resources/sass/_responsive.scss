@@ -140,6 +140,15 @@
     }
   }
 
+  //Gallery
+  #gallery-page .masonry {
+    column-count: 2;
+
+
+      .item.active img {
+        max-width: 80%;
+      }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -225,6 +234,11 @@
       min-height: 400px;
     }
   }
+
+  //Gallery
+  #gallery-page .masonry {
+    column-count: 1;
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -265,6 +279,11 @@
   //Contact
   #map .map-container .contact-details .ct-column:nth-of-type(1) {
     padding: 0;
+  }
+
+  //Gallery
+  #gallery-page .masonry {
+    column-count: 1;
   }
 
   //Projects

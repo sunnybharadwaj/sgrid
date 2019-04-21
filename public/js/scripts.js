@@ -41,3 +41,29 @@ $('.modal-close-btn').click(function() {
 function getFalse() {
     return false;
 }
+
+//Gallery
+//Open image
+$('.masonry.image-list .item').click(function() {
+    if($(window).width() > 767.98) {
+        $(this).toggleClass('active');
+        $('.masonry').toggleClass('focus-view');
+    }
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

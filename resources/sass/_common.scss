@@ -8,6 +8,7 @@ body {
   text-rendering: optimizeLegibility;
   color: $main-black;
   font-size: 1rem;
+  letter-spacing: 0.02rem;
 }
 
 html,body {
@@ -27,11 +28,12 @@ h3 {
   letter-spacing: -0.025em;
 }
 
+
 h4 {
   font-size: 1.618rem;
   line-height: 1.5;
-  letter-spacing: -0.025em;
   color: $sub-text-color;
+  letter-spacing: 0.02rem;
 }
 
 h5 {

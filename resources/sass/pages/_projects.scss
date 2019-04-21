@@ -44,4 +44,42 @@
   }
 }
 
+.custom-carousel {
+  overflow: visible !important;
+}
+.carousel-block {
+  display: block;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
 
+#projects-list {
+  h3 {
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+  font-weight: 700;
+  .h-bar {
+    height: 3px;
+    background: #E9E9E9;
+  }
+  .heading-row {
+    font-size: 12px;
+    color: $sub-text-color;
+    text-transform: uppercase;
+    margin: 30px -15px;
+  }
+  .project-row {
+    margin-bottom: 10px;
+  }
+
+  .project-element {
+    margin-top: 40px;
+  }
+
+  .project-content {
+    padding-bottom: 30px;
+  }
+}

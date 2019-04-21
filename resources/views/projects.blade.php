@@ -14,158 +14,133 @@
         </section>
 
         {{--Projects--}}
-        <section id="projects">
-            <div class="container">
-                <div class="row">
-                    <h2>Projects</h2>
-                </div>
-                <div class="project-block">
-                    <div class="row">
-                        <div class="project-text col-sm-12 col-md-6">
-                            <div class="project-name">
-                                <h3>New Era Ventures Pvt. Ltd.</h3>
-                            </div>
-                            <div class="details">
-                                <span>March 2017</span> <span class="separator">.</span> <span class="location">Telangana - 3 Locations</span>
-                            </div>
-                            <div class="type">
-                                <h4>Type</h4>
-                                <p>Solar: Utility-Scale</p>
-                            </div>
+        <section id="carousel">
+            <div class="container text-center">
+                {{--Carousel--}}
 
-                            <div class="capacity">
-                                <h4>Capacity</h4>
-                                <p>28 <span class="units">MW</span></p>
-                            </div>
-
-                            <div class="buttons">
-                                {{--<a href="/">View Gallery</a>--}}
-                                {{--<a href="/">Read Case Study</a>--}}
-                            </div>
-                        </div>
-
-                        <div class="project-img col-sm-12 col-md-6">
-                            <section class="bg-feature">
-                                <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/project_1.jpg')}}" alt="">
-                                </div>
-                            </section>
-                        </div>
+                <div class="custom-carousel siema">
+                    <div class="carousel-block">
+                        <img src="{{url('/media/temp/temp1.png')}}" class="img-fluid" alt="">
                     </div>
-
-
-                </div>
-                <div class="project-block">
-                    <div class="row">
-                        <div class="project-text col-sm-12 col-md-6">
-                            <div class="project-name">
-                                <h3>Matrix Green Energy Pvt. Ltd.</h3>
-                            </div>
-                            <div class="details">
-                                <span>January 2018</span> <span class="separator">.</span> <span class="location">Karnataka</span>
-                            </div>
-                            <div class="type">
-                                <h4>Type</h4>
-                                <p>Solar: Utility-Scale</p>
-                            </div>
-
-                            <div class="capacity">
-                                <h4>Capacity</h4>
-                                <p>18.5 <span class="units">MW</span></p>
-                            </div>
-
-                            <div class="buttons">
-                                {{--<a href="/">View Gallery</a>--}}
-                                {{--<a href="/">Read Case Study</a>--}}
-                            </div>
-                        </div>
-
-                        <div class="project-img col-sm-12 col-md-6">
-                            <section class="bg-feature">
-                                <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/project_2.jpg')}}" alt="">
-                                </div>
-                            </section>
-                        </div>
+                    <div class="carousel-block">
+                        <img src="{{url('/media/temp/temp2.png')}}" class="img-fluid" alt="">
                     </div>
-
-
-                </div>
-                <div class="project-block">
-                    <div class="row">
-                        <div class="project-text col-sm-12 col-md-6">
-                            <div class="project-name">
-                                <h3>Fourth Partner Energy Pvt.Ltd</h3>
-                            </div>
-                            <div class="details">
-                                <span>September 2018</span> <span class="separator">.</span> <span class="location">Aurangabad</span>
-                            </div>
-                            <div class="type">
-                                <h4>Type</h4>
-                                <p>Solar: Rooftop</p>
-                            </div>
-
-                            <div class="capacity">
-                                <h4>Capacity</h4>
-                                <p>1.15 <span class="units">MW</span></p>
-                            </div>
-
-                            <div class="buttons">
-                                {{--<a href="/">View Gallery</a>--}}
-                                {{--<a href="/">Read Case Study</a>--}}
-                            </div>
-                        </div>
-
-                        <div class="project-img col-sm-12 col-md-6">
-                            <section class="bg-feature">
-                                <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/project_3.jpg')}}" alt="">
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-block">
-                    <div class="row">
-                        <div class="project-text col-sm-12 col-md-6">
-                            <div class="project-name">
-                                <h3>Sunsure Energy Pvt. Ltd.</h3>
-                            </div>
-                            <div class="details">
-                                <span>March 2018</span> <span class="separator">.</span> <span class="location">Karnataka</span>
-                            </div>
-                            <div class="type">
-                                <h4>Type</h4>
-                                <p>T &amp; D Switchyard</p>
-                            </div>
-
-                            <div class="capacity">
-                                <h4>Capacity</h4>
-                                <p>66 <span class="units">kV</span></p>
-                            </div>
-
-                            <div class="buttons">
-                                {{--<a href="/">View Gallery</a>--}}
-                                {{--<a href="/">Read Case Study</a>--}}
-                            </div>
-                        </div>
-
-                        <div class="project-img col-sm-12 col-md-6">
-                            <section class="bg-feature">
-                                <div class="background-image rellax">
-                                    <img class="img-fluid" src="{{url('/media/images/project_4.jpg')}}" alt="">
-                                </div>
-                            </section>
-                        </div>
+                    <div class="carousel-block">
+                        <img src="{{url('/media/temp/temp3.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
+
+                <a href="/gallery" class="text-btn-sm center-btn">View Gallery</a>
             </div>
         </section>
-        <section>
-            @include('partials.client_list')
+
+
+        <section id="projects-list">
+            <div class="container">
+                <h3>Solar Projects</h3>
+
+                <div class="row heading-row">
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        Location
+                    </div>
+
+                    <div class="col-sm-3 col-md-3 col-lg-2">Capacity</div>
+                    <div class="col-sm-3 col-md-3 col-lg-2">Date</div>
+                </div>
+
+
+                <div class="project-element">
+                    <div class="project-content row">
+                        <div class="col-md-12 col-lg-5">
+                            <div class="project-name">
+                                <p>New Ero Enviro Ventures Pvt. Ltd.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="project-row location-name">Peddalingapur</div>
+                            <div class="project-row location-name">Kowdipally</div>
+                            <div class="project-row location-name">Manakondur</div>
+
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-2">
+                            <div class="project-row project-capacity">12 MW</div>
+                            <div class="project-row project-capacity">10 MW</div>
+                            <div class="project-row project-capacity">8 MW</div>
+
+
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                            <div class="project-row project-date">March 2016</div>
+                            <div class="project-row project-date">March 2018</div>
+                            <div class="project-row project-date">February 2018</div>
+                        </div>
+
+                    </div>
+                    <div class="h-bar"></div>
+                </div>
+                <div class="project-element">
+                    <div class="project-content row">
+                        <div class="col-md-12 col-lg-5">
+                            <div class="project-name">
+                                <p>New Ero Enviro Ventures Pvt. Ltd.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="project-row location-name">Peddalingapur</div>
+                            <div class="project-row location-name">Kowdipally</div>
+                            <div class="project-row location-name">Manakondur</div>
+
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-2">
+                            <div class="project-row project-capacity">12 MW</div>
+                            <div class="project-row project-capacity">10 MW</div>
+                            <div class="project-row project-capacity">8 MW</div>
+
+
+                        </div>
+                        <div class="col-md-3 col-lg-2">
+                            <div class="project-row project-date">March 2016</div>
+                            <div class="project-row project-date">March 2018</div>
+                            <div class="project-row project-date">February 2018</div>
+                        </div>
+
+                    </div>
+                    <div class="h-bar"></div>
+                </div>
+
+
+
+
+
+            </div>
+
+            {{--@include('partials.client_list')--}}
         </section>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js"></script>
+    <script>
 
+        var mySiema = new Siema({
+            duration:700,
+            loop: true,
+            draggable: true,
+            easing: 'ease-out'
+        });
+
+        setInterval(() => mySiema.next(), 2000);
+    </script>
 @endsection

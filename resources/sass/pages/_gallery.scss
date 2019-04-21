@@ -1,0 +1,118 @@
+#gallery-page {
+
+
+  .intro {
+    margin-bottom: 70px;
+
+    h2 {
+      font-size: 2.618rem;
+    }
+  }
+
+  .focus-btns {
+    display: none;
+  }
+
+  #img-container {
+    padding-bottom: 200px;
+  }
+
+  .masonry {
+    column-count: 3;
+    column-gap: 1em;
+    transition: all 200ms ease-in-out;
+
+    &.focus-view {
+      .focus-btns {
+        display: block;
+      }
+      .focus-btn {
+        position: fixed;
+        height: 100vh;
+        width: 100px;
+        background: rgba(171,171,171,0.05);
+        z-index:1002;
+        top: 0;
+        transition: all 300ms ease-in-out;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 47vh;
+
+        .prev-icon img {
+          transform: rotate(180deg);
+        }
+
+        .angle-icon {
+
+          transition: all 300ms ease-in-out;
+          opacity: 0.2;
+        }
+
+        &:hover {
+          cursor: pointer;
+          background: rgba(171,171,171,0.25);
+
+          .angle-icon {
+
+            opacity: 1;
+          }
+        }
+
+        &.focus-prev {
+          left: 0;
+        }
+
+        &.focus-next {
+          right: 0;
+
+        }
+      }
+    }
+
+    .item {
+      background: rgba(255, 255, 255, 0.96);
+      display: inline-block;
+      margin: 0 0 1em;
+      width: 100%;
+
+
+
+      &.active {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 100vh;
+        z-index: 1001;
+
+        img {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          max-width: 65%;
+          transform: translate(-50%, -50%);
+          &:hover {
+
+          }
+        }
+      }
+    }
+    @media (max-width: 767.98px) {
+      img {
+        min-width: 100%;
+      }
+    }
+
+    @media (min-width: 767.98px) {
+      img {
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+        }
+      }
+    }
+
+  }
+}
+
+
