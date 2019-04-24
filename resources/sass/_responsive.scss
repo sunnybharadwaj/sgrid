@@ -46,6 +46,7 @@
       }
       .content-column {
         padding: 0 30px;
+        margin-top: 60px;
       }
       .metric-boxes {
         margin-top: 100px;
@@ -177,6 +178,15 @@
     }
     .intro-text {
       margin-bottom: 50px;
+    }
+    .services-header {
+      .service {
+        .text {
+        }
+        .icon {
+          text-align: left;
+        }
+      }
     }
     #home-header-iln {
       min-height: 300px;
@@ -311,6 +321,22 @@
 
   //  Home
   #home-page {
+
+    .services-header {
+      .service {
+
+        @media (min-width: 450px) {
+          .text {
+            line-height: 60px;
+          }
+        }
+
+        .icon {
+          text-align: center;
+        }
+      }
+    }
+
     #home-header-iln {
       margin-top: 0;
       min-height: 300px;
@@ -339,7 +365,8 @@
       }
 
       h3 {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        letter-spacing: -0.013rem;
       }
 
     }

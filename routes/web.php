@@ -46,4 +46,11 @@ Route::get('/careers', function() {
 
 Auth::routes();
 
+if (Auth::check()) {
+    Route::get('/control-panel','CPController@login');
+} else {
+    Route::get('/control-panel', 'CPController@home');
+}
+
+
 //Route::get('/home', 'HomeController@index')->name('home');

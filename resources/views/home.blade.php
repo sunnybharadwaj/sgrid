@@ -36,31 +36,55 @@
 
                             <div class="services-header animated fadeIn">
                                 <div class=".container-fluid">
+
                                     <div class="row">
-                                        <div class="col">
-                                            <div class="service">
-                                                <div class="icon"><img src="{{url('/media/icons/solar.svg')}}" alt=""
-                                                                       class="ui fluid image"></div>
-                                                <div class="text">Solar EPC <br/> Utility-Scale &amp; Rooftop</div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="service">
-                                                <div class="icon"><img src="{{url('/media/icons/tnd.svg')}}" alt=""
-                                                                       class="ui fluid image">
+
+
+                                        <div class="service col-12 col-sm-4">
+
+                                                <div class="row">
+                                                    <div class="col-3 col-sm-12 col-md-12">
+                                                        <div class="icon"><img src="{{url('/media/icons/solar.svg')}}" alt=""
+                                                                               class="img-fluid"></div>
+                                                    </div>
+                                                    <div class="col-9 col-sm-12 col-md-12">
+                                                        <div class="text">Solar EPC: Utility-Scale &amp; Rooftop</div>
+                                                    </div>
                                                 </div>
-                                                <div class="text">Transmission &amp; Distribution Systems</div>
-                                            </div>
+
                                         </div>
-                                        <div class="col">
-                                            <div class="service">
-                                                <div class="icon"><img src="{{url('/media/icons/ohe.svg')}}" alt=""
-                                                                       class="ui fluid image">
+
+                                        <div class="service col-12 col-sm-4">
+
+                                                <div class="row">
+                                                    <div class="col-3 col-sm-12">
+                                                        <div class="icon tnd"><img src="{{url('/media/icons/tnd.svg')}}" alt=""
+                                                                               class="img-fluid"></div>
+                                                    </div>
+                                                    <div class="col-9 col-sm-10 col-md-12">
+                                                        <div class="text">Transmission &amp; Distribution Systems</div>
+                                                    </div>
                                                 </div>
-                                                <div class="text">Railway Overhead Electrification</div>
-                                            </div>
+
+                                        </div>
+
+
+                                        <div class="service col-12 col-sm-4">
+
+                                                <div class="row">
+                                                    <div class="col-3 col-sm-12">
+                                                        <div class="icon"><img src="{{url('/media/icons/ohe.svg')}}" alt=""
+                                                                               class="img-fluid"></div>
+                                                    </div>
+                                                    <div class="col-9 col-sm-10 col-md-12">
+                                                        <div class="text">Railway Overhead Electrification</div>
+                                                    </div>
+                                                </div>
+
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -144,7 +168,7 @@
                             <img class="img-fluid" src="{{url('/media/images/home_feat2@2x.jpg')}}" alt="">
                             <div class="line"></div>
                             <div class="feature-text">
-                                <p>SGrid was awarded for setting up Solar Power Plants at HINDUSTAN AERONAUTICS LIMITED
+                                <p>Sgrid was awarded for setting up Solar Power Plants at HINDUSTAN AERONAUTICS LIMITED
                                     in Koruput Odisa. This project was tough due to its geographical location and the
                                     developers had their doubts on the timelines. We took it as an challenge and
                                     commissioned the 7 MW Project in a record time of 45 Days.</p>
@@ -189,7 +213,7 @@
                                     <img src="{{url('/media/illustrations/eco_iln.png')}}" alt=""
                                          class="img-fluid">
                                 </div>
-                                <h3>We are <span>for</span> nature.</h3>
+                                <h3>We are <span class="highlight">for</span>  nature.</h3>
                                 <p>Sgrid is committed to play a significant role in the solar power arena and spear
                                     heading the green revolution by combating global warming and climate change.</p>
                             </div>
@@ -263,7 +287,7 @@
 
         <section id="next-gen">
             <div class="iln-next-gen">
-                <div class="icon"><img src="{{url('/media/illustrations/next_gen_iln.png')}}" alt=""
+                <div class="icon"><img src="{{url('/media/illustrations/next_gen_iln_center.png')}}" alt=""
                                        class="img-fluid"></div>
             </div>
             <h2>Building the next generation of power infrastructure.</h2>

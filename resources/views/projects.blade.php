@@ -13,6 +13,15 @@
             <h2>Our clients know we’re up for a challenge.</h2>
         </section>
 
+        <section class="bg-feature video-block">
+            <div class="background-image ">
+                {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
+                <video loop autoplay class="embed-responsive-item">
+                    <source src="{{url('/media/videos/tnd.mp4')}}" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
         {{--Projects--}}
         <section id="carousel">
             <div class="container text-center">

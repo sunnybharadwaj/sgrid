@@ -10476,7 +10476,7 @@ a.text-dark:focus {
   z-index: 1000;
   height: 100%;
   width: 100vw;
-  background: #000419;
+  background: #ebebeb;
   text-align: center;
   padding-top: 30px;
 }
@@ -10486,7 +10486,7 @@ a.text-dark:focus {
 }
 
 .full-page-menu a {
-  color: white;
+  color: #777777;
   opacity: 0.9;
   font-size: 2rem;
   letter-spacing: -0.04rem;
@@ -11186,6 +11186,16 @@ a.form-success-close {
   max-width: 700px;
 }
 
+#client-list {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+#client-list .container {
+  max-width: 900px;
+}
+
 #home-page .bg-feature {
   background: rgba(0, 0, 0, 0.29);
 }
@@ -11224,8 +11234,18 @@ a.form-success-close {
   position: relative;
 }
 
+#intro .service {
+  margin-bottom: 40px;
+}
+
 #intro .service .icon {
-  min-height: 60px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#intro .service .icon.tnd {
+  position: relative;
+  top: 3px;
 }
 
 .services-header .text {
@@ -11290,7 +11310,7 @@ a.form-success-close {
 
 #next-gen .iln-next-gen {
   height: 250px;
-  width: 500px;
+  width: 350px;
   margin: 0 auto 100px;
 }
 
@@ -11575,7 +11595,7 @@ a.form-success-close {
 
 #team .team-member {
   position: relative;
-  background: #ababab;
+  background: #757575;
   margin-bottom: 10px;
   width: 100%;
   background-repeat: no-repeat;
@@ -11870,6 +11890,11 @@ a.form-success-close {
 #projects-page #page-header .page-iln {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
+}
+
+#projects-page .bg-feature.video-block {
+  background: none;
+  min-height: 650px;
 }
 
 #projects h2 {
@@ -12200,6 +12225,7 @@ a.form-success-close {
 
   #home-page #services-projects .content-column {
     padding: 0 30px;
+    margin-top: 60px;
   }
 
   #home-page #services-projects .metric-boxes {
@@ -12310,6 +12336,10 @@ a.form-success-close {
 
   #home-page .intro-text {
     margin-bottom: 50px;
+  }
+
+  #home-page .services-header .service .icon {
+    text-align: left;
   }
 
   #home-page #home-header-iln {
@@ -12426,6 +12456,18 @@ a.form-success-close {
     border-left: none;
     border-top: 10px solid #F27123;
   }
+}
+
+@media (min-width: 0px) and (max-width: 575.98px) and (min-width: 450px) {
+  #home-page .services-header .service .text {
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+  #home-page .services-header .service .icon {
+    text-align: center;
+  }
 
   #home-page #home-header-iln {
     margin-top: 0;
@@ -12458,7 +12500,8 @@ a.form-success-close {
   }
 
   #home-page .bg-feature h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    letter-spacing: -0.013rem;
   }
 
   #home-page #intro {

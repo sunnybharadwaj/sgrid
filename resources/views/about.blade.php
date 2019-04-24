@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="text-content">
 
-                    <h4 class="intro-head">At SGrid, we want to be known for our longevity and the impact that we would make in the lives
+                    <h4 class="intro-head">At Sgrid, we want to be known for our longevity and the impact that we would make in the lives
                         of the people in the coming 100 years.</h4>
                     <h4>We strive to build futuristic capabilities and enhance our competence to handle complex problems
                         within the power infrastructure arena. We would want to occupy an indispensable position in the
@@ -219,7 +219,7 @@
                 <div class="quote-list">
                     <div class="quote-block">
                         <div class="h-box"></div>
-                        <h3 class="quote">“We have found SGrid to be extremely innovative in terms of its projective
+                        <h3 class="quote">“We have found Sgrid to be extremely innovative in terms of its projective
                             execution besides ensuring timeliness in terms of their delivery. Be it the timely
                             procurement of material, the quality of their projects or their adherence to deadlines, we
                             are immensely happy to have collaborated with them.”</h3>
@@ -231,7 +231,7 @@
 
                     <div class="quote-block">
                         <div class="h-box"></div>
-                        <h3 class="quote">“We truly value our association with SGrid, which has been extremely proactive
+                        <h3 class="quote">“We truly value our association with Sgrid, which has been extremely proactive
                             and responsive to our needs for the project. Their systematic and organised approach to work
                             has benefited us.”</h3>
                         <div class="sign">
@@ -242,7 +242,7 @@
 
                     <div class="quote-block">
                         <div class="h-box"></div>
-                        <h3 class="quote">“The SGrid team has been meticulous with its eye for detailing in the project.
+                        <h3 class="quote">“The Sgrid team has been meticulous with its eye for detailing in the project.
                             They've been professional in their dealings and have kept us thoroughly informed about the
                             progress of the project and the construction of the transmission line upto 66 Kv.”</h3>
                         <div class="sign">
@@ -256,6 +256,7 @@
         <section>
             @include('partials.client_list')
         </section>
+
 
         {{--<section id="team" class="rellax">--}}
         {{--<div class="container">--}}

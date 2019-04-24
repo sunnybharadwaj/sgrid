@@ -77,7 +77,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid bid on behalf of <span class="font-bold">PEBS PENNAR</span> in collaboration with
+                                    <div class="pointer-text">Sgrid bid on behalf of <span class="font-bold">PEBS PENNAR</span> in collaboration with
                                         Raychem RPG Group in NLC Tender for setting up a project of <span class="font-bold">20 MW</span>.
                                     </div>
                                 </div>
@@ -89,8 +89,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at all
-                                        the <span class="font-bold">Jawahar Navodaya Vidyalaya</span> schools of Andhra Pradesh with which SGrid
+                                    <div class="pointer-text">Sgrid was awarded for setting up Solar Power Plants at all
+                                        the <span class="font-bold">Jawahar Navodaya Vidyalaya</span> schools of Andhra Pradesh with which Sgrid
                                         reached to Nine (09) Districts
                                         of Andhra Pradesh to remove Carbon Footprints. Cumulative Capacity of <span class="font-bold">1.0 MWp</span>
                                         was installed here.
@@ -104,7 +104,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">SGrid was awarded for setting up Solar Power Plants at
+                                    <div class="pointer-text">Sgrid was awarded for setting up Solar Power Plants at
                                         <span class="font-bold">
                                             HINDUSTAN AERONAUTICS LIMITED
                                         </span>

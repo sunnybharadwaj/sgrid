@@ -16,6 +16,15 @@
   }
 }
 
+#client-list {
+  filter: grayscale(100%);
+  opacity: 0.7;
+
+  .container {
+    max-width: 900px;
+  }
+}
+
 #home-page .bg-feature {
   background: rgba(0, 0, 0, 0.29);
   .content-box {
@@ -48,8 +57,17 @@
   margin-top: 150px;
   position: relative;
   .service {
+    margin-bottom: 40px;
+
+
     .icon {
-      min-height: 60px;
+      text-align: left;
+      margin-bottom: 20px;
+
+      &.tnd {
+        position: relative;
+        top: 3px;
+      }
     }
   }
 }
@@ -115,7 +133,7 @@
   margin-bottom: 100px;
   .iln-next-gen {
     height: 250px;
-    width: 500px;
+    width: 350px;
     margin: 0 auto 100px;
 
   }
