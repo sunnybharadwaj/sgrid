@@ -28,17 +28,26 @@
                 {{--Carousel--}}
 
                 <div class="custom-carousel siema">
+
                     <div class="carousel-block">
-                        <img src="{{url('/media/temp/temp1.png')}}" class="img-fluid" alt="">
+                        <img src="{{url('/media/images/projects/feature/2.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="carousel-block">
-                        <img src="{{url('/media/temp/temp2.png')}}" class="img-fluid" alt="">
+                        <img src="{{url('/media/images/projects/feature/3.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="carousel-block">
-                        <img src="{{url('/media/temp/temp3.png')}}" class="img-fluid" alt="">
+                        <img src="{{url('/media/images/projects/feature/4.jpg')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="carousel-block">
+                        <img src="{{url('/media/images/projects/feature/5.jpg')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="carousel-block">
+                        <img src="{{url('/media/images/projects/feature/6.jpg')}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="carousel-block">
+                        <img src="{{url('/media/images/projects/feature/1.jpg')}}" class="img-fluid" alt="">
                     </div>
                 </div>
-
 
                 <a href="/gallery" class="text-btn-sm center-btn">View Gallery</a>
             </div>

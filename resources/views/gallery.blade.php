@@ -34,38 +34,57 @@
                     {{--</div>--}}
                 {{--</div>--}}
                 <div class="item">
-                    <img src="/media/images/about_header.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/1.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/cta_bg.png" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/2.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/home_feat1.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/3.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/about_midsection.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/4.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/project_1.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/5.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/services_solar.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/6.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/cta_bg.png" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/7.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/home_feat1.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/8.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/cta_bg.png" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/9.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/home_feat1.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/10.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="item">
-                    <img src="/media/images/about_midsection.jpg" class="img-fluid" alt="">
+                    <img src="/media/images/projects/gallery/11.jpeg" class="img-fluid" alt="">
                 </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/12.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/13.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/14.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/15.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/16.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="item">
+                    <img src="/media/images/projects/gallery/17.jpg" class="img-fluid" alt="">
+                </div>
+
 
 
 
