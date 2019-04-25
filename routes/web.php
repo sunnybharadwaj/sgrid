@@ -23,9 +23,7 @@ Route::get('/services', function() {
     return view('services');
 });
 
-Route::get('/projects', function() {
-    return view('projects');
-});
+Route::get('/projects', 'ProjectController@index');
 
 Route::get('/gallery', function() {
     return view('gallery');
@@ -35,22 +33,11 @@ Route::get('/contact', function() {
     return view('contact');
 });
 
-Route::post('/query', 'QueryController@store')->name('query.store');
-Route::get('/querylist')->uses('QueryController@index');
-
 Route::get('/careers', function() {
     return view('careers');
 });
 
+Route::post('/query', 'QueryController@store')->name('query.store');
+Route::get('/querylist')->uses('QueryController@index');
 
 
-Auth::routes();
-
-if (Auth::check()) {
-    Route::get('/control-panel','CPController@login');
-} else {
-    Route::get('/control-panel', 'CPController@home');
-}
-
-
-//Route::get('/home', 'HomeController@index')->name('home');

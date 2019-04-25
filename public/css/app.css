@@ -11023,7 +11023,7 @@ h4 {
   font-size: 1.618rem;
   line-height: 1.5;
   color: #969696;
-  letter-spacing: 0.02rem;
+  letter-spacing: -0.02rem;
 }
 
 h5 {
@@ -11236,6 +11236,10 @@ a.form-success-close {
 
 #intro .service {
   margin-bottom: 40px;
+}
+
+#intro .service.tnd .icon {
+  margin-bottom: 25px;
 }
 
 #intro .service .icon {
@@ -11962,37 +11966,38 @@ a.form-success-close {
   margin: 0 auto;
 }
 
-#projects-list {
-  font-weight: 700;
-}
-
 #projects-list h3 {
   font-weight: 700;
-  margin-bottom: 60px;
+  margin: 120px 0 50px;
 }
 
-#projects-list .h-bar {
-  height: 3px;
-  background: #E9E9E9;
+#projects-list .container .project-item:last-of-type {
+  border-bottom: none;
 }
 
-#projects-list .heading-row {
-  font-size: 12px;
-  color: #969696;
-  text-transform: uppercase;
-  margin: 30px -15px;
+#projects-list .project-wrapper {
+  border-left: 7px solid #F27123;
+  padding-left: 30px;
 }
 
-#projects-list .project-row {
+#projects-list .project-details {
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
-#projects-list .project-element {
-  margin-top: 40px;
+#projects-list .project-details .attr {
+  text-align: right;
 }
 
-#projects-list .project-content {
-  padding-bottom: 30px;
+#projects-list .project-description {
+  color: #969696;
+  margin-bottom: 40px;
+}
+
+#projects-list .project-item {
+  border-bottom: 3px solid rgba(150, 150, 150, 0.12);
+  margin-bottom: 40px;
 }
 
 #map {
@@ -12007,14 +12012,10 @@ a.form-success-close {
 }
 
 #map .map-container .contact-details {
-  min-width: 900px;
+  max-width: 900px;
   background: white;
   padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  margin: 150px auto 50px;
 }
 
 #map .map-container .contact-details .ct-column:nth-of-type(1) {
@@ -12031,6 +12032,14 @@ a.form-success-close {
 
 #map .map-container .contact-details h3 {
   font-weight: 700;
+}
+
+#map .map-container .contact-details .cta-text {
+  margin-top: 60px;
+}
+
+#map .map-container .contact-details .cta-text .std-btn {
+  margin-top: 20px;
 }
 
 #careers-page #page-header {

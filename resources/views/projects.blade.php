@@ -58,90 +58,45 @@
             <div class="container">
                 <h3>Solar Projects</h3>
 
-                <div class="row heading-row">
-                    <div class="col-sm-12 col-md-12 col-lg-5">
 
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        Location
-                    </div>
-
-                    <div class="col-sm-3 col-md-3 col-lg-2">Capacity</div>
-                    <div class="col-sm-3 col-md-3 col-lg-2">Date</div>
-                </div>
-
-
-                <div class="project-element">
-                    <div class="project-content row">
-                        <div class="col-md-12 col-lg-5">
-                            <div class="project-name">
-                                <p>New Ero Enviro Ventures Pvt. Ltd.</p>
+                    <div class="project-list">
+                        @foreach ($solarProjects as $project)
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="project-details row">
+                                    <div class="col-7">{{$project->client}}</div>
+                                    <div class="attr col-2">{{$project->capacity}}</div>
+                                    <div class="attr col-3">{{$project->location}}</div>
+                                </div>
+                                <div class="project-description">
+                                    <p>{{$project->description}}</p>
+                                </div>
                             </div>
-
                         </div>
-
-                        <div class="col-md-6 col-lg-3">
-                            <div class="project-row location-name">Peddalingapur</div>
-                            <div class="project-row location-name">Kowdipally</div>
-                            <div class="project-row location-name">Manakondur</div>
-
-
-                        </div>
-
-                        <div class="col-md-3 col-lg-2">
-                            <div class="project-row project-capacity">12 MW</div>
-                            <div class="project-row project-capacity">10 MW</div>
-                            <div class="project-row project-capacity">8 MW</div>
-
-
-                        </div>
-                        <div class="col-md-3 col-lg-2">
-                            <div class="project-row project-date">March 2016</div>
-                            <div class="project-row project-date">March 2018</div>
-                            <div class="project-row project-date">February 2018</div>
-                        </div>
-
+                        @endforeach
                     </div>
-                    <div class="h-bar"></div>
-                </div>
-                <div class="project-element">
-                    <div class="project-content row">
-                        <div class="col-md-12 col-lg-5">
-                            <div class="project-name">
-                                <p>New Ero Enviro Ventures Pvt. Ltd.</p>
+
+            </div>
+
+            <div class="container">
+                <h3>Railway OHE Projects</h3>
+
+                    <div class="project-list">
+                        @foreach ($oheProjects as $project)
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="project-details row">
+                                    <div class="col-7">{{$project->client}}</div>
+                                    <div class="attr col-2">{{$project->capacity}}</div>
+                                    <div class="attr col-3">{{$project->location}}</div>
+                                </div>
+                                <div class="project-description">
+                                    <p>{{$project->description}}</p>
+                                </div>
                             </div>
-
                         </div>
-
-                        <div class="col-md-6 col-lg-3">
-                            <div class="project-row location-name">Peddalingapur</div>
-                            <div class="project-row location-name">Kowdipally</div>
-                            <div class="project-row location-name">Manakondur</div>
-
-
-                        </div>
-
-                        <div class="col-md-3 col-lg-2">
-                            <div class="project-row project-capacity">12 MW</div>
-                            <div class="project-row project-capacity">10 MW</div>
-                            <div class="project-row project-capacity">8 MW</div>
-
-
-                        </div>
-                        <div class="col-md-3 col-lg-2">
-                            <div class="project-row project-date">March 2016</div>
-                            <div class="project-row project-date">March 2018</div>
-                            <div class="project-row project-date">February 2018</div>
-                        </div>
-
+                        @endforeach
                     </div>
-                    <div class="h-bar"></div>
-                </div>
-
-
-
-
 
             </div>
 
@@ -153,7 +108,7 @@
     <script>
 
         var mySiema = new Siema({
-            duration:700,
+            duration: 700,
             loop: true,
             draggable: true,
             easing: 'ease-out'

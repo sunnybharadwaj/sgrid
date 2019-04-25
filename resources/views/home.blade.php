@@ -54,7 +54,7 @@
 
                                         </div>
 
-                                        <div class="service col-12 col-sm-4">
+                                        <div class="service tnd col-12 col-sm-4">
 
                                                 <div class="row">
                                                     <div class="col-3 col-sm-12">
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                         <div class="btn-container lg-only">
-                            <a href="/projects" class="text-btn-sm section-btn">Read about our services <span
+                            <a href="/services" class="text-btn-sm section-btn">Read about our services <span
                                         class="next-icon"><img
                                             src="{{url('/media/icons/icon_next.svg')}}"
                                             alt=""
@@ -197,7 +197,7 @@
 
                 <div href="" class="mobile-btns">
                     <a href="/projects" class="text-btn-sm mobile-only">Browse all projects</a>
-                    <a href="/projects" class="text-btn-sm mobile-only">Read about our services</a>
+                    <a href="/services" class="text-btn-sm mobile-only">Read about our services</a>
                 </div>
 
             </div>

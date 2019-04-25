@@ -18,7 +18,8 @@
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">
                                 <span class="email">info@sgrid.in</span> <br/>
-                                +91 9876578745
+                                +91 9876578745 <br/>
+                                +91 84518 61238
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">
                                 DHFLVC Building <br/>
@@ -29,11 +30,19 @@
 
                             </div>
                         </div>
+                        <div class="cta-text text-center">
+                            <h4>If you have a query, please fill our contact form and we will get back to you as soon as possible.</h4>
+                            <div href="#" class="std-btn cta-btn">Submit Query</div>
+
+                        </div>
                     </div>
 
                 </div>
+
             </div>
         </div>
+
+
 
         {{--Careers CTA--}}
     </div>

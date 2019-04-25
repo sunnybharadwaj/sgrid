@@ -8,7 +8,6 @@
 
     .contact-details {
       //border: 10px solid $sgrid-color;
-      min-width: 900px;
       .ct-column:nth-of-type(1) {
         padding: 40px 0;
       }
@@ -23,12 +22,18 @@
       h3 {
         font-weight: 700;
       }
+      max-width: 900px;
       background: white;
       padding: 40px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      margin: 150px auto 50px;
+
+      .cta-text {
+        margin-top: 60px;
+
+        .std-btn {
+          margin-top: 20px;
+        }
+      }
 
     }
   }

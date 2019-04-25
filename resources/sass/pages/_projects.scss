@@ -63,28 +63,32 @@
 #projects-list {
   h3 {
     font-weight: 700;
-    margin-bottom: 60px;
+    margin: 120px 0 50px;
   }
-  font-weight: 700;
-  .h-bar {
-    height: 3px;
-    background: #E9E9E9;
+  .container .project-item:last-of-type {
+    border-bottom: none;
   }
-  .heading-row {
-    font-size: 12px;
-    color: $sub-text-color;
-    text-transform: uppercase;
-    margin: 30px -15px;
+
+  .project-wrapper {
+    border-left: 7px solid $sgrid-color;
+    padding-left: 30px;
   }
-  .project-row {
+
+  .project-details {
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 10px;
+    .attr {
+      text-align: right;
+    }
+  }
+  .project-description {
+    color: $sub-text-color;
+    margin-bottom: 40px;
   }
 
-  .project-element {
-    margin-top: 40px;
-  }
-
-  .project-content {
-    padding-bottom: 30px;
+  .project-item {
+    border-bottom: 3px solid rgba(150, 150, 150, 0.12);
+    margin-bottom: 40px;
   }
 }
