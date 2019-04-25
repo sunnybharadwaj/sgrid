@@ -17,7 +17,7 @@
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay class="embed-responsive-item">
+                <video loop autoplay controls class="embed-responsive-item">
                     <source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">
                 </video>
             </div>
@@ -78,11 +78,11 @@
 
                     <div class="lg-only">
                         <div class="metric-box box-1">
-                            <div class="number">275+ <span class="units">MW</span></div>
+                            <div class="number">200+ <span class="units">MW</span></div>
                             <div class="title">Projects commissioned successfully</div>
                         </div>
                         <div class="metric-box box-2">
-                            <div class="number">150+ <span class="units">MW</span></div>
+                            <div class="number">50+ <span class="units">MW</span></div>
                             <div class="title">Projects currently in pipeline</div>
                         </div>
                     </div>
@@ -105,6 +105,7 @@
                 <div class="row">
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Mohan Reddy Dasari</h4>
@@ -119,6 +120,7 @@
 
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Prasoon Chaudhary</h4>
@@ -132,6 +134,7 @@
                     </div>
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Krishnaiah Indla</h4>
@@ -145,6 +148,7 @@
                     </div>
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Harish Makke</h4>
@@ -158,6 +162,7 @@
                     </div>
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Narendra Pulivarthi</h4>
@@ -171,6 +176,7 @@
                     </div>
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
+                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
                             <div class="teamcard-overlay">
                                 <div class="text">
                                     <h4>Manoj Cherukuri</h4>
@@ -236,7 +242,7 @@
                             has benefited us.”</h3>
                         <div class="sign">
                             {{--<p>Morbi ut urna</p>--}}
-                            <p>Azure Power India Pvt. Ltd.</p>
+                            <p>Matrix Green Energy Private Ltd.</p>
                         </div>
                     </div>
 
@@ -244,10 +250,10 @@
                         <div class="h-box"></div>
                         <h3 class="quote">“The Sgrid team has been meticulous with its eye for detailing in the project.
                             They've been professional in their dealings and have kept us thoroughly informed about the
-                            progress of the project and the construction of the transmission line upto 66 Kv.”</h3>
+                            progress of the project and the construction of the transmission line upto 66 kV.”</h3>
                         <div class="sign">
                             {{--<p>Morbi ut urna</p>--}}
-                            <p>NTPC (National Thermal Power Corporation) Limited</p>
+                            <p>Sunsure Energy Private Ltd.</p>
                         </div>
                     </div>
                 </div>

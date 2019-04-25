@@ -77,8 +77,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Sgrid bid on behalf of <span class="font-bold">PEBS PENNAR</span> in collaboration with
-                                        Raychem RPG Group in NLC Tender for setting up a project of <span class="font-bold">20 MW</span>.
+                                    <div class="pointer-text">Sgrid bid on behalf of <span class="font-bold">PEBS PENNAR (group company)</span> in collaboration with
+                                        Raychem RPG Group in NLC Tender for setting up a Solar BESS project of <span class="font-bold">20 MW</span> in Andaman and Nicobar Islands.
                                     </div>
                                 </div>
                             </div>
@@ -104,14 +104,11 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Sgrid was awarded for setting up Solar Power Plants at
+                                    <div class="pointer-text">Sgrid was awarded 7MW Solar Power project from Azure power for setting up plants at
                                         <span class="font-bold">
                                             HINDUSTAN AERONAUTICS LIMITED
                                         </span>
-                                        in Koruput, Odisa. This project was tough due to its geographical location and
-                                        the
-                                        developers had their doubts on the time-lines. We took it as an challenge and
-                                        commissioned the <span class="font-bold">7 MW</span> Project in a record time of 45 Days.
+                                        in Koruput, Odisa in a record time of 45 days.
                                     </div>
                                 </div>
                             </div>
@@ -255,7 +252,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Currently undertaking two projects on <span class="font-bold">220 Kv</span> switch-yards,
+                                    <div class="pointer-text">Currently undertaking two projects on <span class="font-bold">132kV % 220kV</span> switch-yards,
                                         commissioned by NTPC Ltd
                                     </div>
                                 </div>
@@ -349,6 +346,9 @@
         {{--</div>--}}
         {{--</section>--}}
 
+
+        {{--We designed, supplied & Erected India’s first water leak proof Solar Car Port for--}}
+        {{--SKODA factory in Aurangabad with a capacity of 1250KWp--}}
     </div>
 
 

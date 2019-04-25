@@ -61,7 +61,6 @@
 
 
     .icon {
-      text-align: left;
       margin-bottom: 20px;
 
       &.tnd {
@@ -73,10 +72,17 @@
 }
 
 .services-header {
+  .icon {
+    text-align: center;
+  }
+  .service-text-ctr {
+    margin: 0 auto;
+  }
   .text {
     font-size: 1rem;
     font-weight: 700;
     color: #292929;
+    text-align: center;
   }
 }
 
@@ -177,7 +183,7 @@
   }
 
   .btn-container {
-    margin-top: 85px;
+    margin-top: 20px;
   }
 
   a.section-btn {

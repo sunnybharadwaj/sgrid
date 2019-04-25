@@ -11239,7 +11239,6 @@ a.form-success-close {
 }
 
 #intro .service .icon {
-  text-align: left;
   margin-bottom: 20px;
 }
 
@@ -11248,10 +11247,19 @@ a.form-success-close {
   top: 3px;
 }
 
+.services-header .icon {
+  text-align: center;
+}
+
+.services-header .service-text-ctr {
+  margin: 0 auto;
+}
+
 .services-header .text {
   font-size: 1rem;
   font-weight: 700;
   color: #292929;
+  text-align: center;
 }
 
 #home-page #usp {
@@ -11355,7 +11363,7 @@ a.form-success-close {
 }
 
 #services-projects .btn-container {
-  margin-top: 85px;
+  margin-top: 20px;
 }
 
 #services-projects a.section-btn {
@@ -11616,6 +11624,11 @@ a.form-success-close {
   background: rgba(0, 0, 0, 0.28);
 }
 
+#team .team-member img {
+  position: absolute;
+  width: 100%;
+}
+
 #team .team-member:after {
   content: "";
   display: block;
@@ -11867,6 +11880,7 @@ a.form-success-close {
 #innovation .head-text p {
   font-size: 1.618rem;
   max-width: 800px;
+  line-height: 1.4;
 }
 
 #innovation .product-list {
@@ -12338,10 +12352,6 @@ a.form-success-close {
     margin-bottom: 50px;
   }
 
-  #home-page .services-header .service .icon {
-    text-align: left;
-  }
-
   #home-page #home-header-iln {
     min-height: 300px;
   }
@@ -12455,6 +12465,10 @@ a.form-success-close {
   #projects-page #projects .project-text {
     border-left: none;
     border-top: 10px solid #F27123;
+  }
+
+  #home-page .services-header .service .text {
+    text-align: left;
   }
 }
 

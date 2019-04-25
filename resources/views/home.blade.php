@@ -47,7 +47,7 @@
                                                         <div class="icon"><img src="{{url('/media/icons/solar.svg')}}" alt=""
                                                                                class="img-fluid"></div>
                                                     </div>
-                                                    <div class="col-9 col-sm-12 col-md-12">
+                                                    <div class="service-text-ctr col-9 col-sm-12 col-md-12">
                                                         <div class="text">Solar EPC: Utility-Scale &amp; Rooftop</div>
                                                     </div>
                                                 </div>
@@ -61,7 +61,7 @@
                                                         <div class="icon tnd"><img src="{{url('/media/icons/tnd.svg')}}" alt=""
                                                                                class="img-fluid"></div>
                                                     </div>
-                                                    <div class="col-9 col-sm-10 col-md-12">
+                                                    <div class="service-text-ctr col-9 col-sm-10 col-md-12">
                                                         <div class="text">Transmission &amp; Distribution Systems</div>
                                                     </div>
                                                 </div>
@@ -76,7 +76,7 @@
                                                         <div class="icon"><img src="{{url('/media/icons/ohe.svg')}}" alt=""
                                                                                class="img-fluid"></div>
                                                     </div>
-                                                    <div class="col-9 col-sm-10 col-md-12">
+                                                    <div class="service-text-ctr col-9 col-sm-10 col-md-12">
                                                         <div class="text">Railway Overhead Electrification</div>
                                                     </div>
                                                 </div>
@@ -100,7 +100,7 @@
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay class="embed-responsive-item ">
+                <video loop autoplay controls class="embed-responsive-item ">
                     <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
                 </video>
             </div>
@@ -121,7 +121,6 @@
         </section>
 
         <section id="services-projects">
-
             <div class="container">
                 <div class="row">
                     <div class="content-column column-1 col-sm-12 col-md-12 col-lg-6">
@@ -131,9 +130,8 @@
                             <p>We excel at providing economically viable, technically
                                 superior and optimized solutions, collaborating with
                                 leading solar manufacturers.</p>
-
                             <p>
-                                With an enormous team experience of more than 3 GW’s in the design and development of
+                                With an enormous team experience of more than 1.5 GW’s in the design and development of
                                 solar
                                 power generating plants. We hold strong portfolio in the solar EPC segment , with
                                 experienced design team, established supply chain and efficient project management team.
@@ -141,11 +139,10 @@
                         </div>
 
                         <div class="img-feature rellax" data-rellax-speed="2">
-                            <img class="img-fluid" src="{{url('/media/images/home_feat1@2x.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{url('/media/images/home_feat1.jpg')}}" alt="">
                             <div class="line"></div>
                             <div class="feature-text">
-                                <p>We designed, supplied & Erected India’s first water leak proof Solar Car Port for
-                                    SKODA factory in Aurangabad with a capacity of 1250KWp</p>
+                                <p>We helped Pennar Industries Limited (Our parent organization) convert 80% of their energy consumption into green energy with solar technology.</p>
                             </div>
                         </div>
                         <div class="btn-container lg-only">
@@ -165,13 +162,13 @@
                     </div>
                     <div class="content-column column-2 col-sm-12 col-md-12 col-lg-6">
                         <div class="img-feature rellax">
-                            <img class="img-fluid" src="{{url('/media/images/home_feat2@2x.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{url('/media/images/home_feat2.jpg')}}" alt="">
                             <div class="line"></div>
                             <div class="feature-text">
-                                <p>Sgrid was awarded for setting up Solar Power Plants at HINDUSTAN AERONAUTICS LIMITED
-                                    in Koruput Odisa. This project was tough due to its geographical location and the
-                                    developers had their doubts on the timelines. We took it as an challenge and
-                                    commissioned the 7 MW Project in a record time of 45 Days.</p>
+                                <p>
+                                    What matters to us is the satisfaction of the people we work with and the tasks we commit to, be
+                                    it end-to-end fulfillment (Turnkey projects) or being part of the project.
+                                    </p>
                             </div>
                         </div>
 
@@ -179,7 +176,7 @@
                             <div class="row">
                                 <div class="metric-container col-6">
                                     <div class="metric-box box-1">
-                                        <div class="number">275+ <span class="units">MW</span></div>
+                                        <div class="number">200+ <span class="units">MW</span></div>
                                         <div class="title">Projects commissioned successfully</div>
                                     </div>
                                 </div>
@@ -189,7 +186,7 @@
                                 <div class="col-6"></div>
                                 <div class="metric-container col-6">
                                     <div class="metric-box box-2">
-                                        <div class="number">150+ <span class="units">MW</span></div>
+                                        <div class="number">50+ <span class="units">MW</span></div>
                                         <div class="title">Projects currently in pipeline</div>
                                     </div>
                                 </div>

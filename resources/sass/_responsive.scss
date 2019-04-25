@@ -145,10 +145,9 @@
   #gallery-page .masonry {
     column-count: 2;
 
-
-      .item.active img {
-        max-width: 80%;
-      }
+    .item.active img {
+      max-width: 80%;
+    }
   }
 }
 
@@ -184,7 +183,7 @@
         .text {
         }
         .icon {
-          text-align: left;
+          //text-align: left;
         }
       }
     }
@@ -325,8 +324,9 @@
     .services-header {
       .service {
 
-        @media (min-width: 450px) {
-          .text {
+        .text {
+          text-align: left;
+          @media (min-width: 450px) {
             line-height: 60px;
           }
         }

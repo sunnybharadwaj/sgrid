@@ -16,7 +16,7 @@
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay class="embed-responsive-item">
+                <video loop autoplay controls class="embed-responsive-item">
                     <source src="{{url('/media/videos/tnd.mp4')}}" type="video/mp4">
                 </video>
             </div>
