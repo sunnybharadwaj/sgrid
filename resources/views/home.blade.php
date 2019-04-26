@@ -142,7 +142,8 @@
                             <img class="img-fluid" src="{{url('/media/images/home_feat1.jpg')}}" alt="">
                             <div class="line"></div>
                             <div class="feature-text">
-                                <p>We helped Pennar Industries Limited (Our parent organization) convert 80% of their energy consumption into green energy with solar technology.</p>
+                                <p>We helped Pennar Industries Limited (Our parent organization) convert 80% of their energy consumption into green energy with solar technology.
+                                </p>
                             </div>
                         </div>
                         <div class="btn-container lg-only">
@@ -166,8 +167,8 @@
                             <div class="line"></div>
                             <div class="feature-text">
                                 <p>
-                                    What matters to us is the satisfaction of the people we work with and the tasks we commit to, be
-                                    it end-to-end fulfillment (Turnkey projects) or being part of the project.
+
+                                    We designed, Supplied & Erected India’s a water leak-proof Solar Car Port for SKODA factory in Aurangabad with a capacity of 1250KWp. We took it as an challenge and commissioned the Project in a record time of 35 Days with high standard Structure which can withstand the wind speed of 180mph.
                                     </p>
                             </div>
                         </div>
@@ -275,12 +276,8 @@
         {{--usp--}}
         {{--@include('partials.usp')--}}
 
-        {{--With an enormous team experience of more than 3 GW’s in the--}}
-        {{--design and development of solar power generating plants. We hold--}}
-        {{--strong portfolio in the solar EPC segment , with experienced design--}}
-        {{--team, established supply chain and efficient project management--}}
-        {{--team.--}}
-
+        {{--What matters to us is the satisfaction of the people we work with and the tasks we commit to, be--}}
+        {{--it end-to-end fulfillment (Turnkey projects) or being part of the project.--}}
 
         <section id="next-gen">
             <div class="iln-next-gen">

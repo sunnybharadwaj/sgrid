@@ -242,7 +242,7 @@
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
                                     <div class="pointer-text">Experience in constructing of transmission lines and
-                                        switch-yards of capacity up to <span class="font-bold">132 Kv</span>
+                                        switch-yards of capacity up to <span class="font-bold">132 kV</span>
                                     </div>
                                 </div>
                             </div>
@@ -252,8 +252,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Currently undertaking two projects on <span class="font-bold">132kV % 220kV</span> switch-yards,
-                                        commissioned by NTPC Ltd
+                                    <div class="pointer-text">Currently undertaking two projects of <span class="font-bold">220kV</span> switch-yards.
                                     </div>
                                 </div>
                             </div>
