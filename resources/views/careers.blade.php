@@ -6,11 +6,11 @@
 
 @section('content')
     <div id="careers-page">
-        <section id="page-header" class="text-center animated fadeIn rellax">
-            <div class="page-iln">
+        <section id="page-header" class="text-center animated fadeDown rellax">
+            <div class="page-iln animated fadeDown">
                 <img src="{{url('/media/illustrations/careers_iln.png')}}" alt="" class="img-fluid">
             </div>
-            <h2>Careers at Sgrid</h2>
+            <h2 class="animated fadeIn">Careers at Sgrid</h2>
         </section>
         {{--<div class="container">--}}
             {{--<section id="page-head">--}}

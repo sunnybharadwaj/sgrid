@@ -8,10 +8,10 @@
     <div id="services-page">
 
         <section id="page-header" class="text-center">
-            <div class="page-iln">
+            <div class="page-iln animated fadeDown">
                 <img src="{{url('/media/illustrations/services_iln.png')}}" alt="" class="img-fluid">
             </div>
-            <h2>Complex problems, Smart Solutions.</h2>
+            <h2 class="animated fadeIn">Complex problems, Smart Solutions.</h2>
         </section>
 
         {{--<section id="page-img" class="text-center">--}}

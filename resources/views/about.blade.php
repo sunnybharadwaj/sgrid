@@ -8,16 +8,19 @@
     <div id="about-page">
 
         <section id="page-header" class="text-center animated fadeIn rellax">
-            <div class="page-iln">
+            <div class="page-iln animated fadeDown">
                 <img src="{{url('/media/illustrations/about_iln.png')}}" alt="" class="img-fluid">
             </div>
-            <h2>A unique set of experts committed to delivering only the best.</h2>
+            <h2 class="animated fadeIn">A unique set of experts committed to delivering only the best.</h2>
         </section>
 
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay controls class="embed-responsive-item">
+                <video loop autoplay controls class="embed-responsive-item lg-only">
+                    <source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">
+                </video>
+                <video loop autoplay class="embed-responsive-item mobile-only md-show" >
                     <source src="{{url('/media/videos/no_gold.mp4')}}" type="video/mp4">
                 </video>
             </div>

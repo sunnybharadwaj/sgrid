@@ -3,7 +3,8 @@
 
     .page-iln {
       transform: scale(0.8);
-      //margin: 123px auto 50px;
+      margin: 0 auto;
+      max-width: 500px;
     }
   }
   .bg-feature.video-block {
@@ -71,11 +72,11 @@
 
   .project-wrapper {
     border-left: 7px solid $sgrid-color;
-    padding-left: 30px;
   }
 
   .project-details {
-    font-size: 20px;
+    padding: 0 20px 0;
+    font-size: 18px;
     font-weight: 700;
     margin-bottom: 10px;
     .attr {
@@ -83,6 +84,7 @@
     }
   }
   .project-description {
+    padding: 0 20px;
     color: $sub-text-color;
     margin-bottom: 40px;
   }

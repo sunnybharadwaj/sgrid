@@ -65,6 +65,16 @@
     }
   }
 
+  #projects-page .bg-feature.video-block {
+
+    min-height: 300px;
+
+    @media (max-width: 380px) {
+      min-height: 200px;
+    }
+
+  }
+
   #about-page {
     .bg-feature.video-block {
       min-height: 300px;
@@ -97,6 +107,9 @@
 // Medium devices (tablets, less than 992px)
 @media (min-width: 767.98px) and (max-width: 991.98px) {
 
+  .md-show {
+    display: block;
+  }
   //Common
   .lg-only {
     display: none;
@@ -244,6 +257,12 @@
     }
   }
 
+  #projects-page {
+    .bg-feature.video-block {
+      min-height: 400px;
+    }
+  }
+
   //Gallery
   #gallery-page .masonry {
     column-count: 1;
@@ -283,6 +302,12 @@
     .std-btn {
       font-size: 1rem;
     }
+
+    @media (max-width: 380px) {
+      .bg-feature img {
+        transform: scale(1.3);
+      }
+    }
   }
 
   //Contact
@@ -297,6 +322,21 @@
 
   //Projects
   #projects-page {
+    #projects-list {
+      .container {
+        padding: 0 15px;
+      }
+      .project-details {
+        font-size: 16px;
+      }
+      .project-description {
+        font-size: 14px;
+        padding: 0 15px;
+      }
+      .column {
+        padding: 10px;
+      }
+    }
     #page-header {
       h2 {
         max-width: 400px;
@@ -317,6 +357,11 @@
       }
     }
   }
+
+  .bg-feature.video-block {
+    min-height: 230px;
+  }
+
 
   //  Home
   #home-page {
@@ -417,7 +462,9 @@
     }
   }
 
-  //About Page
+  //Projects Page
+
+
 
 }
 

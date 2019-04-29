@@ -100,7 +100,10 @@
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay controls class="embed-responsive-item ">
+                <video loop autoplay controls class="embed-responsive-item lg-only">
+                    <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
+                </video>
+                <video loop autoplay class="embed-responsive-item mobile-only md-show" >
                     <source src="{{url('/media/videos/gold.mp4')}}" type="video/mp4">
                 </video>
             </div>
@@ -292,8 +295,6 @@
                             class="img-fluid"></span></a>
             @include('partials.client_list')
         </section>
-
-
     </div>
 
 @endsection

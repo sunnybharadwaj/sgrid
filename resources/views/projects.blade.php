@@ -7,16 +7,19 @@
 @section('content')
     <div id="projects-page">
         <section id="page-header" class="text-center">
-            <div class="page-iln">
+            <div class="page-iln animated fadeDown">
                 <img src="{{url('/media/illustrations/projects_iln.png')}}" alt="" class="img-fluid">
             </div>
-            <h2>Our clients know we’re up for a challenge.</h2>
+            <h2 class="animated fadeIn">Our clients know we’re up for a challenge.</h2>
         </section>
 
         <section class="bg-feature video-block">
             <div class="background-image ">
                 {{--<img class="img-fluid" src="{{url('/media/images/home_feature.jpg')}}" alt="">--}}
-                <video loop autoplay controls class="embed-responsive-item">
+                <video loop autoplay controls class="embed-responsive-item lg-only">
+                    <source src="{{url('/media/videos/tnd.mp4')}}" type="video/mp4">
+                </video>
+                <video loop autoplay class="embed-responsive-item mobile-only md-show" >
                     <source src="{{url('/media/videos/tnd.mp4')}}" type="video/mp4">
                 </video>
             </div>
@@ -64,9 +67,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="project-details row">
-                                    <div class="col-7">{{$project->client}}</div>
-                                    <div class="attr col-2">{{$project->capacity}}</div>
-                                    <div class="attr col-3">{{$project->location}}</div>
+                                    <div class="column col-6">{{$project->client}}</div>
+                                    <div class="column attr col-3">{{$project->capacity}}</div>
+                                    <div class="column attr col-3">{{$project->location}}</div>
                                 </div>
                                 <div class="project-description">
                                     <p>{{$project->description}}</p>
@@ -86,9 +89,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="project-details row">
-                                    <div class="col-7">{{$project->client}}</div>
-                                    <div class="attr col-2">{{$project->capacity}}</div>
-                                    <div class="attr col-3">{{$project->location}}</div>
+                                    <div class="column col-6">{{$project->client}}</div>
+                                    <div class="column attr col-3">{{$project->capacity}}</div>
+                                    <div class="column attr col-3">{{$project->location}}</div>
                                 </div>
                                 <div class="project-description">
                                     <p>{{$project->description}}</p>

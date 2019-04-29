@@ -139,6 +139,21 @@
             <a href="/contact" class="nav-elem {{request()->is('contact') ? 'active' : ''}}">Contact</a>
             <a href="/careers" class="nav-elem {{request()->is('careers') ? 'active' : ''}}">Careers</a>
         </div>
+        <div class="footer-social text-center">
+            <a href="https://www.facebook.com/saffrongrid/" target="_blank">
+                <div class="social-icon">
+                    <img src="{{url('/media/icons/social/facebook_white.png')}}" alt="" class="img-fluid">
+
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/company/saffrongrid-limited/" target="_blank">
+                <div class="social-icon">
+                    <img src="{{url('/media/icons/social/linkedin_white.png')}}" alt="" class="img-fluid">
+                </div>
+            </a>
+
+
+        </div>
         <div class="foot-bar">
             <div class="foot-links">
                 <a href="/" class="foot-link">Terms & Conditions</a>

@@ -61,7 +61,6 @@ footer {
       &:hover {
         color: $sgrid-color;
         text-decoration: none;
-        border-bottom: 2px solid $sgrid-color;
       }
     }
 
@@ -72,4 +71,8 @@ footer {
       color: $sub-text-color;
     }
   }
+}
+
+.footer-social {
+  padding-top: 10px;
 }

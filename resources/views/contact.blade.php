@@ -15,6 +15,21 @@
                         <div class="row">
                             <div class="ct-column col-sm-12 col-md-4">
                                 <h3>Contact Us</h3>
+                                <div class="text-center">
+                                    <a href="https://www.facebook.com/saffrongrid/" target="_blank">
+                                        <div class="social-icon">
+                                            <img src="{{url('/media/icons/social/facebook_color.png')}}" alt="" class="img-fluid">
+
+                                        </div>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/saffrongrid-limited/" target="_blank">
+                                        <div class="social-icon">
+                                            <img src="{{url('/media/icons/social/linkedin_color.png')}}" alt="" class="img-fluid">
+                                        </div>
+                                    </a>
+
+
+                                </div>
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">
                                 <span class="email">info@sgrid.in</span> <br/>
