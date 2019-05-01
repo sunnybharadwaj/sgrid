@@ -11132,7 +11132,7 @@ section {
 }
 
 #client-list {
-  padding: 30px 0 0;
+  padding: 30px 20px 0;
 }
 
 #success-msg {
@@ -11209,6 +11209,7 @@ a.form-success-close {
 
 #client-list .container {
   max-width: 900px;
+  padding: 0 40px !important;
 }
 
 #home-page .bg-feature {

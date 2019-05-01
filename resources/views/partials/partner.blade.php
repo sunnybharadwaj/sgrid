@@ -4,8 +4,9 @@
 
         <section class="bg-feature">
             <div class="background-image rellax">
-                <img class="img-fluid lg-only" src="{{url('/media/images/cta_bg@2x.png')}}" alt="">
-                <img class="img-fluid mob-only" src="{{url('/media/images/cta_bg_mob@2x.png')}}" alt="">
+                {{--xl-only  cta_bg_2.jpg--}}
+                <img class="img-fluid lg-only" src="{{url('/media/images/cta_bg.png')}}" alt="">
+                <img class="img-fluid mob-only" src="{{url('/media/images/cta_bg_mob.jpg')}}" alt="">
             </div>
 
             <div class="container">

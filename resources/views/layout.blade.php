@@ -152,17 +152,15 @@
         </div>
         <div class="foot-bar">
             <div class="foot-links">
-                <a href="/" class="foot-link">Terms & Conditions</a>
-                <a href="/" class="foot-link">Copyright</a>
-                <a href="/" class="foot-link">Cookie Policy</a>
+                <a href="javascript:alert('Documents under review. Will be updated soon.')" class="foot-link">Terms & Conditions</a>
+                <a href="javascript:alert('Documents under review. Will be updated soon.')" class="foot-link">Copyright</a>
+                <a href="javascript:alert('Documents under review. Will be updated soon.')" class="foot-link">Cookie Policy</a>
             </div>
 
 
             <p>Copyright 2019 Saffrongrid Limited. All rights reserved</p>
         </div>
     </div>
-
-
 </footer>
 
 <script
