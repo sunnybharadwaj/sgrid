@@ -65,8 +65,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text"> We served <span class="font-bold">Airport Authority of India (AAI)</span>
-                                        in setting up a 1000 KWp solar power plant for TIRUPATI Airport
+                                    <div class="pointer-text">
+                                        We have helped <span class="font-bold">Airport Authority of India (AAI)</span> set up a 1000 KWp solar power plant at the Tirupati International Airport
                                     </div>
                                 </div>
                             </div>
@@ -77,8 +77,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Sgrid bid on behalf of <span class="font-bold">PEBS PENNAR (group company)</span> in collaboration with
-                                        Raychem RPG Group in NLC Tender for setting up a Solar BESS project of <span class="font-bold">20 MW</span> in Andaman and Nicobar Islands.
+                                    <div class="pointer-text">Sgrid had bid on behalf of PEBS PENNAR (group company), in collaboration with Raychem RPG Group in NLC Tender, to set up a Solar BESS project of 20 MW in Andaman and Nicobar Islands.
                                     </div>
                                 </div>
                             </div>
@@ -89,11 +88,8 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Sgrid was awarded for setting up Solar Power Plants at all
-                                        the <span class="font-bold">Jawahar Navodaya Vidyalaya</span> schools of Andhra Pradesh with which Sgrid
-                                        reached to Nine (09) Districts
-                                        of Andhra Pradesh to remove Carbon Footprints. Cumulative Capacity of <span class="font-bold">1.0 MWp</span>
-                                        was installed here.
+                                    <div class="pointer-text">Sgrid was instrumental in building solar power plants at all the Jawahar Navodaya Vidyalaya schools of Andhra Pradesh. Sgrid had reached out to 9 districts of the State to remove Carbon Footprints. A power plant with a cumulative capacity of 1.0 MWp was installed here.
+
                                     </div>
                                 </div>
                             </div>
@@ -104,11 +100,7 @@
                             <div class="row">
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
-                                    <div class="pointer-text">Sgrid was awarded 7MW Solar Power project from Azure power for setting up plants at
-                                        <span class="font-bold">
-                                            HINDUSTAN AERONAUTICS LIMITED
-                                        </span>
-                                        in Koruput, Odisa in a record time of 45 days.
+                                    <div class="pointer-text">Sgrid had bagged a 7MW Solar Power project from Azure power for setting up plants at HINDUSTAN AERONAUTICS LIMITED in Koruput, Odisha in a record 45 day-span.
                                     </div>
                                 </div>
                             </div>
@@ -197,8 +189,7 @@
                                 <div class="col-1 bullet"></div>
                                 <div class="col-11">
                                     <div class="pointer-text">
-                                        Turnkey(end to end) solutions are offered in this space
-                                        and undertake traction substation and general electrical works.
+                                        Turnkey(end to end) solutions are offered in this space and we also undertake traction substation and general electrical works.
                                     </div>
                                 </div>
                             </div>

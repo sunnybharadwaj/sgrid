@@ -145,7 +145,7 @@
                             <img class="img-fluid" src="{{url('/media/images/home_feat1.jpg')}}" alt="">
                             <div class="line"></div>
                             <div class="feature-text">
-                                <p>We helped Pennar Industries Limited (Our parent organization) convert 80% of their energy consumption into green energy with solar technology.
+                                <p>We have helped Pennar Industries Limited convert 80% of their energy consumption into green energy with solar technology.
                                 </p>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                             <div class="feature-text">
                                 <p>
 
-                                    We designed, Supplied & Erected India’s a water leak-proof Solar Car Port for SKODA factory in Aurangabad with a capacity of 1250KWp. We took it as an challenge and commissioned the Project in a record time of 35 Days with high standard Structure which can withstand the wind speed of 180mph.
+                                    We have designed, supplied and erected India’s water leak-proof Solar Car Port for the SKODA factory in Aurangabad with a capacity of 1250KWp. Living upto the challenge, we had commissioned the project in a record time of 35 days with a high standard structure, capable of withstanding a wind speed of 180mph.
                                     </p>
                             </div>
                         </div>
@@ -215,8 +215,8 @@
                                          class="img-fluid">
                                 </div>
                                 <h3>We are <span class="highlight">for</span>  nature.</h3>
-                                <p>Sgrid is committed to play a significant role in the solar power arena and spear
-                                    heading the green revolution by combating global warming and climate change.</p>
+                                <p>Sgrid is committed to play a significant role in the solar power arena and to spearhead the green revolution while combating global warming and climate change.
+                                </p>
                             </div>
                         </div>
                         <div class="spl-feat-block col-sm-12 col-md-6 col-lg-6">
