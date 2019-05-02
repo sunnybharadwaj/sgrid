@@ -192,9 +192,33 @@ a.form-success-close {
   }
 }
 
+#load-screen {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: white;
+  z-index: 1010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 
+  &.hide {
+    display: none;
+  }
 
-
+  .loading-anim {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 40px auto;
+    border: 6px solid rgba(189,189,189 ,0.25);
+    border-left-color: $sgrid-color;
+    border-top-color: $sgrid-color;
+    border-radius: 50%;
+    animation: inf-rotate 1200ms infinite linear;
+  }
+}
 
 
 

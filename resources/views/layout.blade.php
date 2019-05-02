@@ -9,7 +9,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-139388677-1');
     </script>
 
@@ -29,6 +28,10 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<div id="load-screen">
+    <span class="loading-anim"></span>
+</div>
 
 {{--Navigation--}}
 <nav>

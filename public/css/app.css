@@ -10940,6 +10940,20 @@ footer .foot-bar p {
   }
 }
 
+@-webkit-keyframes inf-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes inf-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
 .fadeDown {
   -webkit-animation-name: fadeDown;
   animation-name: fadeDown;
@@ -11181,6 +11195,41 @@ a.form-success-close {
 .social-icon:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+#load-screen {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: white;
+  z-index: 1010;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+#load-screen.hide {
+  display: none;
+}
+
+#load-screen .loading-anim {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  margin: 40px auto;
+  border: 6px solid rgba(189, 189, 189, 0.25);
+  border-left-color: #F27123;
+  border-top-color: #F27123;
+  border-radius: 50%;
+  -webkit-animation: inf-rotate 1200ms infinite linear;
+          animation: inf-rotate 1200ms infinite linear;
 }
 
 .intro-text {

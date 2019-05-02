@@ -52,6 +52,11 @@ $('.masonry.image-list .item').click(function() {
 
 });
 
+//Load Screen
+window.onload = function() {
+    $('#load-screen').addClass('hide');
+};
+
 
 
 
