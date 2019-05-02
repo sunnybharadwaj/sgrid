@@ -11689,10 +11689,6 @@ a.form-success-close {
           filter: grayscale(0);
 }
 
-#team .team-member:hover .teamcard-overlay {
-  background: rgba(0, 0, 0, 0.28);
-}
-
 #team .team-member img {
   position: absolute;
   width: 100%;
@@ -11724,13 +11720,13 @@ a.form-success-close {
   font-size: 1.618rem;
   font-weight: 700;
   margin-bottom: -4px;
-  color: rgba(255, 255, 255, 0.91);
+  color: rgba(103, 103, 103, 0.94) !important;
 }
 
 #team .teamcard-overlay p {
   font-sise: 1rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.91);
+  color: rgba(103, 103, 103, 0.94) !important;
   margin-bottom: 0;
 }
 

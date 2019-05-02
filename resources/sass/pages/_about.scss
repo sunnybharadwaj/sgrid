@@ -201,7 +201,7 @@
     &:hover {
       filter:grayscale(0);
       .teamcard-overlay {
-        background: rgba(0, 0, 0, 0.28);
+        //background: rgba(0, 0, 0, 0.28);
       }
     }
 
@@ -227,18 +227,21 @@
     .text {
       position: absolute;
       bottom: 20px;
+
     }
 
     h4 {
       font-size: 1.618rem;
       font-weight: 700;
       margin-bottom: -4px;
-      color: rgba(255, 255, 255, 0.91);
+      color: rgba(103, 103, 103, 0.94) !important;
+      //color: rgba(255, 255, 255, 0.91);
     }
     p {
       font-sise: 1rem;
       font-weight: 700;
-      color: rgba(255, 255, 255, 0.91);
+      color: rgba(103, 103, 103, 0.94) !important;
+      //color: rgba(255, 255, 255, 0.91);
       margin-bottom: 0;
     }
 
