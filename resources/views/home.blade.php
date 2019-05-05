@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-7">
                         <div class="intro-text">
-                            <h2 class="animated fadeDown">We don’t just build EPC solutions, we <span class="highlight">design</span>.
+                            <h2 class="animated fadeDown">We don’t just build EPC solutions, we <span class="highlight">Engineer</span>.
                             </h2>
                             <h4 class="animated fadeIn">A fast-growing company, firm in our vision to nurture the future
                                 of power infrastructure. Backed by an enthusiastic, committed and a capable team of
