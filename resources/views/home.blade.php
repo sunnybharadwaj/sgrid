@@ -171,7 +171,7 @@
                             <div class="feature-text">
                                 <p>
 
-                                    We have designed, supplied and erected India’s water leak-proof Solar Car Port for the SKODA factory in Aurangabad with a capacity of 1250KWp. Living upto the challenge, we had commissioned the project in a record time of 35 days with a high standard structure, capable of withstanding a wind speed of 180mph.
+                                    We have designed, supplied and erected India’s water leak-proof Solar Car Port for Fourth Partner at the SKODA factory in Aurangabad with a capacity of 1250KWp. Living upto the challenge, we had commissioned the project in a record time of 35 days with a high standard structure, capable of withstanding a wind speed of 180mph.
                                     </p>
                             </div>
                         </div>

@@ -177,18 +177,7 @@
 
                         </div>
                     </div>
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
-                        <div class="team-member">
-                            <img src="{{url('/media/temp/temp_profile.jpg')}}" alt="" class="img-fluid">
-                            <div class="teamcard-overlay">
-                                <div class="text">
-                                    <h4>Manoj Cherukuri</h4>
-                                </div>
-                                {{--linkedin link--}}
-                            </div>
 
-                        </div>
-                    </div>
                     <div class="careers-cta">
                         <h3>Looking for career opportunities?</h3>
                         <a class="text-btn-sm" href="/careers">Careers ></a>
