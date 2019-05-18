@@ -37,9 +37,9 @@
                                 +91 84518 61238
                             </div>
                             <div class="ct-column col-sm-12 col-md-4">
-                                DHFLVC Building <br/>
-                                Silicon towers <br/>
-                                3rd Floor, West Wing <br/>
+                                {{--DHFLVC Building <br/>--}}
+                                {{--Silicon towers <br/>--}}
+                                {{--3rd Floor, West Wing <br/>--}}
                                 Kondapur, Hyderabad <br/>
                                 Telangana IN 500084. <br/>
 
