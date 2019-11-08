@@ -117,19 +117,19 @@
                         </div>
                     </div>
 
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
-                        <div class="team-member">
-                            <div class="teamcard-overlay">
-                                <div class="text">
-                                    <h4>Prasoon Chaudhary</h4>
-                                    <p>Head - BD &amp; Procurement</p>
-                                </div>
+                    {{--<div class="column col-sm-12 col-md-6 col-lg-4">--}}
+                        {{--<div class="team-member">--}}
+                            {{--<div class="teamcard-overlay">--}}
+                                {{--<div class="text">--}}
+                                    {{--<h4>Prasoon Chaudhary</h4>--}}
+                                    {{--<p>Head - BD &amp; Procurement</p>--}}
+                                {{--</div>--}}
 
                                 {{--linkedin link--}}
-                            </div>
+                            {{--</div>--}}
 
-                        </div>
-                    </div>
+                        {{--</div>--}}
+                    {{--</div>--}}
                     <div class="column col-sm-12 col-md-6 col-lg-4">
                         <div class="team-member">
                             <div class="teamcard-overlay">
