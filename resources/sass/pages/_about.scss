@@ -189,8 +189,7 @@
   .team-member {
     position: relative;
     //background: url("/media/images/team_temp.png");
-    background: #757575;
-    margin-bottom: 10px;
+    background: #000419;
     width: 100%;
     //background-image: url("/media/images/team/temp.jpg");
     background-repeat: no-repeat;
@@ -226,13 +225,13 @@
     }
 
     h4 {
-      font-size: 1.618rem;
+      font-size: 1.318rem !important;
       font-weight: 700;
       margin-bottom: -4px;
       color: rgba(255, 255, 255, 0.91);
     }
     p {
-      font-sise: 1rem;
+      font-size: 0.87rem !important;
       font-weight: 700;
       color: rgba(255, 255, 255, 0.91);
       margin-bottom: 0;

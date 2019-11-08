@@ -103,7 +103,7 @@
 
                 <h2 class="text-center">Our Team</h2>
                 <div class="row">
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                    <div class="column col-sm-12 col-md-6 col-lg-3">
                         <div class="team-member">
                             <div class="teamcard-overlay">
                                 <div class="text">
@@ -130,7 +130,7 @@
 
                         {{--</div>--}}
                     {{--</div>--}}
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                    <div class="column col-sm-12 col-md-6 col-lg-3">
                         <div class="team-member">
                             <div class="teamcard-overlay">
                                 <div class="text">
@@ -143,7 +143,7 @@
 
                         </div>
                     </div>
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                    <div class="column col-sm-12 col-md-6 col-lg-3">
                         <div class="team-member">
                             <div class="teamcard-overlay">
                                 <div class="text">
@@ -156,7 +156,7 @@
 
                         </div>
                     </div>
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
+                    <div class="column col-sm-12 col-md-6 col-lg-3">
                         <div class="team-member">
                             <div class="teamcard-overlay">
                                 <div class="text">
@@ -169,17 +169,17 @@
 
                         </div>
                     </div>
-                    <div class="column col-sm-12 col-md-6 col-lg-4">
-                        <div class="team-member">
-                            <div class="teamcard-overlay">
-                                <div class="text">
-                                    <h4>Manoj Cherukuri</h4>
-                                </div>
+                    {{--<div class="column col-sm-12 col-md-6 col-lg-3">--}}
+                        {{--<div class="team-member">--}}
+                            {{--<div class="teamcard-overlay">--}}
+                                {{--<div class="text">--}}
+                                    {{--<h4>Manoj Cherukuri</h4>--}}
+                                {{--</div>--}}
                                 {{--linkedin link--}}
-                            </div>
+                            {{--</div>--}}
 
-                        </div>
-                    </div>
+                        {{--</div>--}}
+                    {{--</div>--}}
                     <div class="careers-cta">
                         <h3>Looking for career opportunities?</h3>
                         <a class="text-btn-sm" href="/careers">Careers ></a>
